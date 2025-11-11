@@ -16,7 +16,7 @@ Before moving to Geneva in 2022, I was a postdoctoral researcher at the theory g
 
 I received my PhD from the University of Colorado at Boulder in 2020, where I moved in 2015 with a [Balsells fellowship](https://www.colorado.edu/engineering-international/europe-colorado-program/student-profiles#accordion-346157704-1) to conduct my graduate studies. In Colorado, I was a researcher at the [Laboratory for Atmospheric and Space Physics](https://lasp.colorado.edu/) and at the [Ann and H.J. Smead Aerospace Engineering Sciences department](https://www.colorado.edu/aerospace/).
 
-For more details, see my [CV](/CV)
+For more details, see my [CV](/cv)
 
 You can find a short video below about my SNSF Ambizione project  from the University of Geneva:
 <!-- [![Youtube](https://img.youtube.com/vi/_zAngd5i-VM/hqdefault.jpg)](https://www.youtube.com/watch?v=_zAngd5i-VM) -->
