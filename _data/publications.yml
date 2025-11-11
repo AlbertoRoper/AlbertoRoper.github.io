@@ -1,28 +1,48 @@
 - title: "Relativistic magnetohydrodynamics in the early Universe"
   authors: "A. Roper Pol, A. S. Midiri"
   year: 2025
-  venue: "*submitted to Rep. Prog. Phys.*"
-  url: "https://arxiv.org/abs/2501.05732"
+  publication: "*submitted to Rep. Prog. Phys.*"
   arxiv: 2501.05732
-  tags: ["group_research"]
+  tags: ["group_research, submitted"]
 
-- title: "Sound waves from first-order phase transitions"
-  authors: "C. Caprini, T. Konstandin, A. Roper Pol"
-  year: 2022
-  venue: "Physical Review D"
-  url: "https://example.org/paper2"
-  tags: ["phase_transitions","gw"]
-
-- title: "Higgsless simulations of early Universe turbulence"
-  authors: "I. Stomberg, R. Jinno, A. Roper Pol"
+- title: "LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
+  authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz"
   year: 2023
-  venue: "Computational Astrophysics"
-  url: "https://example.org/paper3"
-  tags: ["higgsless","simulations"]
+  publication: "*submitted to Astron. Astrophys.*"
+  arxiv: 2307.10744
+  tags: ["multi-messenger, submitted"]
 
-- title: "Magnetogenesis from MHD turbulence"
-  authors: "H. Rubira, S. Procacci"
+- title: "Gravitational waves from first-order phase transitions: from weak to strong"
+  authors: "C. Caprini, R. Jinno, T. Konstandin, A. Roper Pol, H. Rubira, I. Stomberg"
+  year: 2025
+  publication: "*J. High Energy Phys.* **07**, 217"
+  arxiv: 2409.03651
+  tags: ["higgsless, published"]
+
+- title: "Characterization of the gravitational wave spectrum from sound waves within the sound shell model"
+  authors: "A. Roper Pol, S. Procacci, C. Caprini"
+  year: 2024
+  publication: "*Phys. Rev. D* **109**, 063531"
+  arxiv: 2308.12943
+  tags: ["phase_transitions, published"]
+
+- title: "NANOGrav signal from MHD turbulence at the QCD phase transition in the early universe"
+  authors: "A. Neronov, A. Roper Pol, C. Caprini, and D. Semikoz"
   year: 2021
-  venue: "Monthly Notices of the Royal Astronomical Society"
-  url: "https://example.org/paper4"
-  tags: ["magnetic-fields","simulations"]
+  publication: "*Phys. Rev. D* **103**, L041302"
+  arxiv: 2009.14174
+  tags: ["multi-messenger, published"]
+
+- title: "Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion"
+  authors: "I. Stomberg, A. Roper Pol"
+  year: 2025
+  publication: "*Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond*"
+  arxiv: 2508.04263
+  tags: ["higgsless, proceedings"]
+
+- title: "Gravitational waves from MHD turbulence at the QCD phase transition as a source for Pulsar Timing Arrays"
+  authors: "A. Roper Pol"
+  year: 2022
+  publication: "Contribution to the “2022 Gravitation: Proceedings of the 56th Rencontres de Moriond*"
+  arxiv: 2205.09261
+  tags: ["multi-messenger, proceedings"]
