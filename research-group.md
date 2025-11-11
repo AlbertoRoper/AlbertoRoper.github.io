@@ -54,7 +54,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-{% include publications-by-tag.html tag="group_research" title="Group research" %}
+{% include publications-by-tag.html tag="group_research" %}
 
 ## Main collaborators
 
@@ -77,7 +77,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-{% include publications-by-tag.html tag="phase_transitions" title="Phase transitions" %}
+{% include publications-by-tag.html tag="phase_transitions" debug=true %}
 
 ### Gravitational waves from phase transitions (Higgsless simulations)
 
@@ -98,7 +98,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-{% include publications-by-tag.html tag="higgsless" title="Higgsless simulations" %}
+{% include publications-by-tag.html tag="higgsless" %}
 
 #### Publications:
 - I. Stomberg, A. Roper Pol, *“Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion.”* *Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond”* (2025), [arXiv:2508.04263](https://arxiv.org/abs/2508.04263).
@@ -123,4 +123,4 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-{% include publications-by-tag.html tag="multi_messenger" title="Multi-messenger searches" %}
+{% include publications-by-tag.html tag="multi_messenger"%}

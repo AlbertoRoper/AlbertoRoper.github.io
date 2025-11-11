@@ -5,14 +5,14 @@ Usage:
 
 Parameters:
  - tag: the tag to filter by (required)
- - title: optional display title for the section
+ <!-- - title: optional display title for the section -->
 {%- endcomment -%}
 
 {%- assign tag = include.tag -%}
-{%- assign title = include.title | default: tag | replace: '_', ' ' | capitalize -%}
+<!-- {%- assign title = include.title | default: tag | replace: '_', ' ' | capitalize -%} -->
 
 <div class="container">
-  <h3>{{ title }}</h3>
+  <!-- <h3>{{ title }}</h3> -->
   {%- comment -%}
   Build a list of publications that contain the requested tag by iterating and pushing matches.
   This works reliably across Liquid/Jekyll versions without depending on where_exp quirks.
@@ -25,6 +25,19 @@ Parameters:
         {%- assign matches = matches | push: p -%}
       {%- endif -%}
     {%- endfor -%}
+  {%- endif -%}
+
+  {%- if include.debug -%}
+    <div class="publication-debug">
+      <h4>Debug: all publications and their tags</h4>
+      <pre>
+{%- for p in site.data.publications -%}
+Title: {{ p.title }}
+Tags: {{ p.tags | join: ', ' }}
+
+{%- endfor -%}
+      </pre>
+    </div>
   {%- endif -%}
 
   {%- if matches and matches.size > 0 -%}
