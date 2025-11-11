@@ -1,0 +1,28 @@
+- title: "Relativistic magnetohydrodynamics in the early Universe"
+  authors: "A. Roper Pol, A. S. Midiri"
+  year: 2025
+  venue: "*submitted to Rep. Prog. Phys.*"
+  url: "https://arxiv.org/abs/2501.05732"
+  arxiv: 2501.05732
+  tags: ["group_research"]
+
+- title: "Sound waves from first-order phase transitions"
+  authors: "C. Caprini, T. Konstandin, A. Roper Pol"
+  year: 2022
+  venue: "Physical Review D"
+  url: "https://example.org/paper2"
+  tags: ["phase_transitions","gw"]
+
+- title: "Higgsless simulations of early Universe turbulence"
+  authors: "I. Stomberg, R. Jinno, A. Roper Pol"
+  year: 2023
+  venue: "Computational Astrophysics"
+  url: "https://example.org/paper3"
+  tags: ["higgsless","simulations"]
+
+- title: "Magnetogenesis from MHD turbulence"
+  authors: "H. Rubira, S. Procacci"
+  year: 2021
+  venue: "Monthly Notices of the Royal Astronomical Society"
+  url: "https://example.org/paper4"
+  tags: ["magnetic-fields","simulations"]

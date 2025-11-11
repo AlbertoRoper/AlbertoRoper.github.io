@@ -48,12 +48,40 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
             {% if person.url %}<p><a href="{{ person.url }}" target="_blank" rel="noopener">Profile</a></p>{% endif %}
           </div>
         </div>
-      {% endif %}
     {% endfor %}
     </div>
 </div>
 
 #### Publications:
+
+{% assign all_tags = "group_research" %}
+{% for p in site.data.publications %}
+{% if p.tags %}
+    {% for t in p.tags %}
+    {% unless all_tags contains t %}
+        {% assign all_tags = all_tags | append: t | append: ',' %}
+    {% endunless %}
+    {% endfor %}
+{% endif %}
+{% endfor %}
+
+{% assign tag_array = all_tags | split: ',' %}
+
+{% for tag in tag_array %}
+{% if tag != "" %}
+    <h3>{{ tag | replace: '_', ' ' | capitalize }}</h3>
+    {% assign filtered = site.data.publications | where_exp: "pub", "pub.tags contains tag" %}
+    {% assign sorted = filtered | sort: 'year' | reverse %}
+    <ul>
+    {% for pub in sorted %}
+        <li>
+        {{ pub.authors }} — <em>{{ pub.title }}</em>, {{ pub.venue }} ({{ pub.year }}){% if pub.url %}. <a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+{% endif %}
+{% endfor %}
+
 - A. Roper Pol, A. S. Midiri, *“Relativistic magnetohydrodynamics in the early Universe,”* [arXiv:2501.05732](https://arxiv.org/abs/2501.05732) (2025) *submitted to Rep. Prog. Phys.*
 
 ## Main collaborators
