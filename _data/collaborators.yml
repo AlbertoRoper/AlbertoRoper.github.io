@@ -28,14 +28,14 @@
 
 - name: "Isak Stomberg"
   role: "Postdoc at IFIC, Valencia"
-  img: "/assets/img/isak_pic.jpg"
+  img: "/assets/img/isak_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1889903"
   tags: ["higgsless"]
 
 - name: "Thomas Konstandin"
   role: "Scientist at DESY, Hamburg"
-  img: "/assets/img/konstandin_pic.jpg"
+  img: "/assets/img/konstandin_pic.jpeg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://particle-physics.desy.de/research//e283220/e284025/index_eng.html"
   tags: ["higgsless"]
