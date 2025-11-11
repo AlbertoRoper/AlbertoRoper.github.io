@@ -1,0 +1,11 @@
+- name: "Antonino S. Midiri"
+  role: "PhD student (2023-2027) at University of Geneva"
+  img: "/assets/img/antonino_pic.png"
+  bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://cosmology.unige.ch/users/antonino-midiri"
+
+- name: "Madeline Salomé"
+  role: "MS student (2024-2025) at EPFL, currently in Lyon"
+  img: "/assets/img/madeline_pic.png"
+  bio: "Simulations and early-Universe phenomenology."
+  url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
