@@ -16,6 +16,7 @@ As the PI of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/208807)
             img=person.img %}
       {% endif %}
     {% endfor %}
+    The main area of interest for me in Theoretical Physics is High-Energy-Physics, in particular in relation with Early Universe Cosmology. I am currently focused on analytical studies and numerical simulations of the Gravitational Waves and Primordial Magnetic Fields produced from MHD turbulence and sound waves during a First-Order Phase Transition in the Early Universe."
   </div>
 </div>
 
