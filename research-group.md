@@ -77,7 +77,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-{% include publications-by-tag.html tag="phase_transitions" debug=true %}
+{% include publications-by-tag.html tag="phase_transitions" %}
 
 ### Gravitational waves from phase transitions (Higgsless simulations)
 
