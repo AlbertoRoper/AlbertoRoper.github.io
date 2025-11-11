@@ -1,75 +1,86 @@
 
-- name: "Alberto Roper Pol"
+- firstname: "Alberto"
+  lastname: "Roper Pol"
   role: "PI (2023-) at University of Geneva"
   img: "/assets/img/photo_profile.jpeg"
   url: "https://cosmology.unige.ch/users/alberto-roper-pol"
   bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
   tags: ["group_member"]
 
-- name: "Antonino S. Midiri"
+- firstname: "Antonino S."
+  lastname: "Midiri"
   role: "PhD student (2023-) at University of Geneva"
   img: "/assets/img/antonino_pic.jpg"
   bio: "The main area of interest for me in Theoretical Physics is High-Energy-Physics, in particular in relation with Early Universe Cosmology. I am currently focused on analytical studies and numerical simulations of the Gravitational Waves and Primordial Magnetic Fields produced from MHD turbulence and sound waves during a First-Order Phase Transition in the Early Universe."
   url: "https://cosmology.unige.ch/users/antonino-midiri"
   tags: ["group_member"]
 
-- name: "Madeline Salomé"
+- firstname: "Madeline"
+  lastname: "Salomé"
   role: "MS student (2024-2025) at EPFL, currently PhD student IP2I Lyon"
   img: "/assets/img/madeline_pic.jpg"
   bio: "I am passionate about Gravitational Waves and Cosmology in general. I am currently working on stochastic Gravitational Waves from MHD sources in the early Universe."
   url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
   tags: ["former_member"]
 
-- name: "Chiara Caprini"
+- firstname: "Chiara"
+  lastname: "Caprini"
   role: "Professor at University of Geneva and staff member at CERN"
   img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://cosmology.unige.ch/users/chiara-caprini"
   tags: ["phase_transitions"]
 
-- name: "Simona Procacci"
+- firstname: "Simona"
+  lastname: "Procacci"
   role: "Postdoc at the University of Geneva (2023-2025)"
   img: "/assets/img/procacci_pic.jpg"
   # bio: "Simulations and early-Universe phenomenology."
   # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
   tags: ["phase_transitions"]
 
-- name: "Isak Stomberg"
+- firstname: "Isak"
+  lastname: "Stomberg"
   role: "Postdoc at IFIC, Valencia"
   img: "/assets/img/stomberg_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1889903"
   tags: ["higgsless"]
 
-- name: "Thomas Konstandin"
+- firstname: "Thomas"
+  lastname: "Konstandin"
   role: "Scientist at DESY, Hamburg"
   img: "/assets/img/konstandin_pic.jpeg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://particle-physics.desy.de/research//e283220/e284025/index_eng.html"
   tags: ["higgsless"]
 
-- name: "Ryusuke Jinno"
+- firstname: "Ryusuke"
+  lastname: "Jinno"
   role: "Professor at Kobe University"
   img: "/assets/img/jinno_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "http://www.phys.sci.kobe-u.ac.jp/en/faculty/jinno_e.html"
   tags: ["higgsless"]
 
-- name: "Henrique Rubira"
-  role: "Postdoc at LMU and Camrbridge"
+- firstname: "Henrique"
+  lastname: "Rubira"
+  role: "Postdoc at LMU and Cambridge"
   img: "/assets/img/rubira_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://sites.google.com/view/henriquerubira/introduction"
   tags: ["higgsless"]
 
-- name: "Andrii Neronov"
+- firstname: "Andrii"
+  lastname: "Neronov"
   role: "Professor at APC and EPFL"
   # img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://people.epfl.ch/andrii.neronov?lang=en"
   tags: ["multi_messenger"]
 
-- name: "Dmitri Semikoz"
+- firstname: "Dmitri"
+  lastname: "Semikoz"
   role: "Professor at APC"
   # img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."

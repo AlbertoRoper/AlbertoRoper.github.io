@@ -18,7 +18,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
             {% endif %}
           </div>
           <div class="col-12 col-md-9">
-            <h3>{{ person.name }}</h3>
+            <h3>{{ person.firstname }} {{ person.lastname }}</h3>
             {% if person.role %}<div class="text-muted mb-2">{{ person.role }}</div>{% endif %}
             {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
             {% if person.url %}<p><a href="{{ person.url }}" target="_blank" rel="noopener">Profile</a></p>{% endif %}
@@ -42,7 +42,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
             {% endif %}
           </div>
           <div class="col-12 col-md-9">
-            <h3>{{ person.name }}</h3>
+            <h3>{{ person.firstname }} {{ person.lastname }}</h3>
             {% if person.role %}<div class="text-muted mb-2">{{ person.role }}</div>{% endif %}
             {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
             {% if person.url %}<p><a href="{{ person.url }}" target="_blank" rel="noopener">Profile</a></p>{% endif %}
@@ -54,17 +54,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-<div class="container">
-  <ul>
-  {% for publication in site.data.publications %}
-    {% if publication.tags and publication.tags contains "group_research" %}
-      <li>
-        {{ publication.authors }} — <em>"{{ publication.title }}" </em> {% if publication.tags contains "published" %} <em>{{ publication.journal }}</em>, {{publication.volume}} {{publication.page}}, ({{ publication.year }}) {% endif %} {% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %} {% if publication.tags contains "submitted" %} <em>Submitted to {{ publication.journal }}</em> ({{ publication.year }}) {% endif %} {% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %} {% if publication.tags contains "proceedings" %} <em>{Contribution to the { publication.proceedings }}</em> ({{ publication.year }}) {% endif %} {% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %} {% if publication.arxiv %} — <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
-      </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</div>
+{% include publications-by-tag.html tag="group_research" title="Group research" %}
 
 ## Main collaborators
 
@@ -75,7 +65,8 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
     {% for person in site.data.collaborators %}
       {% if person.tags and person.tags contains "phase_transitions" %}
         {% include person-card2.html
-            name=person.name
+            first_name=person.firstname
+            last_name=person.lastname
             img=person.img
             role=person.role
             bio=person.bio
@@ -86,17 +77,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-<div class="container">
-  <ul>
-  {% for publication in site.data.publications %}
-    {% if publication.tags and publication.tags contains "phase_transitions" %}
-      <li>
-        {{ publication.authors }} — <em>{{ publication.title }}</em>{% if publication.publication %}, {{ publication.publication }}{% endif %} ({{ publication.year }}){% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if publication.arxiv %} — <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
-      </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</div>
+{% include publications-by-tag.html tag="phase_transitions" title="Phase transitions" %}
 
 ### Gravitational waves from phase transitions (Higgsless simulations)
 
@@ -105,7 +86,8 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
     {% for person in site.data.collaborators %}
       {% if person.tags and person.tags contains "higgsless" %}
         {% include person-card.html
-            name=person.name
+            first_name=person.firstname
+            last_name=person.lastname
             img=person.img
             role=person.role
             bio=person.bio
@@ -116,17 +98,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-<div class="container">
-  <ul>
-  {% for publication in site.data.publications %}
-    {% if publication.tags and publication.tags contains "higgsless" %}
-      <li>
-        {{ publication.authors }} — <em>{{ publication.title }}</em>{% if publication.publication %}, {{ publication.publication }}{% endif %} ({{ publication.year }}){% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if publication.arxiv %} — <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
-      </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</div>
+{% include publications-by-tag.html tag="higgsless" title="Higgsless simulations" %}
 
 #### Publications:
 - I. Stomberg, A. Roper Pol, *“Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion.”* *Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond”* (2025), [arXiv:2508.04263](https://arxiv.org/abs/2508.04263).
@@ -139,7 +111,8 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
     {% for person in site.data.collaborators %}
       {% if person.tags and person.tags contains "multi_messenger" %}
         {% include person-card2.html
-            name=person.name
+            first_name=person.firstname
+            last_name=person.lastname
             img=person.img
             role=person.role
             bio=person.bio
@@ -150,14 +123,4 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-<div class="container">
-  <ul>
-  {% for publication in site.data.publications %}
-    {% if publication.tags and publication.tags contains "multi_messenger" %}
-      <li>
-        {{ publication.authors }} — <em>{{ publication.title }}</em>{% if publication.publication %}, {{ publication.publication }}{% endif %} ({{ publication.year }}){% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if publication.arxiv %} — <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
-      </li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-</div>
+{% include publications-by-tag.html tag="multi_messenger" title="Multi-messenger searches" %}
