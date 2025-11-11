@@ -12,7 +12,11 @@ Parameters:
 {%- assign title = include.title | default: tag | replace: '_', ' ' | capitalize -%}
 
 <h3>{{ title }}</h3>
-{%- assign filtered = site.data.publications | where_exp: "p", "p.tags contains '#{tag}'" -%}
+{%- comment -%}
+Use a variable name in the where_exp expression (Liquid/where_exp can reference outer variables like `tag`).
+Avoid string interpolation which can prevent correct evaluation.
+{%- endcomment -%}
+{%- assign filtered = site.data.publications | where_exp: "p", "p.tags contains tag" -%}
 {%- assign sorted = filtered | sort: 'year' | reverse -%}
 {%- if sorted.size > 0 -%}
   <ul>
