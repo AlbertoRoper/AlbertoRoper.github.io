@@ -25,12 +25,13 @@ navbar-links:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
-  Publications: "publications"
   CV: "cv"
-  Research interests: "research-interests"
-  Meetings and schools: "meetings"
-  Codes development: "code-development"
-  Research group: "research-group"
+  Research:
+    - Research interests: "research-interests"
+    - Research group: "research-group"
+    - Meetings and schools: "meetings"
+    - Publications: "publications"
+    - Code development: "code-development"
 
 ################
 # --- Logo --- #

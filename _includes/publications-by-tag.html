@@ -21,7 +21,11 @@ Parameters:
     <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
     {% endif %}
     {% if pub.url %}Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a><br>{% endif %}
-    {% if pub.arxiv %}arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a><br>{% endif %}
+    {% if pub.arxiv %}
+    , arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a><br>
+    {% else %}
+    .
+    {% endif %}
   </li>
   {% endif %}
   {% endfor %}
