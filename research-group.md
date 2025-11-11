@@ -54,7 +54,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-- A. Roper Pol, A. S. Midiri, “Relativistic magnetohydrodynamics in the early Universe,” [arXiv:2501.05732](https://arxiv.org/abs/2501.05732) (2025) *submitted to Rep. Prog. Phys.*
+- A. Roper Pol, A. S. Midiri, *“Relativistic magnetohydrodynamics in the early Universe,”* [arXiv:2501.05732](https://arxiv.org/abs/2501.05732) (2025) *submitted to Rep. Prog. Phys.*
 
 ## Collaborators
 
@@ -74,6 +74,9 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
     {% endfor %}
   </div>
 </div>
+
+#### Publications:
+- A. Roper Pol, S. Procacci, C. Caprini, *“Characterization of the gravitational wave spectrum from sound waves within the sound shell model,”* *Phys. Rev. D* **109**, 063531 (2024), [arXiv:2308.12943](https://arxiv.org/abs/2308.12943).
 
 ### Gravitational waves from phase transitions (Higgsless simulations)
 
