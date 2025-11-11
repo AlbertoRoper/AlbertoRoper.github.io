@@ -28,7 +28,7 @@
 
 - name: "Isak Stomberg"
   role: "Postdoc at IFIC, Valencia"
-  img: "/assets/img/isak_pic.png"
+  img: "/assets/img/stomberg_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1889903"
   tags: ["higgsless"]
