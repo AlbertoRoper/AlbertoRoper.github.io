@@ -23,8 +23,7 @@ in 2020, where I moved in 2015 with a [Balsells fellowship](https://www.colorado
 conduct my graduate studies.
 In Colorado, I was a researcher at the [Laboratory for Atmospheric
 and Space Physics](https://lasp.colorado.edu/) and at the
-[Ann and H.J. Smead Aerospace Engineering Sciences department]
-(https://www.colorado.edu/aerospace/).
+[Ann and H.J. Smead Aerospace Engineering Sciences department](https://www.colorado.edu/aerospace/).
 
 You can find a short video below about my SNSF Ambizione project 
 from the University of Geneva:
