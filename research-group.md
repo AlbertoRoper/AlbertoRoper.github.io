@@ -10,7 +10,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 <div class="container">
   <div class="row">
     {% for person in site.data.collaborators %}
-      {% if person.tages contains "group_member" %}
+      {% if person.tags contains "group_member" %}
         <div class="row align-items-center mb-4">
           <div class="col-12 col-md-3 text-center">
             {% if person.img %}
@@ -32,7 +32,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 <div class="container">
   <div class="row">
     {% for person in site.data.collaborators %}
-      {% if person.tages contains "former_member" %}
+      {% if person.tags contains "former_member" %}
         <div class="row align-items-center mb-4">
           <div class="col-12 col-md-3 text-center">
             {% if person.img %}
