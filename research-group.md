@@ -13,11 +13,7 @@ As the PI of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/208807)
       {% if person.name contains "Antonino S. Midiri" %}
         {% include person-card.html
             name=person.name
-            img=person.img
-            <!-- role=person.role
-            bio=person.bio -->
-            <!-- url=person.url %} -->
-        %}
+            img=person.img %}
       {% endif %}
     {% endfor %}
   </div>
