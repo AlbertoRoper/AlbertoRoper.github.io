@@ -7,7 +7,7 @@ title: Research group and collaborators
 
 <div class="container">
   <div class="row">
-    {% for person in site.data.collaborators %}
+    {% for person in site.data.group_members %}
       {% include person-card.html
          name=person.name
          img=person.img
