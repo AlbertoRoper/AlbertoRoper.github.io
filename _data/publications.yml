@@ -6,7 +6,7 @@
   tags: ["group_research", "submitted"]
 
 - title: "LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
-  authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz"
+  authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, D. Semikoz"
   year: 2023
   journal: "Astron. Astrophys."
   arxiv: 2307.10744
@@ -31,7 +31,7 @@
   tags: ["phase_transitions", "published"]
 
 - title: "NANOGrav signal from MHD turbulence at the QCD phase transition in the early universe"
-  authors: "A. Neronov, A. Roper Pol, C. Caprini, and D. Semikoz"
+  authors: "A. Neronov, A. Roper Pol, C. Caprini, D. Semikoz"
   year: 2021
   journal: "Phys. Rev. D"
   volume: "103"
@@ -68,3 +68,12 @@
   volume: "01"
   page: "108"
   arxiv: 2404.09181
+
+- title: "Gravitational waves from first-order phase transitions in LISA: Reconstruction pipeline and physics interpretation"
+  authors: "C. Caprini, R. Jinno, M. Lewicki, E. Madge, M. Merchand, G. Nardini, M. Pieroni, A. Roper Pol, V. Vaskonen"
+  year: 2024
+  journal: "J. Cosmol. Astropart. Phys."
+  volume: "10"
+  page: "020"
+  arxiv: 2403.03723
+  tags: ["LISA", "collaboration", "published"]
