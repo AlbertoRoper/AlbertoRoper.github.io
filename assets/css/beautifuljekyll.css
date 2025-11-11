@@ -1024,8 +1024,8 @@ pre {
 
 /* Larger avatar used by person-card2 include */
 .person-avatar-lg {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   display: inline-block;
 }
