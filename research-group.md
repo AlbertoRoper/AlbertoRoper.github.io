@@ -96,9 +96,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-
 - I. Stomberg, A. Roper Pol, *“Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion.”* *Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond”* (2025), [arXiv:2508.04263](https://arxiv.org/abs/2508.04263).
-
 - C. Caprini, R. Jinno, T. Konstandin, A. Roper Pol, H. Rubira, I. Stomberg, *“Gravitational waves from decaying sources in strong phase transitions,”* *J. High Energy Phys.* **07** (2025) 217, [arXiv:2409.03651](https://arxiv.org/abs/2409.03651).
 
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
@@ -119,9 +117,6 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-
 - A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz, *“LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition,”* *submitted to Astron. Astrophys.*, [arXiv:2307.10744](https://arxiv.org/abs/2307.10744) (2023).
-
 - A. Neronov, A. Roper Pol, C. Caprini, and D. Semikoz, *“NANOGrav signal from MHD turbulence at the QCD phase transition in the early universe,”* *Phys. Rev. D* **103**, L041302 (2021), [arXiv:2009.14174](https://arxiv.org/abs/2009.14174).
-
 - A. Roper Pol, *“Gravitational waves from MHD turbulence at the QCD phase transition as a source for Pulsar Timing Arrays.”* *Contribution to the “2022 Gravitation: Proceedings of the 56th Rencontres de Moriond”* (2022), [arXiv:2205.09261](https://arxiv.org/abs/2205.09261).
