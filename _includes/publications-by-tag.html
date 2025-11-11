@@ -3,11 +3,31 @@ Include to render publications filtered by a specific tag.
 
 Parameters:
  - tag: the tag to filter by (required)
+ - numbered: true|false (render an <ol> instead of <ul>)
+ - reversed: true|false (if numbered, add the reversed attribute)
+ - start: integer (optional) - the start attribute to pass to the <ol>
+ - title: optional string - render an <h3> above the list
 {%- endcomment -%}
 
 {%- assign tag = include.tag -%}
-<!-- {%- assign ordered = include.ordered | default: false -%} -->
+{%- assign numbered = include.numbered | default: false -%}
+{%- assign reversed = include.reversed | default: false -%}
+{%- assign start_attr = include.start | default: 1 -%}
+{%- assign title = include.title | default: "" -%}
 
+{%- if include.title -%}
+  <h3>{{ include.title }}</h3>
+{%- endif -%}
+
+{%- assign ol_attrs = "" -%}
+{%- if reversed == true or reversed == "true" -%}
+  {%- assign ol_attrs = ol_attrs | append: " reversed" -%}
+{%- endif -%}
+{%- if start_attr != 0 -%}
+  {%- assign ol_attrs = ol_attrs | append: " start=\"" | append: start_attr | append: "\"" -%}
+{%- endif -%}
+
+<ol{{ ol_attrs }}>
 <div class="container">
   {% for pub in site.data.publications %}
   {% if pub.tags and pub.tags contains tag %}

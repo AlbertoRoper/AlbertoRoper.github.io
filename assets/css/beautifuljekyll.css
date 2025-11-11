@@ -498,6 +498,20 @@ footer .footer-custom-content {
   border-bottom: 0;
 }
 
+/* Publication list tweaks */
+.pub-list {
+  padding-left: 1.25rem; /* default list padding */
+}
+.pub-main {
+  margin-bottom: 0.25rem;
+}
+.pub-meta {
+  margin-left: -1.25rem; /* pull meta left to align with page margin */
+  padding-left: 0.25rem;
+  color: #555;
+  font-style: italic;
+}
+
 .post-preview a {
   text-decoration: none;
   font-family: var(--header-font);
