@@ -53,7 +53,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
     </div>
 </div>
 
-*Publications:
+#### Publications:
 - A. Roper Pol, A. S. Midiri, “Relativistic magnetohydrodynamics in the early Universe,” [arXiv:2501.05732](https://arxiv.org/abs/2501.05732) (2025) *submitted to Rep. Prog. Phys.*
 
 ## Collaborators
