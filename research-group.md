@@ -56,11 +56,15 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 #### Publications:
 
 <div class="container">
+  <ul>
   {% for publication in site.data.publications %}
-    {% if publication.tags contains "group_research" %}
-        - {% publication.authors %}, *"{% publication.title %},"* {% publication.publication %} ({% publication.year %}), [arXiv:{% publication.arxiv %}](https://arxiv.org/abs/{% publication.arxiv %})
+    {% if publication.tags and publication.tags contains "group_research" %}
+      <li>
+        {{ publication.authors }} — <em>{{ publication.title }}</em>{% if publication.venue %}, {{ publication.venue }}{% endif %} ({{ publication.year }}){% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if publication.arxiv %} — <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
+      </li>
     {% endif %}
   {% endfor %}
+  </ul>
 </div>
 
 ## Main collaborators
