@@ -1022,6 +1022,14 @@ pre {
   margin: 0 auto;
 }
 
+/* Larger avatar used by person-card2 include */
+.person-avatar-lg {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  display: inline-block;
+}
+
 /* Search bar */
 #beautifuljekyll-search-overlay {
   font-family: var(--header-font);
