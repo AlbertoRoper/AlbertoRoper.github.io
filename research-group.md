@@ -38,3 +38,20 @@ title: Research group and collaborators
     {% endfor %}
   </div>
 </div>
+
+### Gravitational waves from phase transitions (Higgsless simulations)
+
+<div class="container">
+  <div class="row">
+    {% for person in site.data.collaborators %}
+      {% if person.tags and person.tags contains "higgsless" %}
+        {% include person-card.html
+            name=person.name
+            img=person.img
+            role=person.role
+            bio=person.bio
+            url=person.url %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
