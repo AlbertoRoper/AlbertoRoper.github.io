@@ -32,3 +32,24 @@
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1889903"
   tags: ["higgsless"]
+
+- name: "Thomas Konstandin"
+  role: "Scientist at DESY, Hamburg"
+  img: "/assets/img/konstandin_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://particle-physics.desy.de/research//e283220/e284025/index_eng.html"
+  tags: ["higgsless"]
+
+- name: "Ryusuke Jinno"
+  role: "Professor at Kobe University"
+  img: "/assets/img/jinno_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "http://www.phys.sci.kobe-u.ac.jp/en/faculty/jinno_e.html"
+  tags: ["higgsless"]
+
+- name: "Henrique Rubira"
+  role: "Postdoc researcher at LMU and Camrbridge"
+  img: "/assets/img/rubira_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://sites.google.com/view/henriquerubira/introduction"
+  tags: ["higgsless"]
