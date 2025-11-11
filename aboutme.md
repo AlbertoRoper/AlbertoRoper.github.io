@@ -5,8 +5,8 @@ subtitle: Brief introduction
 ---
 
 My name is Alberto Roper Pol.
-
-What else do you need?
+My research focuses on understanding the primordial Universe using gravitational waves and magnetic fields.
+I am currently an SNSF Ambizione fellow at the [Geneva Cosmology group](https://cosmology.unige.ch/) at the University of Geneva, see (https://cosmology.unige.ch/users/alberto-roper-pol).
 
 ### My story
 
