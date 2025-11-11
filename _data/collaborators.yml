@@ -5,12 +5,17 @@
   url: "https://cosmology.unige.ch/users/antonino-midiri"
   tags: ["group_member"]
 
+- name: "Alberto Roper Pol"
+  role: "PI"
+  img: "/assets/img/photo_profile.jpg"
+  tags: ["group_member"]
+
 - name: "Madeline Salomé"
   role: "MS student (2024-2025) at EPFL, currently PhD student IP2I Lyon"
   img: "/assets/img/madeline_pic.jpg"
   bio: "I am passionate about Gravitational Waves and Cosmology in general. I am currently working on stochastic Gravitational Waves from MHD sources in the early Universe."
   url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
-  tags: ["group_member"]
+  tags: ["former_member"]
 
 - name: "Chiara Caprini"
   role: "Professor at University of Geneva and staff member at CERN"
