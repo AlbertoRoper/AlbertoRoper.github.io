@@ -94,3 +94,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
     {% endfor %}
   </div>
 </div>
+
+#### Publications:
+
+- I. Stomberg, A. Roper Pol, *“Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion.”* *Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond”* (2025), [arXiv:2508.04263](https://arxiv.org/abs/2508.04263).
