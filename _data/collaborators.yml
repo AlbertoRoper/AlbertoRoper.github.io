@@ -3,25 +3,18 @@
   img: "/assets/img/chiara_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://cosmology.unige.ch/users/chiara-caprini"
-  tag: ["phase_transitions"]
+  tags: ["phase_transitions"]
 
 - name: "Simona Procacci"
   role: "Postdoc at the University of Geneva (2023-2025)"
   img: "/assets/img/simona_pic.jpg"
   # bio: "Simulations and early-Universe phenomenology."
   # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
-  tag: ["phase_transitions"]
+  tags: ["phase_transitions"]
 
-  - name: "Isak Stomberg"
+- name: "Isak Stomberg"
   role: "Postdoc at IFIC, Valencia"
   img: "/assets/img/isak_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1889903"
-  tag: ["higgsless"]
-
-# - name: "Simona Procacci"
-#   role: "Postdoc at the University of Geneva (2023-2025)"
-#   img: "/assets/img/simona_pic.jpg"
-#   # bio: "Simulations and early-Universe phenomenology."
-#   # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
-#   tag: ["phase_transitions"]
+  tags: ["higgsless"]

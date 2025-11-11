@@ -25,7 +25,7 @@ title: Research group and collaborators
 <div class="container">
   <div class="row">
     {% for person in site.data.collaborators %}
-      {% if person.tag == "phase_transitions"}
+      {% if person.tags and person.tags contains "phase_transitions" %}
         {% include person-card.html
             name=person.name
             img=person.img
