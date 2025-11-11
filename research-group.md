@@ -56,7 +56,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 #### Publications:
 - A. Roper Pol, A. S. Midiri, *“Relativistic magnetohydrodynamics in the early Universe,”* [arXiv:2501.05732](https://arxiv.org/abs/2501.05732) (2025) *submitted to Rep. Prog. Phys.*
 
-## Collaborators
+## Main collaborators
 
 ### Gravitational waves from phase transitions (sound waves)
 
@@ -98,3 +98,20 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 #### Publications:
 
 - I. Stomberg, A. Roper Pol, *“Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion.”* *Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond”* (2025), [arXiv:2508.04263](https://arxiv.org/abs/2508.04263).
+
+### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
+
+<div class="container">
+  <div class="row">
+    {% for person in site.data.collaborators %}
+      {% if person.tags and person.tags contains "multi_messenger" %}
+        {% include person-card2.html
+            name=person.name
+            img=person.img
+            role=person.role
+            bio=person.bio
+            url=person.url %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
