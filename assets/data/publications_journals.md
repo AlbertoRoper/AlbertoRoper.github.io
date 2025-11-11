@@ -1,12 +1,23 @@
 
-{%- assign submitted_matches = site.data.publications | where_exp: "item", "item.tags and item.tags contains 'submitted'" -%}
-{%- assign n_submitted = submitted_matches | size -%}
+{%- comment -%}
+Count publications per tag using explicit loops (compatible with GitHub Pages' Liquid).
+{%- endcomment -%}
 
-{%- assign published_matches = site.data.publications | where_exp: "item", "item.tags and item.tags contains 'published'" -%}
-{%- assign n_published = published_matches | size -%}
+{%- assign n_submitted = 0 -%}
+{%- assign n_published = 0 -%}
+{%- assign n_proceedings = 0 -%}
 
-{%- assign proceedings_matches = site.data.publications | where_exp: "item", "item.tags and item.tags contains 'proceedings'" -%}
-{%- assign n_proceedings = proceedings_matches | size -%}
+{%- for p in site.data.publications -%}
+	{%- if p.tags and p.tags contains 'submitted' -%}
+		{%- assign n_submitted = n_submitted | plus: 1 -%}
+	{%- endif -%}
+	{%- if p.tags and p.tags contains 'published' -%}
+		{%- assign n_published = n_published | plus: 1 -%}
+	{%- endif -%}
+	{%- if p.tags and p.tags contains 'proceedings' -%}
+		{%- assign n_proceedings = n_proceedings | plus: 1 -%}
+	{%- endif -%}
+{%- endfor -%}
 
 {%- assign start_submitted = n_submitted | plus: 0 -%}
 {%- assign start_published = n_submitted | plus: n_published -%}
@@ -16,4 +27,4 @@
 
 {% include publications-by-tag.html tag="published" reversed=true start=start_published title="Published" %}
 
-{% include publications-by-tag.html tag="proceedings" reversed=true title="Proceedings" %}
+{% include publications-by-tag.html tag="proceedings" reversed=true start=start_proceedings title="Proceedings" %}
