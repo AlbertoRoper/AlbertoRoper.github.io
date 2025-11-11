@@ -26,6 +26,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
         </div>
       {% endif %}
     {% endfor %}
+    </div>
 </div>
 
 ### Former members
@@ -49,6 +50,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
         </div>
       {% endif %}
     {% endfor %}
+    </div>
 </div>
 
 ## Collaborators
