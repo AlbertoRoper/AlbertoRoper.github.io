@@ -99,6 +99,8 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 
 - I. Stomberg, A. Roper Pol, *“Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion.”* *Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond”* (2025), [arXiv:2508.04263](https://arxiv.org/abs/2508.04263).
 
+- C. Caprini, R. Jinno, T. Konstandin, A. Roper Pol, H. Rubira, I. Stomberg, *“Gravitational waves from decaying sources in strong phase transitions,”* *J. High Energy Phys.* **07** (2025) 217, [arXiv:2409.03651](https://arxiv.org/abs/2409.03651).
+
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
 
 <div class="container">
@@ -115,3 +117,9 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
     {% endfor %}
   </div>
 </div>
+
+#### Publications:
+
+- A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz, *“LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition,”* *submitted to Astron. Astrophys.*, [arXiv:2307.10744](https://arxiv.org/abs/2307.10744) (2023).
+
+- A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz, *“LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition,”* *submitted to Astron. Astrophys.*, [arXiv:2307.10744](https://arxiv.org/abs/2307.10744) (2023).
