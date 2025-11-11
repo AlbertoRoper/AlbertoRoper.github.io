@@ -86,3 +86,35 @@
   # bio: "Works on primordial magnetic fields and gravitational waves."
   # url: "https://people.epfl.ch/andrii.neronov?lang=en"
   tags: ["multi_messenger"]
+
+- firstname: "Axel"
+  lastname: "Brandenburg"
+  role: "Professor at Nordita, KTH, Stockholm University"
+  img: "/assets/img/brandenburg_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://axelbrandenburg.github.io/"
+  tags: ["turbulence_GWs"]
+
+- firstname: "Tina"
+  lastname: "Kahniashvili"
+  role: "Professor at Carnegie Mellon University"
+  img: "/assets/img/tina_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://www.cmu.edu/physics/people/faculty/kahniashvili.html"
+  tags: ["turbulence_GWs"]
+
+- firstname: "Arthur"
+  lastname: "Kosowsky"
+  role: "Professor at Pittsburgh University"
+  img: "/assets/img/kosowsky_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://www.physicsandastronomy.pitt.edu/people/arthur-kosowsky"
+  tags: ["turbulence_GWs"]
+
+- firstname: "Sayan"
+  lastname: "Mandal"
+  role: "Lecturer at Carnegie Mellon University"
+  img: "/assets/img/mandal_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  # url: "https://www.physicsandastronomy.pitt.edu/people/arthur-kosowsky"
+  tags: ["turbulence_GWs"]
