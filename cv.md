@@ -1,6 +1,7 @@
 ---
 layout: page
-title: CV
+title: Curriculum Vitae
+subtitle: *Updated on November 11, 2025*
 ---
 
 <div style="max-width:100%;height:0;padding-bottom:100%;position:relative;">
