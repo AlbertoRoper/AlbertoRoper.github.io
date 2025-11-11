@@ -19,14 +19,17 @@ Parameters:
   {%- endcomment -%}
 
   {%- assign matches = [] -%}
-  {%- for p in site.data.publications -%}
-    {%- if p.tags and p.tags contains tag -%}
-      {%- assign matches = matches | push: p -%}
-    {%- endif -%}
-  {%- endfor -%}
+  {%- if site.data.publications -%}
+    {%- for p in site.data.publications -%}
+      {%- if p.tags and p.tags contains tag -%}
+        {%- assign matches = matches | push: p -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
 
-  {%- assign sorted = matches | sort: 'year' | reverse -%}
-  {%- if sorted.size > 0 -%}
+  {%- if matches and matches.size > 0 -%}
+    {%- assign sorted = matches | sort: 'year' | reverse -%}
+    
     <ul>
     {%- for pub in sorted -%}
       <li>
