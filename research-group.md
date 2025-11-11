@@ -55,12 +55,13 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 
 #### Publications:
 
-{%- comment -%}
-Render publications for specific tags using an include. Change or add include calls below for other tags.
-{%- endcomment -%}
-
-{% include publications-by-tag.html tag="group_research" title="Group research" %}
-
+<div class="container">
+  {% for publication in site.data.publications %}
+    {% if publication.tags contains "group_research" %}
+        - {% publication.authors %}, *"{% publication.title %},"* {% publication.publication %} ({% publication.year %}), [arXiv:{% publication.arxiv %}](https://arxiv.org/abs/{% publication.arxiv %})
+    {% endif %}
+  {% endfor %}
+</div>
 
 ## Main collaborators
 
