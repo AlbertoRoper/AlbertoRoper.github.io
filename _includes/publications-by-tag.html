@@ -1,0 +1,40 @@
+{%- comment -%}
+Include to render publications filtered by a specific tag.
+Usage:
+  {% include publications-by-tag.html tag="group_research" title="Group research" %}
+
+Parameters:
+ - tag: the tag to filter by (required)
+ - title: optional display title for the section
+{%- endcomment -%}
+
+{%- assign tag = include.tag -%}
+{%- assign title = include.title | default: tag | replace: '_', ' ' | capitalize -%}
+
+<div class="container">
+  <h3>{{ title }}</h3>
+  {%- comment -%}
+  Build a list of publications that contain the requested tag by iterating and pushing matches.
+  This works reliably across Liquid/Jekyll versions without depending on where_exp quirks.
+  {%- endcomment -%}
+
+  {%- assign matches = [] -%}
+  {%- for p in site.data.publications -%}
+    {%- if p.tags and p.tags contains tag -%}
+      {%- assign matches = matches | push: p -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- assign sorted = matches | sort: 'year' | reverse -%}
+  {%- if sorted.size > 0 -%}
+    <ul>
+    {%- for pub in sorted -%}
+      <li>
+        {{ pub.authors }} — <em>{{ pub.title }}</em>{% if pub.venue %}, {{ pub.venue }}{% endif %} ({{ pub.year }}){%- if pub.url %}. <a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{%- endif %}{% if pub.arxiv %} — <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif %}
+      </li>
+    {%- endfor -%}
+    </ul>
+  {%- else -%}
+    <p><em>No publications listed under '{{ tag }}'.</em></p>
+  {%- endif -%}
+</div>
