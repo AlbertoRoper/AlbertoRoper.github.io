@@ -9,7 +9,7 @@ title: Research group and collaborators
   <div class="row">
     {% for person in site.data.collaborators %}
       {% if person.tags and person.tags contains "group_member" %}
-        {% include person-card.html
+        {% include person-card2.html
             name=person.name
             img=person.img
             role=person.role
