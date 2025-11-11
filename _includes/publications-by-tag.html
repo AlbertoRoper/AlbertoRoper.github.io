@@ -1,56 +1,26 @@
 {%- comment -%}
 Include to render publications filtered by a specific tag.
-Usage:
-  {% include publications-by-tag.html tag="group_research" title="Group research" %}
 
 Parameters:
  - tag: the tag to filter by (required)
- <!-- - title: optional display title for the section -->
 {%- endcomment -%}
 
 {%- assign tag = include.tag -%}
-<!-- {%- assign title = include.title | default: tag | replace: '_', ' ' | capitalize -%} -->
 
 <div class="container">
-  <!-- <h3>{{ title }}</h3> -->
-  {%- comment -%}
-  Build a list of publications that contain the requested tag by iterating and pushing matches.
-  This works reliably across Liquid/Jekyll versions without depending on where_exp quirks.
-  {%- endcomment -%}
-
-  {%- assign matches = [] -%}
-  {%- if site.data.publications -%}
-    {%- for p in site.data.publications -%}
-      {%- if p.tags and p.tags contains tag -%}
-        {%- assign matches = matches | push: p -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
-
-  {%- if include.debug -%}
-    <div class="publication-debug">
-      <h4>Debug: all publications and their tags</h4>
-      <pre>
-{%- for p in site.data.publications -%}
-Title: {{ p.title }}
-Tags: {{ p.tags | join: ', ' }}
-
-{%- endfor -%}
-      </pre>
-    </div>
-  {%- endif -%}
-
-  {%- if matches and matches.size > 0 -%}
-    {%- assign sorted = matches | sort: 'year' | reverse -%}
-    
-    <ul>
-    {%- for pub in sorted -%}
-      <li>
-        {{ pub.authors }} — <em>{{ pub.title }}</em>{% if pub.venue %}, {{ pub.venue }}{% endif %} ({{ pub.year }}){%- if pub.url %}. <a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{%- endif %}{% if pub.arxiv %} — <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif %}
-      </li>
-    {%- endfor -%}
-    </ul>
-  {%- else -%}
-    <p><em>No publications listed under '{{ tag }}'.</em></p>
-  {%- endif -%}
-</div>
+  {% for pub in site.data.publications %}
+    {% if pub.tags and pub.tags contains tag %}
+  <li>
+    - {{ pub.authors }}, <em>{{ pub.title }},</em>
+    {% if pub.tags contains "published" %}
+        <em>{{ pub.journal }},</em> <strong>{{pub.volume}}</strong>,
+        {{ pub.page }} ({{ pub.year }})
+    {% elseif pub.tags contains "submitted" %}
+        <em>Submitted to {{ pub.journal }}</em> ({{ pub.year }})
+    {% elseif pub.tags contains "proceedings" %}
+        <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
+    {% endif %}
+    {% if pub.url %}Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a><br>{% endif %}
+    {% if pub.arxiv %}arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a><br>{% endif %}
+  </li>
+  {% endfor %}
