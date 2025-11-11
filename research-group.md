@@ -55,35 +55,44 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 
 #### Publications:
 
-{% assign all_tags = "group_research" %}
-{% for p in site.data.publications %}
-{% if p.tags %}
-    {% for t in p.tags %}
-    {% unless all_tags contains t %}
-        {% assign all_tags = all_tags | append: t | append: ',' %}
-    {% endunless %}
-    {% endfor %}
-{% endif %}
-{% endfor %}
+{%- comment -%}
+Collect all unique tags from publications into an array. We start with an empty array and push tags
+while avoiding duplicates. This is more reliable than string append/contains for tags with underscores.
+{%- endcomment -%}
 
-{% assign tag_array = all_tags | split: ',' %}
+{%- assign tag_array = [] -%}
+{%- for p in site.data.publications -%}
+  {%- if p.tags -%}
+    {%- for t in p.tags -%}
+      {%- unless tag_array contains t -%}
+        {%- assign tag_array = tag_array | push: t -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
 
-{% for tag in tag_array %}
-{% if tag != "" %}
-    <h3>{{ tag | replace: '_', ' ' | capitalize }}</h3>
-    {% assign filtered = site.data.publications | where_exp: "pub", "pub.tags contains tag" %}
-    {% assign sorted = filtered | sort: 'year' | reverse %}
+{%- comment -%} Ensure we include 'group_research' even if no pub has it explicitly {%- endcomment -%}
+{%- unless tag_array contains 'group_research' -%}
+  {%- assign tag_array = tag_array | push: 'group_research' -%}
+{%- endunless -%}
+
+{%- for tag in tag_array -%}
+  {%- assign display_tag = tag | replace: '_', ' ' | capitalize -%}
+  <h3>{{ display_tag }}</h3>
+  {%- assign filtered = site.data.publications | where_exp: "pub", "pub.tags contains '#{tag}'" -%}
+  {%- assign sorted = filtered | sort: 'year' | reverse -%}
+  {%- if sorted.size > 0 -%}
     <ul>
-    {% for pub in sorted %}
-        <li>
-        {{ pub.authors }} — <em>{{ pub.title }}</em>, {{ pub.venue }} ({{ pub.year }}){% if pub.url %}. <a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{% endif %}
-        </li>
-    {% endfor %}
+    {%- for pub in sorted -%}
+      <li>
+        {{ pub.authors }} — <em>{{ pub.title }}</em>, {{ pub.venue }} ({{ pub.year }}){%- if pub.url %}. <a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{%- endif %}
+      </li>
+    {%- endfor -%}
     </ul>
-{% endif %}
-{% endfor %}
-
-- A. Roper Pol, A. S. Midiri, *“Relativistic magnetohydrodynamics in the early Universe,”* [arXiv:2501.05732](https://arxiv.org/abs/2501.05732) (2025) *submitted to Rep. Prog. Phys.*
+  {%- else -%}
+    <p><em>No publications listed under this tag.</em></p>
+  {%- endif -%}
+{%- endfor -%}
 
 ## Main collaborators
 
