@@ -105,7 +105,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 <div class="container">
   <div class="row">
     {% for person in site.data.collaborators %}
-      {% if person.tags and person.tags contains "MHD_turbulence" %}
+      {% if person.tags and person.tags contains "turbulence_GWs" %}
         {% include person-card.html
             first_name=person.firstname
             last_name=person.lastname
@@ -117,6 +117,9 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
     {% endfor %}
   </div>
 </div>
+
+#### Publications:
+{% include publications-by-tag.html tag="turbulence_GWs" %}
 
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
 
