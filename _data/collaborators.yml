@@ -1,13 +1,13 @@
 - name: "Chiara Caprini"
   role: "Professor at University of Geneva and staff member at CERN"
-  img: "/assets/img/chiara_pic.jpg"
+  img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://cosmology.unige.ch/users/chiara-caprini"
   tags: ["phase_transitions"]
 
 - name: "Simona Procacci"
   role: "Postdoc at the University of Geneva (2023-2025)"
-  img: "/assets/img/simona_pic.jpg"
+  img: "/assets/img/procacci_pic.jpg"
   # bio: "Simulations and early-Universe phenomenology."
   # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
   tags: ["phase_transitions"]
