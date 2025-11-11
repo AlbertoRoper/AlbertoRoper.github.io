@@ -100,6 +100,24 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 #### Publications:
 {% include publications-by-tag.html tag="higgsless" %}
 
+### Gravitational waves from MHD turbulence
+
+<div class="container">
+  <div class="row">
+    {% for person in site.data.collaborators %}
+      {% if person.tags and person.tags contains "MHD_turbulence" %}
+        {% include person-card.html
+            first_name=person.firstname
+            last_name=person.lastname
+            img=person.img
+            role=person.role
+            bio=person.bio
+            url=person.url %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
 
 <div class="container">

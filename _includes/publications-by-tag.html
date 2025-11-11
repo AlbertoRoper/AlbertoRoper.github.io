@@ -20,11 +20,11 @@ Parameters:
 {%- endif -%}
 
 {%- capture ol_attrs -%}
-{%- if reversed == true or reversed == "true" -%} reversed{%- endif -%}
+{%- if reversed == true or reversed == "true" -%}reversed{%- endif -%}
 {%- if start_attr and start_attr != 0 -%} start="{{ start_attr }}"{%- endif -%}
 {%- endcapture -%}
 
-<ol{{ ol_attrs }}>
+<ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
 <div class="container">
   {% for pub in site.data.publications %}
   {% if pub.tags and pub.tags contains tag %}
