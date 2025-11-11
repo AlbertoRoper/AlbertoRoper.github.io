@@ -19,13 +19,10 @@ Parameters:
   <h3>{{ include.title }}</h3>
 {%- endif -%}
 
-{%- assign ol_attrs = "" -%}
-{%- if reversed == true or reversed == "true" -%}
-  {%- assign ol_attrs = ol_attrs | append: " reversed" -%}
-{%- endif -%}
-{%- if start_attr != 0 -%}
-  {%- assign ol_attrs = ol_attrs | append: " start=\"" | append: start_attr | append: "\"" -%}
-{%- endif -%}
+{%- capture ol_attrs -%}
+{%- if reversed == true or reversed == "true" -%} reversed{%- endif -%}
+{%- if start_attr and start_attr != 0 -%} start="{{ start_attr }}"{%- endif -%}
+{%- endcapture -%}
 
 <ol{{ ol_attrs }}>
 <div class="container">

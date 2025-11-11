@@ -177,12 +177,19 @@
   arxiv: 1807.11457
   tags: ["other", "published"]
 
-- title: "Evolution of hydromagnetic turbulence from the electroweak phase transition"
-  authors: "A. Brandenburg, T. Kahniashvili, S. Mandal, A. Roper Pol, A.G. Tevzadze, T. Vachaspati"
-  year: 2017
-  journal: "Phys. Rev. D"
-  volume: "96"
-  page: "123538"
-  arxiv: 1711.03804
-  tags: ["primordial_MFs", "published"]
+- title: "Gravitational radiation from MHD turbulence in the early universe"
+  authors: "A. Roper Pol"
+  year: 2021
+  proceedings: "Proceedings of the 55th Rencontres de Moriond on Gravitation"
+  arxiv: 2105.08287
+  tags: ["turbulence_GWs", "proceedings"]
+
+- title: "Magnetism in the Early Universe"
+  authors: "T. Kahniashvili, A. Brandenburg, A. Kosowsky, S. Mandal, A. Roper Pol"
+  year: 2019
+  proceedings: "Proceedings of the IAU, FM8: New Insights in Extragalactic Magnetic Fields"
+  arxiv: 1810.11876
+  tags: ["primordial_MFs", "proceedings"]
+
+
 
