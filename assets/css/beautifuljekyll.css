@@ -1030,6 +1030,19 @@ pre {
   display: inline-block;
 }
 
+/* Prevent navbar/menu overlap with the intro header big image/heading.
+   Adjust these values if your navbar is taller or uses different paddings. */
+@media (min-width: 1200px) {
+  .intro-header.big-img {
+    margin-top: 9rem; /* larger offset on wide screens */
+  }
+}
+@media (max-width: 1199px) {
+  .intro-header.big-img {
+    margin-top: 6rem; /* smaller offset on narrower screens */
+  }
+}
+
 /* Search bar */
 #beautifuljekyll-search-overlay {
   font-family: var(--header-font);
