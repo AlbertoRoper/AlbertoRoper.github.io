@@ -122,4 +122,6 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 
 - A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz, *“LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition,”* *submitted to Astron. Astrophys.*, [arXiv:2307.10744](https://arxiv.org/abs/2307.10744) (2023).
 
-- A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz, *“LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition,”* *submitted to Astron. Astrophys.*, [arXiv:2307.10744](https://arxiv.org/abs/2307.10744) (2023).
+- A. Neronov, A. Roper Pol, C. Caprini, and D. Semikoz, *“NANOGrav signal from MHD turbulence at the QCD phase transition in the early universe,”* *Phys. Rev. D* **103**, L041302 (2021), [arXiv:2009.14174](https://arxiv.org/abs/2009.14174).
+
+- A. Roper Pol, *“Gravitational waves from MHD turbulence at the QCD phase transition as a source for Pulsar Timing Arrays.”* *Contribution to the “2022 Gravitation: Proceedings of the 56th Rencontres de Moriond”* (2022), [arXiv:2205.09261](https://arxiv.org/abs/2205.09261).
