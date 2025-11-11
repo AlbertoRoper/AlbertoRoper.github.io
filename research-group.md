@@ -100,10 +100,6 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 #### Publications:
 {% include publications-by-tag.html tag="higgsless" %}
 
-#### Publications:
-- I. Stomberg, A. Roper Pol, *“Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion.”* *Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond”* (2025), [arXiv:2508.04263](https://arxiv.org/abs/2508.04263).
-- C. Caprini, R. Jinno, T. Konstandin, A. Roper Pol, H. Rubira, I. Stomberg, *“Gravitational waves from decaying sources in strong phase transitions,”* *J. High Energy Phys.* **07** (2025) 217, [arXiv:2409.03651](https://arxiv.org/abs/2409.03651).
-
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
 
 <div class="container">
