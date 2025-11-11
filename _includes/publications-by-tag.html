@@ -11,7 +11,7 @@ Parameters:
   {% for pub in site.data.publications %}
   {% if pub.tags and pub.tags contains tag %}
   <li>
-    - {{ pub.authors }}, <em>{{ pub.title }},</em>
+    {{ pub.authors }}, <em>{{ pub.title }},</em>
     {% if pub.tags contains "published" %}
         <em>{{ pub.journal }},</em> <strong>{{pub.volume}}</strong>,
         {{ pub.page }} ({{ pub.year }})
