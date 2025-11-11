@@ -7,13 +7,15 @@ title: Research group and collaborators
 
 <div class="container">
   <div class="row">
-    {% for person in site.data.group_members %}
-      {% include person-card.html
-         name=person.name
-         img=person.img
-         role=person.role
-         bio=person.bio
-         url=person.url %}
+    {% for person in site.data.collaborators %}
+      {% if person.tags and person.tags contains "group_member" %}
+        {% include person-card.html
+            name=person.name
+            img=person.img
+            role=person.role
+            bio=person.bio
+            url=person.url %}
+      {% endif %}
     {% endfor %}
   </div>
 </div>
