@@ -6,27 +6,52 @@ Parameters:
 {%- endcomment -%}
 
 {%- assign tag = include.tag -%}
+{%- assign numbered = include.numbered | default: false -%}
+{%- assign reversed = include.reversed | default: false -%}
 
 <div class="container">
-  {% for pub in site.data.publications %}
-  {% if pub.tags and pub.tags contains tag %}
-  <li>
-    {{ pub.authors }}, <em>{{ pub.title }},</em>
-    {% if pub.tags contains "published" %}
-        <em>{{ pub.journal }},</em> <strong>{{pub.volume}}</strong>,
-        {{ pub.page }} ({{ pub.year }})
-  {% elsif pub.tags contains "submitted" %}
-    <em>Submitted to {{ pub.journal }}</em> ({{ pub.year }})
-  {% elsif pub.tags contains "proceedings" %}
-    <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
-    {% endif %}
-    {% if pub.url %}Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a><br>{% endif %}
-    {% if pub.arxiv %}
-    , arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a><br>
-    {% else %}
-    .
-    {% endif %}
-  </li>
-  {% endif %}
-  {% endfor %}
+  {%- assign matches = [] -%}
+  {%- if site.data.publications -%}
+    {%- for p in site.data.publications -%}
+      {%- assign matched = false -%}
+      {%- if p.tags -%}
+        {%- for t in p.tags -%}
+          {%- if t == tag -%}
+            {%- assign matched = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- if matched -%}
+        {%- assign matches = matches | push: p -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- if matches and matches.size > 0 -%}
+    {%- assign sorted = matches | sort: 'year' | reverse -%}
+
+    {%- if numbered -%}
+      {%- if reversed -%}
+        <ol reversed>
+      {%- else -%}
+        <ol>
+      {%- endif -%}
+      {%- for pub in sorted -%}
+        <li>
+          {{ pub.authors }}, <em>{{ pub.title }}</em>{% if pub.journal %}, <em>{{ pub.journal }}</em>{% endif %} {% if pub.volume %}<strong>{{ pub.volume }}</strong>{% endif %}{% if pub.page %}, {{ pub.page }}{% endif %} ({{ pub.year }}){% if pub.url %}. <a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if pub.arxiv %} — <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif %}
+        </li>
+      {%- endfor -%}
+      </ol>
+    {%- else -%}
+      <ul>
+      {%- for pub in sorted -%}
+        <li>
+          {{ pub.authors }}, <em>{{ pub.title }}</em>{% if pub.journal %}, <em>{{ pub.journal }}</em>{% endif %}{% if pub.volume %} <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.page %} , {{ pub.page }}{% endif %} ({{ pub.year }}){% if pub.url %}. <a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if pub.arxiv %} — <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif %}
+        </li>
+      {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  {%- else -%}
+    <p><em>No publications listed under '{{ tag }}'.</em></p>
+  {%- endif -%}
 </div>
