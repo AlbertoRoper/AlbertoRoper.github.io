@@ -1,10 +1,10 @@
-<ol reveresed>
+<ol reversed>
 
-### Submitted
+<h3>Submitted</h3>
 
 {% include publications-by-tag.html tag="submitted" %}
 
-### Published
+<h3>Published</h3>
 
 {% include publications-by-tag.html tag="published" %}
 
@@ -12,4 +12,6 @@
 
 ### Proceedings
 
+<ol reversed>
 {% include publications-by-tag.html tag="proceedings" %}
+</ol>
