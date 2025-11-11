@@ -3,46 +3,46 @@
   year: 2025
   publication: "*submitted to Rep. Prog. Phys.*"
   arxiv: 2501.05732
-  tags: ["group_research, submitted"]
+  tags: ["group_research", "submitted"]
 
 - title: "LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
   authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz"
   year: 2023
   publication: "*submitted to Astron. Astrophys.*"
   arxiv: 2307.10744
-  tags: ["multi-messenger, submitted"]
+  tags: ["multi-messenger", "submitted"]
 
 - title: "Gravitational waves from first-order phase transitions: from weak to strong"
   authors: "C. Caprini, R. Jinno, T. Konstandin, A. Roper Pol, H. Rubira, I. Stomberg"
   year: 2025
   publication: "*J. High Energy Phys.* **07**, 217"
   arxiv: 2409.03651
-  tags: ["higgsless, published"]
+  tags: ["higgsless", "published"]
 
 - title: "Characterization of the gravitational wave spectrum from sound waves within the sound shell model"
   authors: "A. Roper Pol, S. Procacci, C. Caprini"
   year: 2024
   publication: "*Phys. Rev. D* **109**, 063531"
   arxiv: 2308.12943
-  tags: ["phase_transitions, published"]
+  tags: ["phase_transitions", "published"]
 
 - title: "NANOGrav signal from MHD turbulence at the QCD phase transition in the early universe"
   authors: "A. Neronov, A. Roper Pol, C. Caprini, and D. Semikoz"
   year: 2021
   publication: "*Phys. Rev. D* **103**, L041302"
   arxiv: 2009.14174
-  tags: ["multi-messenger, published"]
+  tags: ["multi-messenger", "published"]
 
 - title: "Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion"
   authors: "I. Stomberg, A. Roper Pol"
   year: 2025
   publication: "*Contribution to the “2025 Gravitation: Proceedings of the 59th Rencontres de Moriond*"
   arxiv: 2508.04263
-  tags: ["higgsless, proceedings"]
+  tags: ["higgsless", "proceedings"]
 
 - title: "Gravitational waves from MHD turbulence at the QCD phase transition as a source for Pulsar Timing Arrays"
   authors: "A. Roper Pol"
   year: 2022
   publication: "Contribution to the “2022 Gravitation: Proceedings of the 56th Rencontres de Moriond*"
   arxiv: 2205.09261
-  tags: ["multi-messenger, proceedings"]
+  tags: ["multi-messenger", "proceedings"]
