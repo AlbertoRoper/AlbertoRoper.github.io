@@ -674,7 +674,7 @@ footer .footer-custom-content {
 }
 .intro-header.big-img {
   /* prefer top of image as focal point to reduce cropping of important content */
-  background: no-repeat center center;
+  background: no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
