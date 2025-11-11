@@ -1,11 +1,27 @@
-- name: "Antonino S. Midiri"
-  role: "PhD student (2023-2027) at University of Geneva"
-  img: "/assets/img/antonino_pic.jpg"
-  bio: "Works on primordial magnetic fields and gravitational waves."
-  url: "https://cosmology.unige.ch/users/antonino-midiri"
+- name: "Chiara Caprini"
+  role: "Professor at University of Geneva and staff member at CERN"
+  img: "/assets/img/chiara_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://cosmology.unige.ch/users/chiara-caprini"
+  tag: ["phase_transitions"]
 
-- name: "Madeline Salomé"
-  role: "MS student (2024-2025) at EPFL, currently in Lyon"
-  img: "/assets/img/madeline_pic.jpg"
-  bio: "Simulations and early-Universe phenomenology."
-  url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
+- name: "Simona Procacci"
+  role: "Postdoc at the University of Geneva (2023-2025)"
+  img: "/assets/img/simona_pic.jpg"
+  # bio: "Simulations and early-Universe phenomenology."
+  # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
+  tag: ["phase_transitions"]
+
+  - name: "Isak Stomberg"
+  role: "Postdoc at IFIC, Valencia"
+  img: "/assets/img/isak_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://inspirehep.net/authors/1889903"
+  tag: ["higgsless"]
+
+# - name: "Simona Procacci"
+#   role: "Postdoc at the University of Geneva (2023-2025)"
+#   img: "/assets/img/simona_pic.jpg"
+#   # bio: "Simulations and early-Universe phenomenology."
+#   # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
+#   tag: ["phase_transitions"]
