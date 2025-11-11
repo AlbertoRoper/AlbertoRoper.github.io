@@ -61,3 +61,17 @@
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://sites.google.com/view/henriquerubira/introduction"
   tags: ["higgsless"]
+
+- name: "Andrii Neronov"
+  role: "Professor at APC and EPFL"
+  # img: "/assets/img/chiara_pic.png"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://people.epfl.ch/andrii.neronov?lang=en"
+  tags: ["multi_messenger"]
+
+- name: "Dmitri Semikoz"
+  role: "Professor at APC"
+  # img: "/assets/img/chiara_pic.png"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  # url: "https://people.epfl.ch/andrii.neronov?lang=en"
+  tags: ["multi_messenger"]
