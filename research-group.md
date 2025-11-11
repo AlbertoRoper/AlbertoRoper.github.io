@@ -54,7 +54,6 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-
 <div class="container">
   <ul>
   {% for publication in site.data.publications %}
@@ -87,7 +86,17 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-- A. Roper Pol, S. Procacci, C. Caprini, *“Characterization of the gravitational wave spectrum from sound waves within the sound shell model,”* *Phys. Rev. D* **109**, 063531 (2024), [arXiv:2308.12943](https://arxiv.org/abs/2308.12943).
+<div class="container">
+  <ul>
+  {% for publication in site.data.publications %}
+    {% if publication.tags and publication.tags contains "phase_transitions" %}
+      <li>
+        {{ publication.authors }} — <em>{{ publication.title }}</em>{% if publication.publication %}, {{ publication.publication }}{% endif %} ({{ publication.year }}){% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if publication.arxiv %} — <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>
 
 ### Gravitational waves from phase transitions (Higgsless simulations)
 
@@ -104,6 +113,19 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
       {% endif %}
     {% endfor %}
   </div>
+</div>
+
+#### Publications:
+<div class="container">
+  <ul>
+  {% for publication in site.data.publications %}
+    {% if publication.tags and publication.tags contains "higgsless" %}
+      <li>
+        {{ publication.authors }} — <em>{{ publication.title }}</em>{% if publication.publication %}, {{ publication.publication }}{% endif %} ({{ publication.year }}){% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if publication.arxiv %} — <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
 </div>
 
 #### Publications:
@@ -128,6 +150,14 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications:
-- A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, and D. Semikoz, *“LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition,”* *submitted to Astron. Astrophys.*, [arXiv:2307.10744](https://arxiv.org/abs/2307.10744) (2023).
-- A. Neronov, A. Roper Pol, C. Caprini, and D. Semikoz, *“NANOGrav signal from MHD turbulence at the QCD phase transition in the early universe,”* *Phys. Rev. D* **103**, L041302 (2021), [arXiv:2009.14174](https://arxiv.org/abs/2009.14174).
-- A. Roper Pol, *“Gravitational waves from MHD turbulence at the QCD phase transition as a source for Pulsar Timing Arrays.”* *Contribution to the “2022 Gravitation: Proceedings of the 56th Rencontres de Moriond”* (2022), [arXiv:2205.09261](https://arxiv.org/abs/2205.09261).
+<div class="container">
+  <ul>
+  {% for publication in site.data.publications %}
+    {% if publication.tags and publication.tags contains "multi_messenger" %}
+      <li>
+        {{ publication.authors }} — <em>{{ publication.title }}</em>{% if publication.publication %}, {{ publication.publication }}{% endif %} ({{ publication.year }}){% if publication.url %}. <a href="{{ publication.url }}" target="_blank" rel="noopener">link</a>{% endif %}{% if publication.arxiv %} — <a href="https://arxiv.org/abs/{{ publication.arxiv }}">arXiv:{{ publication.arxiv }}</a>{% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>
