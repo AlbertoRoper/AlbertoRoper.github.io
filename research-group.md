@@ -48,7 +48,8 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
             {% if person.url %}<p><a href="{{ person.url }}" target="_blank" rel="noopener">Profile</a></p>{% endif %}
           </div>
         </div>
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
     </div>
 </div>
 
