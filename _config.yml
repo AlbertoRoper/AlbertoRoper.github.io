@@ -26,11 +26,11 @@ navbar-links:
   #  - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
   CV: "cv"
+  Research group: "research-group"
+  Publications: "publications"
   Research:
     - Research interests: "research-interests"
-    - Research group: "research-group"
     - Meetings and schools: "meetings"
-    - Publications: "publications"
     - Code development: "code-development"
 
 ################
