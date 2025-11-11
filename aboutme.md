@@ -17,14 +17,6 @@ grant [208807](Exploring the early universe with gravitational waves and primord
 
 You can find a short video about my SNSF Ambizione project from
 the University of Geneva
-on [Youtube](https://www.youtube.com/watch?v=_zAngd5i-VM)
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
-  <iframe
-    src="https://www.youtube.com/watch?v=_zAngd5i-VM"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;">
-  </iframe>
-</div>
+on [![Youtube](https://img.youtube.com/vi/_zAngd5i-VM/hqdefault.jpg)](https://www.youtube.com/watch?v=_zAngd5i-VM)
+
+{% include youtube.html id="_zAngd5i-VM" title="SNSF Ambizione project" %}
