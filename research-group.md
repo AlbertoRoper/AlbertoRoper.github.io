@@ -56,43 +56,11 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 #### Publications:
 
 {%- comment -%}
-Collect all unique tags from publications into an array. We start with an empty array and push tags
-while avoiding duplicates. This is more reliable than string append/contains for tags with underscores.
+Render publications for specific tags using an include. Change or add include calls below for other tags.
 {%- endcomment -%}
 
-{%- assign tag_array = [] -%}
-{%- for p in site.data.publications -%}
-  {%- if p.tags -%}
-    {%- for t in p.tags -%}
-      {%- unless tag_array contains t -%}
-        {%- assign tag_array = tag_array | push: t -%}
-      {%- endunless -%}
-    {%- endfor -%}
-  {%- endif -%}
-{%- endfor -%}
+{% include publications-by-tag.html tag="group_research" title="Group research" %}
 
-{%- comment -%} Ensure we include 'group_research' even if no pub has it explicitly {%- endcomment -%}
-{%- unless tag_array contains 'group_research' -%}
-  {%- assign tag_array = tag_array | push: 'group_research' -%}
-{%- endunless -%}
-
-{%- for tag in tag_array -%}
-  {%- assign display_tag = tag | replace: '_', ' ' | capitalize -%}
-  <h3>{{ display_tag }}</h3>
-  {%- assign filtered = site.data.publications | where_exp: "pub", "pub.tags contains '#{tag}'" -%}
-  {%- assign sorted = filtered | sort: 'year' | reverse -%}
-  {%- if sorted.size > 0 -%}
-    <ul>
-    {%- for pub in sorted -%}
-      <li>
-        {{ pub.authors }} — <em>{{ pub.title }}</em>, {{ pub.venue }} ({{ pub.year }}){%- if pub.url %}. <a href="{{ pub.url }}" target="_blank" rel="noopener">link</a>{%- endif %}
-      </li>
-    {%- endfor -%}
-    </ul>
-  {%- else -%}
-    <p><em>No publications listed under this tag.</em></p>
-  {%- endif -%}
-{%- endfor -%}
 
 ## Main collaborators
 
