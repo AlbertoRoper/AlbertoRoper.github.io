@@ -52,3 +52,19 @@
   proceedings: "Proceedings of the 56th Rencontres de Moriond on Gravitation"
   arxiv: 2205.09261
   tags: ["multi-messenger", "proceedings"]
+
+- title: "Leading-order nonlinear gravitational waves from reheating magnetogeneses"
+  authors: "Y. He, A. Roper Pol, A. Brandenburg"
+  year: 2021
+  journal: "Phys. Rev. D"
+  tags: ["other", "submitted"]
+  arxiv: 2110.14456
+
+- title: "The Lunar Gravitational-wave Antenna: Mission studies and science case"
+  authors: "[LGWA Collaboration] (incl. A. Roper Pol)"
+  year: 2025
+  journal: "J. Cosmol. Astropart. Phys."
+  tags: ["LGWA", "collaboration", "published"]
+  volume: "01"
+  page: "108"
+  arxiv: 2404.09181
