@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research group and collaborators
+# title: Research group
 ---
 
 ## Research group
