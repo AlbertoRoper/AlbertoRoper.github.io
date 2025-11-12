@@ -2,7 +2,7 @@
 {%- assign tag = include.tag -%}
 
 <div class="container">
-  <div class="collaborator-row">
+  <div class="collaborator-row" >
     {% for person in site.data.collaborators %}
       {% if person.tags and person.tags contains tag %}
         {% include person-card.html
