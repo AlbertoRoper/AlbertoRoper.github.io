@@ -41,26 +41,15 @@ The sound-shell model assumes that the fluid perturbations are a linearized supe
   </div>
 </div> -->
 
-#### Publications:
-{% include publications-by-tag.html tag="phase_transitions" %}
+<!-- #### Publications:
+{% include publications-by-tag.html tag="phase_transitions" %} -->
 
-### Gravitational waves from phase transitions (Higgsless simulations)
+### Gravitational waves from phase transitions
 
-<div class="container">
-  <div class="collaborator-row">
-    {% for person in site.data.collaborators %}
-      {% if person.tags and person.tags contains "higgsless" %}
-        {% include person-card.html
-            first_name=person.firstname
-            last_name=person.lastname
-            img=person.img
-            role=person.role
-            bio=person.bio
-            url=person.url %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+Under the Higgsless approach, the fluid motion induced by the phase transitions can be studied by integrating out the dynamics of the scalar field, which occur within the bubble wall thickness, usually many orders of magnitude smaller than the fluid scales. This method allows to reduce the separation of scales between the fluid and the scalar field and capture most of the dynamics of the plasma in a first-order phase transition.
+
+#### Main collaborators
+{% include collaborators-by-tag.html tag="higgsless" %}
 
 #### Publications:
 {% include publications-by-tag.html tag="higgsless" %}
