@@ -51,13 +51,13 @@ Parameters:
         {% else %}
         {% if pub.journal %}
             <em>{{ pub.journal }}</em> ({{ pub.year }})
+            {% if pub.arxiv %}, {% else %} . {% endif % }
         {% else %}
             ({{ pub.year }})
         {% endif %}
         {% endif %}
         {% if pub.arxiv %}
-        , arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
-        {% else %} .
+          arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
         {% endif %}
         {% if pub.url %}
         <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
