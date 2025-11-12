@@ -89,7 +89,7 @@
   arxiv: 2204.05434
   tags: ["LISA", "collaboration", "published"]
 
-- title: "The gravitational wave signal from primordial magnetic fields in the Pulsar Timing Array frequency band"
+- title: "Gravitational wave signal from primordial magnetic fields in the Pulsar Timing Array frequency band"
   authors: "A. Roper Pol, C. Caprini, A. Neronov, and D. Semikoz"
   year: 2022
   journal: "Phys. Rev. D"
@@ -189,4 +189,13 @@
   volume: "4"
   page: "024608"
   arxiv: 1710.01628
+  tags: ["primordial_MFs", "published"]
+
+- title: "Evolution of hydromagnetic turbulence from the electroweak phase transition"
+  authors: "A. Brandenburg, T. Kahniashvili, S. Mandal, A. Roper Pol, A.G. Tevzadze, T. Vachaspati"
+  year: 2017
+  journal: "Phys. Rev. D"
+  volume: "96"
+  page: "123528"
+  arxiv: 1711.03804
   tags: ["primordial_MFs", "published"]
