@@ -7,22 +7,6 @@
   bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
   tags: ["group_member"]
 
-- firstname: "Antonino S."
-  lastname: "Midiri"
-  role: "PhD student at University of Geneva (2023-)"
-  img: "/assets/img/antonino_pic.jpg"
-  bio: "The main area of interest for me in Theoretical Physics is High-Energy-Physics, in particular in relation with Early Universe Cosmology. I am currently focused on analytical studies and numerical simulations of the Gravitational Waves and Primordial Magnetic Fields produced from MHD turbulence and sound waves during a First-Order Phase Transition in the Early Universe."
-  url: "https://cosmology.unige.ch/users/antonino-midiri"
-  tags: ["group_member", "sound_waves", "primordial_MFs"]
-
-- firstname: "Madeline"
-  lastname: "Salomé"
-  role: "MS student at EPFL (2024-2025), currently PhD student IP2I Lyon"
-  img: "/assets/img/madeline_pic.jpg"
-  bio: "I am passionate about Gravitational Waves and Cosmology in general. I am currently working on stochastic Gravitational Waves from MHD sources in the early Universe."
-  url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
-  tags: ["former_member", "sound_waves"]
-
 - firstname: "Chiara"
   lastname: "Caprini"
   role: "Professor at University of Geneva and staff member at CERN"
@@ -31,6 +15,14 @@
   url: "https://cosmology.unige.ch/users/chiara-caprini"
   tags: ["sound_waves", "turbulence_GWs"]
 
+- firstname: "Antonino S."
+  lastname: "Midiri"
+  role: "PhD student at University of Geneva (2023-)"
+  img: "/assets/img/antonino_pic.jpg"
+  bio: "The main area of interest for me in Theoretical Physics is High-Energy-Physics, in particular in relation with Early Universe Cosmology. I am currently focused on analytical studies and numerical simulations of the Gravitational Waves and Primordial Magnetic Fields produced from MHD turbulence and sound waves during a First-Order Phase Transition in the Early Universe."
+  url: "https://cosmology.unige.ch/users/antonino-midiri"
+  tags: ["group_member", "sound_waves", "primordial_MFs"]
+
 - firstname: "Simona"
   lastname: "Procacci"
   role: "Postdoc at the University of Geneva (2023-2025)"
@@ -38,6 +30,14 @@
   # bio: "Simulations and early-Universe phenomenology."
   # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
   tags: ["sound_waves"]
+
+- firstname: "Madeline"
+  lastname: "Salomé"
+  role: "MS student at EPFL (2024-2025), currently PhD student IP2I Lyon"
+  img: "/assets/img/madeline_pic.jpg"
+  bio: "I am passionate about Gravitational Waves and Cosmology in general. I am currently working on stochastic Gravitational Waves from MHD sources in the early Universe."
+  url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
+  tags: ["former_member", "sound_waves"]
 
 - firstname: "Isak"
   lastname: "Stomberg"

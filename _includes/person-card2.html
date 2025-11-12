@@ -1,10 +1,12 @@
-<div class="col-sm-6 col-md-4 col-lg-6 mb-4 text-center">
+<div class="person-card">
   {% if include.img %}
-  <img src="{{ include.img | relative_url }}" alt="{{ include.first_name }} {{ include.last_name }}" class="rounded-circle person-avatar-lg">
+    <img src="{{ include.img | relative_url }}" alt="{{ include.first_name }} {{ include.last_name }}" class="rounded-circle person-avatar-lg">
   {% endif %}
-  <h5 class="mt-2">{{ include.first_name }}</h5>
-  <h5 class="mt-2">{{ include.last_name }}</h5>
-  {% if include.role %}<div class="text-muted">{{ include.role }}</div>{% endif %}
-  {% if include.bio %}<p class="mt-2">{{ include.bio }}</p>{% endif %}
-  {% if include.url %}<a class="btn btn-sm btn-outline-primary" href="{{ include.url }}" target="_blank" rel="noopener">Profile</a>{% endif %}
+  <div class="person-name">
+    <div class="person-first">{{ include.first_name }}</div>
+    <div class="person-last">{{ include.last_name }}</div>
+  </div>
+  {% if include.role %}<div class="person-role text-muted">{{ include.role }}</div>{% endif %}
+  {% if include.bio %}<div class="person-bio">{{ include.bio }}</div>{% endif %}
+  {% if include.url %}<div class="person-action"><a class="btn btn-sm btn-outline-primary" href="{{ include.url }}" target="_blank" rel="noopener">Profile</a></div>{% endif %}
 </div>
