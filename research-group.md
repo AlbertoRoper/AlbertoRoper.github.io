@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Research group
-full-width: true
 ---
 
 <!-- ## Research group -->
