@@ -1130,18 +1130,13 @@ pre {
 
 /* Collaborator row: keep all person-cards on a single horizontal row */
 .collaborator-row {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem; /* reduced gap to fit more cards */
-  flex-wrap: wrap; /* allow wrapping so multiple cards fit on a single row */
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* explicit 4 columns */
+  gap: 0.5rem;
   padding: 0.4rem 0.15rem;
 }
 
 .collaborator-row .person-card {
-  flex: 0 1 23%; /* prefer ~4 cards per row on wide viewports */
-  max-width: 23%;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1149,20 +1144,19 @@ pre {
   padding: 0.5rem;
   border-radius: 0.5rem;
   background: transparent;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-/* Make cards larger / single-column on narrow screens */
 @media (max-width: 991px) {
-  .collaborator-row .person-card {
-    flex: 0 1 48%;
-    max-width: 48%;
+  .collaborator-row {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 575px) {
-  .collaborator-row .person-card {
-    flex: 0 1 100%;
-    max-width: 100%;
+  .collaborator-row {
+    grid-template-columns: 1fr;
   }
 }
 
