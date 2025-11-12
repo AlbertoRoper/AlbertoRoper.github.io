@@ -10,8 +10,36 @@ Parameters:
 
 {%- assign tag = include.tag -%}
 {%- assign reversed = include.reversed | default: false -%}
-{%- assign start_attr = include.start | default: 1 -%}
 {%- assign title = include.title | default: "" -%}
+
+{%- comment -%} collect matching publications into an array {%- endcomment -%}
+{%- assign matches = "" | split: "," -%}
+{%- for pub in site.data.publications -%}
+  {%- if pub.tags -%}
+    {%- for t in pub.tags -%}
+      {%- if t == tag -%}
+        {%- assign matches = matches | push: pub -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if matches.size > 0 -%}
+  {%- assign matches = matches | sort: "year" | reverse -%}
+{%- endif -%}
+
+{%- comment -%} determine start attribute: if reversed and no start provided, use matches.size {%- endcomment -%}
+{%- assign start_provided = include.start -%}
+{%- if (reversed == true or reversed == "true") -%}
+  {%- if start_provided == nil or start_provided == "" -%}
+    {%- assign start_attr = matches.size -%}
+  {%- else -%}
+    {%- assign start_attr = start_provided -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign start_attr = start_provided | default: 0 -%}
+{%- endif -%}
 
 {%- if include.title -%}
   <h3>{{ include.title }}</h3>
@@ -24,17 +52,27 @@ Parameters:
 
 <div class="container">
   <ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
-    {% for pub in site.data.publications %}
-      {% if pub.tags and pub.tags contains tag %}
+    {% if matches.size == 0 %}
+      <li><em>No publications listed under '{{ tag }}'.</em></li>
+    {% else %}
+      {% for pub in matches %}
         <li>
           {{ pub.authors }}, <em>{{ pub.title }},</em>
-          {% if pub.tags contains "published" %}
-            <em>{{ pub.journal }},</em> <strong>{{pub.volume}}</strong>,
-            {{ pub.page }} ({{ pub.year }})
+          {% if pub.journal and pub.tags contains "published" %}
+            <em>{{ pub.journal }},</em>
+            {% if pub.volume %}<strong>{{pub.volume}}</strong>,{% endif %}
+            {% if pub.page %} {{ pub.page }},{% endif %}
+            ({{ pub.year }})
           {% elsif pub.tags contains "submitted" %}
             <em>Submitted to {{ pub.journal }}</em> ({{ pub.year }})
           {% elsif pub.tags contains "proceedings" %}
             <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
+          {% else %}
+            {% if pub.journal %}
+              <em>{{ pub.journal }}</em> ({{ pub.year }})
+            {% else %}
+              ({{ pub.year }})
+            {% endif %}
           {% endif %}
           {% if pub.url %}
             <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
@@ -43,7 +81,7 @@ Parameters:
             <br>arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>
           {% endif %}
         </li>
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+    {% endif %}
   </ol>
 </div>

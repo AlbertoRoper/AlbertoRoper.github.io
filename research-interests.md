@@ -3,7 +3,12 @@ layout: page
 title: Research interests
 ---
 
-### Gravitational waves from phase transitions (sound waves)
+## First-order phase transitions
+
+Gravitational waves are produced during a first-order phase transition due to the collision of expanding bubbles of the symmetry-broken phase.
+As they expand, these bubbles drag the expanding primordial plasma leading to the formation of fluid shells around them.
+When these bubbles collides, they lead to the production of gravitational waves and can be a promising source for current pulsar timing array (PTA) observations and for the planned space-based detector LISA.
+Both experiments can be used to probe the early Universe at the QCD and the electroweak scale, respectively.
 
 #### Publications:
 {% include publications-by-tag.html tag="group_research" %}
