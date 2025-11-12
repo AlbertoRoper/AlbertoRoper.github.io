@@ -1,0 +1,18 @@
+
+{%- assign tag = include.tag -%}
+
+<div class="container">
+  <div class="collaborator-row">
+    {% for person in site.data.collaborators %}
+      {% if person.tags and person.tags contains tag %}
+        {% include person-card2.html
+            first_name=person.firstname
+            last_name=person.lastname
+            img=person.img
+            role=person.role
+            bio=person.bio
+            url=person.url %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
