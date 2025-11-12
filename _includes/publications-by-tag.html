@@ -22,28 +22,28 @@ Parameters:
 {%- if start_attr and start_attr != 0 -%} start="{{ start_attr }}"{%- endif -%}
 {%- endcapture -%}
 
-<ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
 <div class="container">
-  {% for pub in site.data.publications %}
-  {% if pub.tags and pub.tags contains tag %}
-  <li>
-    {{ pub.authors }}, <em>{{ pub.title }},</em>
-    {% if pub.tags contains "published" %}
-        <em>{{ pub.journal }},</em> <strong>{{pub.volume}}</strong>,
-        {{ pub.page }} ({{ pub.year }})
-  {% elsif pub.tags contains "submitted" %}
-    <em>Submitted to {{ pub.journal }}</em> ({{ pub.year }})
-  {% elsif pub.tags contains "proceedings" %}
-    <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
-    {% endif %}
-    {% if pub.url %}Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a><br>{% endif %}
-    {% if pub.arxiv %}
-    , arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a><br>
-    {% else %}
-    .
-    {% endif %}
-  </li>
-  {% endif %}
-  {% endfor %}
+  <ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
+    {% for pub in site.data.publications %}
+      {% if pub.tags and pub.tags contains tag %}
+        <li>
+          {{ pub.authors }}, <em>{{ pub.title }},</em>
+          {% if pub.tags contains "published" %}
+            <em>{{ pub.journal }},</em> <strong>{{pub.volume}}</strong>,
+            {{ pub.page }} ({{ pub.year }})
+          {% elsif pub.tags contains "submitted" %}
+            <em>Submitted to {{ pub.journal }}</em> ({{ pub.year }})
+          {% elsif pub.tags contains "proceedings" %}
+            <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
+          {% endif %}
+          {% if pub.url %}
+            <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
+          {% endif %}
+          {% if pub.arxiv %}
+            <br>arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
 </div>
-</ol>
