@@ -203,6 +203,16 @@ img {
   height: 2.5rem;
 }
 
+/* Place navbar-extra includes to the left of the brand/toggler when present */
+.navbar-extra-left {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+.navbar-extra-left > * {
+  margin-right: 0.5rem;
+}
+
 .navbar-custom .navbar-nav .nav-item {
   text-transform: uppercase;
   font-size: 0.8125rem;
