@@ -213,16 +213,9 @@ img {
   margin-right: 0.5rem;
 }
 
-/* When nav-expanded is present, show the collapse content inline and hide toggler */
-nav.navbar.nav-expanded .navbar-collapse {
-  display: block !important;
-  visibility: visible !important;
-}
+/* Keep navbar collapsed by default; auto-expansion JS removed */
 nav.navbar .navbar-toggler {
   display: inline-block;
-}
-nav.navbar.nav-expanded .navbar-toggler {
-  display: none !important;
 }
 
 .navbar-custom .navbar-nav .nav-item {
