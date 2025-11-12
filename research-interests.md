@@ -8,12 +8,12 @@ title: Research interests
 Gravitational waves are produced during a first-order phase transition due to the collision of expanding bubbles of the symmetry-broken phase.
 As they expand, these bubbles drag the expanding primordial plasma leading to the formation of fluid shells around them.
 When these bubbles collide, they lead to the production of gravitational waves and can be a promising source for current pulsar timing array (PTA) observations and for the planned space-based detector LISA.
-Both experiments can be used to probe the early Universe at the QCD and the electroweak scale, respectively.a
+Both experiments can be used to probe the early Universe at the QCD and the electroweak scale, respectively.
 
 The main sources of gravitational waves from first-order phase transitions:
-- *Sound waves*: compressional fluid motion in the linearized regime (small fluid perturbations)
-- *Turbulence*: compressional (acoustic turbulence) and vortical motion of the fluid perturbations in the linear regime
-- *Bubble collisions*: gradients of the scalar field
+- **Sound waves**: compressional fluid motion in the linearized regime (small fluid perturbations)
+- **Turbulence**: compressional (acoustic turbulence) and vortical motion of the fluid perturbations in the linear regime
+- **Bubble collisions**: gradients of the scalar field
 
 ### Gravitational waves from sound waves
 
@@ -37,22 +37,6 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 
 ### Gravitational waves from MHD turbulence
 
-<div class="container">
-  <div class="collaborator-row">
-    {% for person in site.data.collaborators %}
-      {% if person.tags and person.tags contains "turbulence_GWs" %}
-        {% include person-card.html
-            first_name=person.firstname
-            last_name=person.lastname
-            img=person.img
-            role=person.role
-            bio=person.bio
-            url=person.url %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
-
 #### Main collaborators
 {% include collaborators-by-tag.html tag="turbulence_GWs" %}
 
@@ -66,3 +50,11 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 
 #### Publications:
 {% include publications-by-tag.html tag="multi_messenger" %}
+
+### Primordial magnetic fields
+
+#### Main collaborators
+{% include collaborators-by-tag.html tag="primordial_MFs" %}
+
+#### Publications:
+{% include publications-by-tag.html tag="primordial_MFs" %}
