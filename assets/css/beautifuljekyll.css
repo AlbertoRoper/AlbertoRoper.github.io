@@ -1062,12 +1062,24 @@ pre {
 @media (min-width: 1200px) {
   main.container-md > .row > .col-xl-8.offset-xl-2,
   main.container-md > .row > .col {
-    max-width: 900px; /* keep the page column reasonably narrow */
+    max-width: 1200px; /* increase page column width so content can expand */
     margin-left: auto !important;
     margin-right: auto !important;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
+}
+
+/* Ensure headings inside main content stay centered when widening the column */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+main.container-md h1,
+main.container-md h2,
+main.container-md h3,
+main.container-md h4 {
+  text-align: center;
 }
 
 /* add comfortable inner padding so headings and text are not flush to the edge */
