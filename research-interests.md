@@ -3,6 +3,11 @@ layout: page
 title: Research interests
 ---
 
+# Gravitational waves from the early Universe
+
+#### Collaboration publications:
+{% include publications-by-tag.html tag="collaboration" %}
+
 ## Gravitational waves from first-order phase transitions
 
 Gravitational waves are produced during a first-order phase transition due to the collision of expanding bubbles of the symmetry-broken phase.
@@ -25,7 +30,7 @@ The sound-shell model assumes that the fluid perturbations are a linearized supe
 #### Publications:
 {% include publications-by-tag.html tag="sound_waves" %}
 
-### Gravitational waves from phase transitions
+### Higgsless simulations
 
 Under the Higgsless approach, the fluid motion induced by the phase transitions can be studied by integrating out the dynamics of the scalar field, which occur within the bubble wall thickness, usually many orders of magnitude smaller than the fluid scales. This method allows to reduce the separation of scales between the fluid and the scalar field and capture most of the dynamics of the plasma in a first-order phase transition.
 
@@ -43,6 +48,8 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 #### Publications:
 {% include publications-by-tag.html tag="turbulence_GWs" %}
 
+## Primordial magnetic fields
+
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
 
 #### Main collaborators
@@ -51,7 +58,7 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 #### Publications:
 {% include publications-by-tag.html tag="multi_messenger" %}
 
-### Primordial magnetic fields
+## Evolution of primordial magnetic fields in the early Universe
 
 #### Main collaborators
 {% include collaborators-by-tag.html tag="primordial_MFs" %}
