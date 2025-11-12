@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: Research group
+title: Research group
 ---
 
 ## Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/208807): ***"Exploring the early Universe with gravitational waves and primordial magnetic fields"***.
