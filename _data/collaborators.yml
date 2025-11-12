@@ -29,7 +29,7 @@
   img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://cosmology.unige.ch/users/chiara-caprini"
-  tags: ["sound_waves"]
+  tags: ["sound_waves", "turbulence_GWs"]
 
 - firstname: "Simona"
   lastname: "Procacci"
@@ -37,7 +37,7 @@
   img: "/assets/img/procacci_pic.jpg"
   # bio: "Simulations and early-Universe phenomenology."
   # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
-  tags: ["sound_waves", "turbulence_GWs"]
+  tags: ["sound_waves"]
 
 - firstname: "Isak"
   lastname: "Stomberg"

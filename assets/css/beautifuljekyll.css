@@ -1020,6 +1020,26 @@ pre {
   border-color: var(--mid-col);
 }
 
+
+/* --- Layout width tweaks: make main content wider on large screens --- */
+@media (min-width: 1200px) {
+  /* widen the outer container so pages can use more horizontal space */
+  .container {
+    max-width: 1400px; /* was ~1140; increase as desired */
+  }
+
+  /* widen main content areas but keep readable line lengths */
+  .page, .post, .page-content, .main-content, .blog-post, .post-body, .page-body {
+    max-width: 90ch; /* choose 65-90ch for readable lines, 90ch is large but acceptable on wide screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* allow research-group specific sections to take more width if needed */
+  /* .research-group .container, .research-group .row {
+    max-width: 100%;
+  } */
+}
 .blog-post blockquote {
   padding: 0.625rem 1.25rem;
   margin: 0 0 1.25rem;
