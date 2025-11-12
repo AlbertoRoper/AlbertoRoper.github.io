@@ -1055,18 +1055,7 @@ pre {
     max-width: 100%;
   } */
 
-  /* Override the centered column used by the page layout (col-xl-8 offset-xl-2)
-     to make the main content area wider while keeping it centered. */
-  main.container-md > .row > .col-xl-8.offset-xl-2,
-  .main-content > .row > .col-xl-8.offset-xl-2 {
-    /* expand to full width of the container so internal .container elements can use full space */
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+  /* (removed site-wide centered-column expansion to avoid shifting content on all pages) */
 }
 
 /* Ensure the default centered column used by page layouts stays centered and constrained */

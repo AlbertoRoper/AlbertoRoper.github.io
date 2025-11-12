@@ -8,7 +8,6 @@ title: Research group
 #### Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/208807): ***"Exploring the early Universe with gravitational waves and primordial magnetic field"s***.
 
 <div class="container">
-  <div class="row">
     {% for person in site.data.collaborators %}
       {% if person.tags contains "group_member" %}
         <div class="row align-items-center mb-4">
@@ -26,13 +25,11 @@ title: Research group
         </div>
       {% endif %}
     {% endfor %}
-    </div>
 </div>
 
 ### Former members
 
 <div class="container">
-  <div class="row">
     {% for person in site.data.collaborators %}
       {% if person.tags contains "former_member" %}
         <div class="row align-items-center mb-4">
@@ -50,7 +47,6 @@ title: Research group
         </div>
     {% endif %}
   {% endfor %}
-    </div>
 </div>
 
 #### Publications related to the Ambizione grant:
