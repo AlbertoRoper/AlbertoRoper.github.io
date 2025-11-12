@@ -13,7 +13,7 @@
   img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://cosmology.unige.ch/users/chiara-caprini"
-  tags: ["sound_waves", "turbulence_GWs", "multi_messenger", "higgsless"]
+  tags: ["sound_waves", "turbulence_GWs", "multi-messenger", "higgsless"]
 
 - firstname: "Antonino S."
   lastname: "Midiri"
@@ -77,7 +77,7 @@
   # img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://people.epfl.ch/andrii.neronov?lang=en"
-  tags: ["multi_messenger"]
+  tags: ["multi-messenger"]
 
 - firstname: "Dmitri"
   lastname: "Semikoz"
@@ -85,7 +85,7 @@
   # img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   # url: "https://people.epfl.ch/andrii.neronov?lang=en"
-  tags: ["multi_messenger"]
+  tags: ["multi-messenger"]
 
 - firstname: "Axel"
   lastname: "Brandenburg"

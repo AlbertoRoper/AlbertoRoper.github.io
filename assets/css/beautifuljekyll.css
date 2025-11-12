@@ -1131,7 +1131,7 @@ pre {
 /* Collaborator row: keep all person-cards on a single horizontal row */
 .collaborator-row {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* explicit 4 columns */
+  grid-template-columns: repeat(4, 1fr); /* explicit 4 columns */
   gap: 0.1rem;
   padding: 0.4rem 0.15rem;
 }

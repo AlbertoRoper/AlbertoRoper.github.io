@@ -53,10 +53,10 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
 
 #### Main collaborators
-{% include collaborators-by-tag.html tag="multi_messenger" %}
+{% include collaborators-by-tag.html tag="multi-messenger" %}
 
 #### Publications:
-{% include publications-by-tag.html tag="multi_messenger" %}
+{% include publications-by-tag.html tag="multi-messenger" %}
 
 ## Evolution of primordial magnetic fields in the early Universe
 

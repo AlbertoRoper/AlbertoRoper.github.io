@@ -96,7 +96,7 @@
   volume: "105"
   page: "123502"
   arxiv: 2201.05630
-  tags: ["multi_messenger", "published"]
+  tags: ["multi-messenger", "published"]
 
 - title: "Leading-order nonlinear gravitational waves from reheating magnetogeneses"
   authors: "Y. He, A. Roper Pol, A. Brandenburg"
