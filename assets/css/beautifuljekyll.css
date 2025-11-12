@@ -1025,7 +1025,7 @@ pre {
 @media (min-width: 1200px) {
   /* widen the outer container so pages can use more horizontal space */
   .container {
-    max-width: 1600px; /* was ~1140; increase as desired */
+    max-width: 1400px; /* was ~1140; increase as desired */
   }
 
   /* also widen the container-md used by layouts */
@@ -1052,8 +1052,8 @@ pre {
     /* expand to full width of the container so internal .container elements can use full space */
     flex: 0 0 100% !important;
     max-width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    margin-left: 20% !important;
+    margin-right: 20% !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
