@@ -1025,7 +1025,7 @@ pre {
 @media (min-width: 1200px) {
   /* widen the outer container so pages can use more horizontal space */
   .container {
-    max-width: 1400px; /* was ~1140; increase as desired */
+    max-width: 1600px; /* was ~1140; increase as desired */
   }
 
   /* widen main content areas but keep readable line lengths */
