@@ -4,9 +4,7 @@ title: Research group
 full-width: true
 ---
 
-<!-- ## Research group -->
-
-#### Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/208807): ***"Exploring the early Universe with gravitational waves and primordial magnetic field"s***.
+Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/208807): ***"Exploring the early Universe with gravitational waves and primordial magnetic field"s***.
 
 <div class="container">
     {% for person in site.data.collaborators %}
