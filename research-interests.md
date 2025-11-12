@@ -11,19 +11,19 @@ When these bubbles collide, they lead to the production of gravitational waves a
 Both experiments can be used to probe the early Universe at the QCD and the electroweak scale, respectively.a
 
 The main sources of gravitational waves from first-order phase transitions:
-- Sound waves: compressional fluid motion in the linearized regime (small fluid perturbations)
-- Turbulence: compressional (acoustic turbulence) and vortical motion of the fluid perturbations in the linear regime
-- Bubble collisions: gradients of the scalar field
+- *Sound waves*: compressional fluid motion in the linearized regime (small fluid perturbations)
+- *Turbulence*: compressional (acoustic turbulence) and vortical motion of the fluid perturbations in the linear regime
+- *Bubble collisions*: gradients of the scalar field
 
 ### Gravitational waves from sound waves
 
 The sound-shell model assumes that the fluid perturbations are a linearized superposition of sound waves produced from each of the bubbles after they have collided. This model allows to reproduce the gravitational wave signal for weak phase transitions when the fluid perturbations are small.
 
+#### Main collaborators
+{% include collaborators-by-tag.html tag="sound_waves" %}
+
 #### Publications:
 {% include publications-by-tag.html tag="sound_waves" %}
-
-## Main collaborators
-{% include collaborators-by-tag.html tag="sound_waves" %}
 
 <!-- <div class="container">
   <div class="collaborator-row">
