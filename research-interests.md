@@ -48,6 +48,14 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 #### Publications:
 {% include publications-by-tag.html tag="turbulence_GWs" %}
 
+### Propagation of gravitational waves in modified theories of gravity
+
+#### Main collaborators
+{% include collaborators-by-tag.html tag="modified_gravity" %}
+
+#### Publications:
+{% include publications-by-tag.html tag="modified_gravity" %}
+
 ## Primordial magnetic fields
 
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
