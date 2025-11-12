@@ -101,7 +101,7 @@
   img: "/assets/img/tina_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://www.cmu.edu/physics/people/faculty/kahniashvili.html"
-  tags: ["turbulence_GWs, primordial_MFs"]
+  tags: ["turbulence_GWs", "primordial_MFs"]
 
 - firstname: "Arthur"
   lastname: "Kosowsky"
