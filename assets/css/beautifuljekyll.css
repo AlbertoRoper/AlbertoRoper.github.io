@@ -1069,6 +1069,18 @@ pre {
   }
 }
 
+/* Ensure the default centered column used by page layouts stays centered and constrained */
+@media (min-width: 1200px) {
+  main.container-md > .row > .col-xl-8.offset-xl-2,
+  main.container-md > .row > .col {
+    max-width: 900px; /* keep the page column reasonably narrow */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
 /* add comfortable inner padding so headings and text are not flush to the edge */
 @media (min-width: 1200px) {
   main.container-md, .main-content {
