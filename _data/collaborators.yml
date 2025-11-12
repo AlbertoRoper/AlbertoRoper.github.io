@@ -1,7 +1,7 @@
 
 - firstname: "Alberto"
   lastname: "Roper Pol"
-  role: "PI (2023-) at University of Geneva"
+  role: "PI at University of Geneva (2023-)"
   img: "/assets/img/photo_profile.jpeg"
   url: "https://cosmology.unige.ch/users/alberto-roper-pol"
   bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
@@ -9,19 +9,19 @@
 
 - firstname: "Antonino S."
   lastname: "Midiri"
-  role: "PhD student (2023-) at University of Geneva"
+  role: "PhD student at University of Geneva (2023-)"
   img: "/assets/img/antonino_pic.jpg"
   bio: "The main area of interest for me in Theoretical Physics is High-Energy-Physics, in particular in relation with Early Universe Cosmology. I am currently focused on analytical studies and numerical simulations of the Gravitational Waves and Primordial Magnetic Fields produced from MHD turbulence and sound waves during a First-Order Phase Transition in the Early Universe."
   url: "https://cosmology.unige.ch/users/antonino-midiri"
-  tags: ["group_member"]
+  tags: ["group_member", "sound_waves", "primordial_MFs"]
 
 - firstname: "Madeline"
   lastname: "Salomé"
-  role: "MS student (2024-2025) at EPFL, currently PhD student IP2I Lyon"
+  role: "MS student at EPFL (2024-2025), currently PhD student IP2I Lyon"
   img: "/assets/img/madeline_pic.jpg"
   bio: "I am passionate about Gravitational Waves and Cosmology in general. I am currently working on stochastic Gravitational Waves from MHD sources in the early Universe."
   url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
-  tags: ["former_member"]
+  tags: ["former_member", "sound_waves"]
 
 - firstname: "Chiara"
   lastname: "Caprini"
@@ -29,7 +29,7 @@
   img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://cosmology.unige.ch/users/chiara-caprini"
-  tags: ["phase_transitions"]
+  tags: ["sound_waves"]
 
 - firstname: "Simona"
   lastname: "Procacci"
@@ -37,7 +37,7 @@
   img: "/assets/img/procacci_pic.jpg"
   # bio: "Simulations and early-Universe phenomenology."
   # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
-  tags: ["phase_transitions"]
+  tags: ["sound_waves", "turbulence_GWs"]
 
 - firstname: "Isak"
   lastname: "Stomberg"
@@ -93,7 +93,7 @@
   img: "/assets/img/brandenburg_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://axelbrandenburg.github.io/"
-  tags: ["turbulence_GWs"]
+  tags: ["turbulence_GWs", "primordial_MFs"]
 
 - firstname: "Tina"
   lastname: "Kahniashvili"
@@ -118,3 +118,11 @@
   # bio: "Works on primordial magnetic fields and gravitational waves."
   # url: "https://www.physicsandastronomy.pitt.edu/people/arthur-kosowsky"
   tags: ["turbulence_GWs"]
+
+- firstname: "Tanmay"
+  lastname: "Vachaspati"
+  role: "Professor at Arizona State University"
+  # img: "/assets/img/mandal_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  # url: "https://www.physicsandastronomy.pitt.edu/people/arthur-kosowsky"
+  tags: ["primordial_MFs"]
