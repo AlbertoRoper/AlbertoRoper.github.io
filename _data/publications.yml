@@ -3,14 +3,14 @@
   year: 2025
   journal: "Rep. Prog. Phys."
   arxiv: 2501.05732
-  tags: ["group_research", "submitted"]
+  tags: ["ambizione", "submitted"]
 
 - title: "LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
   authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, D. Semikoz"
   year: 2023
   journal: "Astron. Astrophys."
   arxiv: 2307.10744
-  tags: ["multi-messenger", "submitted"]
+  tags: ["multi-messenger", "ambizione", "submitted"]
 
 - title: "Gravitational waves from first-order phase transitions: from weak to strong"
   authors: "C. Caprini, R. Jinno, T. Konstandin, A. Roper Pol, H. Rubira, I. Stomberg"
@@ -19,14 +19,14 @@
   volume: "07"
   page: "217"
   arxiv: 2409.03651
-  tags: ["higgsless", "published"]
+  tags: ["higgsless", "ambizione", "published"]
 
 - title: "Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion"
   authors: "I. Stomberg, A. Roper Pol"
   year: 2025
   proceedings: "Proceedings of the 59th Rencontres de Moriond on Gravitation"
   arxiv: 2508.04263
-  tags: ["higgsless", "proceedings"]
+  tags: ["higgsless", "ambizione", "proceedings"]
 
 - title: "Gravitational waves from MHD turbulence at the QCD phase transition as a source for Pulsar Timing Arrays"
   authors: "A. Roper Pol"
@@ -46,7 +46,7 @@
   authors: "[LGWA Collaboration] (incl. A. Roper Pol)"
   year: 2025
   journal: "J. Cosmol. Astropart. Phys."
-  tags: ["LGWA", "collaboration", "published"]
+  tags: ["LGWA", "ambizione", "collaboration", "published"]
   volume: "01"
   page: "108"
   arxiv: 2404.09181
@@ -58,7 +58,7 @@
   volume: "10"
   page: "020"
   arxiv: 2403.03723
-  tags: ["LISA", "collaboration", "published"]
+  tags: ["LISA", "collaboration", "ambizione", "published"]
 
 - title: "The second data release from the European Pulsar Timing Array IV: Implications for massive black holes, dark matter and the early Universe"
   authors: "[EPTA and InPTA Collaborations] (incl. A. Roper Pol)"
@@ -67,7 +67,7 @@
   volume: "685"
   page: "A94"
   arxiv: 2306.16227
-  tags: ["EPTA", "collaboration", "published"]
+  tags: ["EPTA", "collaboration", "ambizione", "published"]
 
 - title: "Characterization of the gravitational wave spectrum from sound waves within the sound shell model"
   authors: "A. Roper Pol, S. Procacci, C. Caprini"
@@ -76,7 +76,7 @@
   volume: "109"
   page: "063531"
   arxiv: 2308.12943
-  tags: ["phase_transitions", "published"]
+  tags: ["phase_transitions", "ambizione", "published"]
 
 - title: "Cosmology with the Laser Interferometer Space Antenna"
   authors: "[LISA Cosmology Working Group] (incl. A. Roper Pol)"
@@ -94,7 +94,7 @@
   volume: "06"
   page: "025"
   arxiv: 2212.06082
-  tags: ["mod_gravity", "published"]
+  tags: ["mod_gravity", "ambizione", "published"]
 
 - title: "The gravitational wave signal from primordial magnetic fields in the Pulsar Timing Array frequency band"
   authors: "A. Roper Pol, C. Caprini, A. Neronov, and D. Semikoz"
