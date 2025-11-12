@@ -36,7 +36,6 @@ Parameters:
 
 <div class="container">
   <ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
-    Attributes of list: {{ ol_attrs }}
     {% for pub in matches %}
     <li>
         {{ pub.authors }}, <em>{{ pub.title }},</em>
