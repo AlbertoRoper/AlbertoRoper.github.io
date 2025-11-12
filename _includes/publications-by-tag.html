@@ -25,9 +25,10 @@ Parameters:
   {%- endif -%}
 {%- endfor -%}
 
-{%- if matches.size > 0 -%}
-  {%- assign matches = matches | sort: "year" | reverse -%}
-{%- endif -%}
+{%- comment -%}
+Preserve the original order from site.data.publications. Do not sort here so the visual order stays as in the data file.
+If you want newest-first later, we can add a parameter to sort. For now keep the provided order.
+{%- endcomment -%}
 
 {%- comment -%} determine start attribute: if reversed and no start provided, use matches.size {%- endcomment -%}
 {%- assign start_provided = include.start -%}
