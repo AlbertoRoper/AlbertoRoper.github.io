@@ -1028,6 +1028,11 @@ pre {
     max-width: 1600px; /* was ~1140; increase as desired */
   }
 
+  /* also widen the container-md used by layouts */
+  .container-md {
+    max-width: 1600px;
+  }
+
   /* widen main content areas but keep readable line lengths */
   .page, .post, .page-content, .main-content, .blog-post, .post-body, .page-body {
     max-width: 90ch; /* choose 65-90ch for readable lines, 90ch is large but acceptable on wide screens */
@@ -1039,6 +1044,16 @@ pre {
   /* .research-group .container, .research-group .row {
     max-width: 100%;
   } */
+
+  /* Override the centered column used by the page layout (col-xl-8 offset-xl-2)
+     to make the main content area wider while keeping it centered. */
+  main.container-md > .row > .col-xl-8.offset-xl-2,
+  .main-content > .row > .col-xl-8.offset-xl-2 {
+    flex: 0 0 88%;
+    max-width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
 }
 .blog-post blockquote {
   padding: 0.625rem 1.25rem;
