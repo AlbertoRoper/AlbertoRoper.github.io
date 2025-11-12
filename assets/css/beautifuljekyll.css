@@ -1059,6 +1059,25 @@ pre {
   }
 }
 
+/* add comfortable inner padding so headings and text are not flush to the edge */
+@media (min-width: 1200px) {
+  main.container-md, .main-content {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  main.container-md .container, main.container-md .container-md {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /* ensure header intro area keeps some side gutters */
+  .intro-header .container-md, .intro-header .container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
 @media (min-width: 1200px) {
   /* make inner .container elements inside main.container-md full width */
   main.container-md .container,
