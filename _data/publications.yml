@@ -5,13 +5,6 @@
   arxiv: 2501.05732
   tags: ["ambizione", "submitted"]
 
-- title: "LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
-  authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, D. Semikoz"
-  year: 2023
-  journal: "Astron. Astrophys."
-  arxiv: 2307.10744
-  tags: ["multi-messenger", "ambizione", "submitted"]
-
 - title: "Gravitational waves from first-order phase transitions: from weak to strong"
   authors: "C. Caprini, R. Jinno, T. Konstandin, A. Roper Pol, H. Rubira, I. Stomberg"
   year: 2025
@@ -59,6 +52,13 @@
   page: "020"
   arxiv: 2403.03723
   tags: ["LISA", "collaboration", "ambizione", "published"]
+
+- title: "LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
+  authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, D. Semikoz"
+  year: 2023
+  journal: "Astron. Astrophys."
+  arxiv: 2307.10744
+  tags: ["multi-messenger", "ambizione", "submitted"]
 
 - title: "The second data release from the European Pulsar Timing Array IV: Implications for massive black holes, dark matter and the early Universe"
   authors: "[EPTA and InPTA Collaborations] (incl. A. Roper Pol)"

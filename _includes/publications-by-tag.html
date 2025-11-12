@@ -53,6 +53,7 @@ If you want newest-first later, we can add a parameter to sort. For now keep the
 
 <div class="container">
   <ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
+    Attributes of list: {{ ol_attrs }}
     {% if matches.size == 0 %}
       <li><em>No publications listed under '{{ tag }}'.</em></li>
     {% else %}
