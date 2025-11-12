@@ -1101,16 +1101,8 @@ main.container-md h4 {
   }
 }
 
-@media (min-width: 1200px) {
-  /* make inner .container elements inside main.container-md full width */
-  main.container-md .container,
-  main.container-md .container-md {
-    max-width: 100% !important;
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important;
-    width: 100% !important;
-  }
-}
+/* Removed forcing inner .container to full width inside main.container-md to avoid
+   nested containers spanning the viewport and misaligning page content. */
 .blog-post blockquote {
   padding: 0.625rem 1.25rem;
   margin: 0 0 1.25rem;
