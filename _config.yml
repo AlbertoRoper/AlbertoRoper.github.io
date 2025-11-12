@@ -28,10 +28,9 @@ navbar-links:
   CV: "cv"
   Research group: "research-group"
   Publications: "publications"
-  Research:
-    - Research interests: "research-interests"
-    - Meetings and schools: "meetings"
-    - Code development: "code-development"
+  Research interests: "research-interests"
+  Meetings and schools: "meetings"
+  Code development: "code-development"
 
 ################
 # --- Logo --- #
