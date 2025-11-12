@@ -1132,7 +1132,7 @@ pre {
 .collaborator-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* explicit 4 columns */
-  gap: 0.5rem;
+  gap: 0.1rem;
   padding: 0.4rem 0.15rem;
 }
 
