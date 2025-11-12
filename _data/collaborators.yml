@@ -93,7 +93,13 @@
   img: "/assets/img/brandenburg_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://axelbrandenburg.github.io/"
-  tags: ["turbulence_GWs", "primordial_MFs"]
+  tags: ["turbulence_GWs", "primordial_MFs", "modified_gravity"]
+
+- firstname: "Yutong"
+  lastname: "He"
+  role: "PhD student at Stockholm University (2021-2024)"
+  img: "/assets/img/yutong_pic.jpg"
+  tags: ["modified_gravity"]
 
 - firstname: "Tina"
   lastname: "Kahniashvili"
