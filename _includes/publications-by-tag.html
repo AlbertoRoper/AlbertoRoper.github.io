@@ -64,7 +64,7 @@ Parameters:
             {% if pub.page %} {{ pub.page }},{% endif %}
             ({{ pub.year }})
           {% elsif pub.tags contains "submitted" %}
-            <em>Submitted to {{ pub.journal }}</em> ({{ pub.year }})
+            <em>submitted to {{ pub.journal }}</em> ({{ pub.year }})
           {% elsif pub.tags contains "proceedings" %}
             <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
           {% else %}
@@ -74,11 +74,12 @@ Parameters:
               ({{ pub.year }})
             {% endif %}
           {% endif %}
+          {% if pub.arxiv %}
+            , arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
+          {% else %} .
+          {% endif %}
           {% if pub.url %}
             <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
-          {% endif %}
-          {% if pub.arxiv %}
-            <br>arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>
           {% endif %}
         </li>
       {% endfor %}
