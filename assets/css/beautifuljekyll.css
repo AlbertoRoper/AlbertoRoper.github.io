@@ -1035,7 +1035,7 @@ pre {
 @media (min-width: 1200px) {
   /* widen the outer container so pages can use more horizontal space */
   .container {
-    max-width: 1200px; /* was ~1140; increase as desired */
+    max-width: 1400px; /* was ~1140; increased to give more horizontal space */
   }
 
   /* also widen the container-md used by layouts */
@@ -1045,7 +1045,7 @@ pre {
 
   /* widen main content areas but keep readable line lengths */
   .page, .post, .page-content, .main-content, .blog-post, .post-body, .page-body {
-    max-width: 65ch; /* narrower readable lines for better readability on wide screens */
+    max-width: 80ch; /* wider readable lines while keeping centered and readable */
     margin-left: auto;
     margin-right: auto;
   }
