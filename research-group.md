@@ -54,4 +54,4 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 </div>
 
 #### Publications related to the Ambizione grant:
-{% include publications-by-tag.html tag="ambizione" %}
+{% include publications-by-tag.html tag="ambizione" reversed=true %}
