@@ -25,66 +25,45 @@ Parameters:
   {%- endif -%}
 {%- endfor -%}
 
-{%- comment -%}
-Preserve the original order from site.data.publications. Do not sort here so the visual order stays as in the data file.
-If you want newest-first later, we can add a parameter to sort. For now keep the provided order.
-{%- endcomment -%}
-
-{%- comment -%} determine start attribute: if reversed and no start provided, use matches.size {%- endcomment -%}
-{%- assign start_provided = include.start -%}
-{%- if (reversed == true or reversed == "true") -%}
-  {%- if start_provided == nil or start_provided == "" -%}
-    {%- assign start_attr = matches.size -%}
-  {%- else -%}
-    {%- assign start_attr = start_provided -%}
-  {%- endif -%}
-{%- else -%}
-  {%- assign start_attr = start_provided | default: 0 -%}
-{%- endif -%}
-
 {%- if include.title -%}
   <h3>{{ include.title }}</h3>
 {%- endif -%}
 
 {%- capture ol_attrs -%}
-{%- if reversed == true or reversed == "true" -%} {{ reversed }} {%- endif -%}
+{%- if reversed == true or reversed == "true" -%} "reversed" {%- endif -%}
 {%- if start_attr and start_attr != 0 -%} start="{{ start_attr }}"{%- endif -%}
 {%- endcapture -%}
 
 <div class="container">
   <ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
     Attributes of list: {{ ol_attrs }}
-    {% if matches.size == 0 %}
-      <li><em>No publications listed under '{{ tag }}'.</em></li>
-    {% else %}
-      {% for pub in matches %}
-        <li>
-          {{ pub.authors }}, <em>{{ pub.title }},</em>
-          {% if pub.journal and pub.tags contains "published" %}
-            <em>{{ pub.journal }},</em>
-            {% if pub.volume %}<strong>{{pub.volume}}</strong>,{% endif %}
-            {% if pub.page %} {{ pub.page }},{% endif %}
+    {% for pub in matches %}
+    <li>
+        {{ pub.authors }}, <em>{{ pub.title }},</em>
+        {% if pub.journal and pub.tags contains "published" %}
+        <em>{{ pub.journal }},</em>
+        {% if pub.volume %}<strong>{{pub.volume}}</strong>,{% endif %}
+        {% if pub.page %} {{ pub.page }},{% endif %}
+        ({{ pub.year }})
+        {% elsif pub.tags contains "submitted" %}
+        <em>submitted to {{ pub.journal }}</em> ({{ pub.year }})
+        {% elsif pub.tags contains "proceedings" %}
+        <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
+        {% else %}
+        {% if pub.journal %}
+            <em>{{ pub.journal }}</em> ({{ pub.year }})
+        {% else %}
             ({{ pub.year }})
-          {% elsif pub.tags contains "submitted" %}
-            <em>submitted to {{ pub.journal }}</em> ({{ pub.year }})
-          {% elsif pub.tags contains "proceedings" %}
-            <em>Contribution to {{ pub.proceedings }}</em> ({{ pub.year }})
-          {% else %}
-            {% if pub.journal %}
-              <em>{{ pub.journal }}</em> ({{ pub.year }})
-            {% else %}
-              ({{ pub.year }})
-            {% endif %}
-          {% endif %}
-          {% if pub.arxiv %}
-            , arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
-          {% else %} .
-          {% endif %}
-          {% if pub.url %}
-            <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    {% endif %}
+        {% endif %}
+        {% endif %}
+        {% if pub.arxiv %}
+        , arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
+        {% else %} .
+        {% endif %}
+        {% if pub.url %}
+        <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
+        {% endif %}
+    </li>
+    {% endfor %}
   </ol>
 </div>
