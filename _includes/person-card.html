@@ -1,6 +1,6 @@
 <div class="person-card">
   {% if include.img %}
-    <img src="{{ include.img | relative_url }}" alt="{{ include.first_name }} {{ include.last_name }}" class="person-avatar-lg rounded-circle">
+    <img src="{{ include.img | relative_url }}" alt="{{ include.first_name }} {{ include.last_name }}" class="rounded-circle person-avatar-lg">
   {% endif %}
   <div class="person-name">
     <div class="person-first">{{ include.first_name }}</div>
@@ -8,5 +8,5 @@
   </div>
   {% if include.role %}<div class="person-role text-muted">{{ include.role }}</div>{% endif %}
   {% if include.bio %}<div class="person-bio">{{ include.bio }}</div>{% endif %}
-  {% if include.url %}<div class="person-action"><a class="btn btn-sm btn-outline-primary" href="{{ include.url }}" target="_blank" rel="noopener">Profile</a></div>{% endif %}
+  {% if include.url %}<div class="person-action"><a class="btn btn-sm btn-outline-primary" href="{{ include.url }}" target="_blank" rel="noopener">Website</a></div>{% endif %}
 </div>

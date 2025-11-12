@@ -25,25 +25,6 @@ The sound-shell model assumes that the fluid perturbations are a linearized supe
 #### Publications:
 {% include publications-by-tag.html tag="sound_waves" %}
 
-<!-- <div class="container">
-  <div class="collaborator-row">
-    {% for person in site.data.collaborators %}
-      {% if person.tags and person.tags contains "phase_transitions" %}
-        {% include person-card2.html
-            first_name=person.firstname
-            last_name=person.lastname
-            img=person.img
-            role=person.role
-            bio=person.bio
-            url=person.url %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</div> -->
-
-<!-- #### Publications:
-{% include publications-by-tag.html tag="phase_transitions" %} -->
-
 ### Gravitational waves from phase transitions
 
 Under the Higgsless approach, the fluid motion induced by the phase transitions can be studied by integrating out the dynamics of the scalar field, which occur within the bubble wall thickness, usually many orders of magnitude smaller than the fluid scales. This method allows to reduce the separation of scales between the fluid and the scalar field and capture most of the dynamics of the plasma in a first-order phase transition.
@@ -72,26 +53,16 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
   </div>
 </div>
 
+#### Main collaborators
+{% include collaborators-by-tag.html tag="turbulence_GWs" %}
+
 #### Publications:
 {% include publications-by-tag.html tag="turbulence_GWs" %}
 
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
 
-<div class="container">
-  <div class="collaborator-row">
-    {% for person in site.data.collaborators %}
-      {% if person.tags and person.tags contains "multi_messenger" %}
-        {% include person-card2.html
-            first_name=person.firstname
-            last_name=person.lastname
-            img=person.img
-            role=person.role
-            bio=person.bio
-            url=person.url %}
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
+#### Main collaborators
+{% include collaborators-by-tag.html tag="multi_messenger" %}
 
 #### Publications:
-{% include publications-by-tag.html tag="multi-messenger"%}
+{% include publications-by-tag.html tag="multi_messenger" %}

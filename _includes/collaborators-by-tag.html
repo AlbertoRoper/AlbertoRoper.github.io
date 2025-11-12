@@ -5,7 +5,7 @@
   <div class="collaborator-row">
     {% for person in site.data.collaborators %}
       {% if person.tags and person.tags contains tag %}
-        {% include person-card2.html
+        {% include person-card.html
             first_name=person.firstname
             last_name=person.lastname
             img=person.img
