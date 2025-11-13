@@ -13,7 +13,9 @@ In order to contribute to collaborative projects like [CosmoGW](https://github.c
 {: .box-note}
 **Note:** If you are interested in becoming a developer of CosmoGW, contact me at my email [alberto.roperpol@unige.ch](emailto:alberto.roperpol@unige.ch).
 
-1. ***Create a repository (public or private) where you (and your collaborators) can work on modifications***
+<li>
+
+***Create a repository (public or private) where you (and your collaborators) can work on modifications***
 
 In first place, create a new empty repository (public or private) under the organization, where you will make updates. For this example, we will name the repository `test`
 
@@ -24,9 +26,11 @@ git clone https://USERNAME@github.com/CosmoGW/test.git
 {: .box-note}
 **Note:** Change USERNAME by your registered username in the CosmoGW organization
 
-<ol>
+</li>
 
-<li> ***Fetch and rebase the public repo CosmoGW to your repo***
+<li>
+
+***Fetch and rebase the public repo CosmoGW to your repo***
 
 Once you have cloned the new repository, add the original public repo CosmoGW as remote to fetch future changes. This will allow you to periodically pull new changes made in the public CosmoGW repo.
 
@@ -75,7 +79,9 @@ Successfully rebased and updated refs/heads/main.
 ```
 </li>
 
-<li> ***Push your local repo to the remote repo***
+<li>
+
+***Push your local repo to the remote repo***
 
 Once you have rebased, then you need to push to origin, which corresponds to your remote version `test` (public or private) where you can freely work on your modifications.
 
