@@ -87,4 +87,26 @@ git push
 
 If you are working alone in the repo, the recommended is to just modify the main branch, while if you are working with other people in your own repo you should use development branches and create a pull request.
 
-## Creating a repository to work publicly or privately on your modifications {#developments}
+## Making developments on your new repo {#developments}
+
+Once you have succesfully created your new repo or you have access to an existing one, the simplest way is to contribute to the main branch.
+
+{: .box-note}
+**Note:** The main branch of your new repo is similar to having created a branch in the original repo. However, it gives you the flexibility of this branch to exist as a separate repository. Therefore, unless you are collaborating with multiple people and you want to keep separate projects or developments, you do not need to create additional branches in your new repo.
+
+You are then ready to make your own developments locally and, when you want to push your local changes you should follow these steps:
+
+1. ***Update the main branch with the public CosmoGW***
+
+You first need to make sure that the remote branch is synced with the new updates of your upstream repo. For this purpose, make sure you are in the `main` branch by checking
+
+```bash
+git branch
+```
+
+You should see the list of branches and highlighted the `main` branch. If you are not in the main branch (for example if you are working with multiple branches), make sure to commit all your local changes and then checkout the `main` branch,
+
+```bash
+git checkout main
+```
+
