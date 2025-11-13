@@ -1,0 +1,27 @@
+- description: "Invited main colloquium seminar"
+  venue: "Max Planck Institute for Radio Astronomy"
+  location: "Bonn, Germany"
+  date: "2025-05-12"
+  title: "Multi-messenger searches of primordial magnetic fields and gravitational waves"
+  tags: ["multi-messenger", "invited"]
+
+- description: "Invited plenary speaker"
+  venue: "Invisibles 25 workshop"
+  location: "CERN, Switzerland"
+  date: "2025-05-09"
+  title: "Cosmological magnetic fields"
+  tags: ["primrordial_MFs", "invited"]
+
+- description: "Invited speaker"
+  venue: "4th Gravitational Wave Probes of Physics Beyond the Standard Model conference"
+  location: "University of Warsaw, Poland"
+  date: "2025-07-08"
+  title: "Gravitational wave spectra produced from first-order phase transitions: sound waves and MHD turbulence"
+  tags: ["GWs", "invited"]
+
+- description: "Seminar"
+  venue: "CosmoFondue conference"
+  location: "University of Geneva, Switzerland"
+  date: "2025-06-11"
+  title: "Gravitational waves from phase transitions"
+  tags: ["GWs"]
