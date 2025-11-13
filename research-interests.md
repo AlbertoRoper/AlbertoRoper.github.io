@@ -8,7 +8,7 @@ My main research interests focus on the study of [gravitational waves from the e
 # Gravitational waves from the early Universe {#gws}
 
 #### Collaboration publications:
-{% include publications-by-tag.html tag="collaboration" %}
+{% include publications-by-tag.html tag="collaboration" reversed=true %}
 
 ## Gravitational waves from first-order phase transitions
 
@@ -30,7 +30,7 @@ The sound-shell model assumes that the fluid perturbations are a linearized supe
 {% include collaborators-by-tag.html tag="sound_waves" %}
 
 #### Publications:
-{% include publications-by-tag.html tag="sound_waves" %}
+{% include publications-by-tag.html tag="sound_waves" reversed=true %}
 
 ### Higgsless simulations
 
@@ -40,7 +40,7 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 {% include collaborators-by-tag.html tag="higgsless" %}
 
 #### Publications:
-{% include publications-by-tag.html tag="higgsless" %}
+{% include publications-by-tag.html tag="higgsless" reversed=true %}
 
 ### Gravitational waves from MHD turbulence
 
@@ -48,7 +48,7 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 {% include collaborators-by-tag.html tag="turbulence_GWs" %}
 
 #### Publications:
-{% include publications-by-tag.html tag="turbulence_GWs" %}
+{% include publications-by-tag.html tag="turbulence_GWs" reversed=true %}
 
 ### Propagation of gravitational waves in modified theories of gravity
 
@@ -66,7 +66,7 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 {% include collaborators-by-tag.html tag="multi-messenger" %}
 
 #### Publications:
-{% include publications-by-tag.html tag="multi-messenger" %}
+{% include publications-by-tag.html tag="multi-messenger" reversed=true %}
 
 ## Evolution of primordial magnetic fields in the early Universe
 
@@ -74,4 +74,4 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 {% include collaborators-by-tag.html tag="primordial_MFs" %}
 
 #### Publications:
-{% include publications-by-tag.html tag="primordial_MFs" %}
+{% include publications-by-tag.html tag="primordial_MFs" reversed=true %}
