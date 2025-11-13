@@ -13,10 +13,10 @@ In order to contribute to collaborative projects like [CosmoGW](https://github.c
 {: .box-note}
 **Note:** If you are interested in becoming a developer of CosmoGW, contact me at my email [alberto.roperpol@unige.ch](emailto:alberto.roperpol@unige.ch).
 
-### Creating a repository to work publicly or privately on your modifications
+## Creating a repository to work publicly or privately on your modifications
 
 {: .box-note}
-**Note:** If you are already a member of the `CosmoGW_developments` team, you do not need to follow these steps to make private modifications to `CosmoGW`.
+**Note:** If you are already a member of the `CosmoGW_developments` team, you do not need to follow these steps to make private modifications to `CosmoGW`. You can skip to the next [section](#developments)
 
 1. ***Create a repository (public or private) where you (and your collaborators) can work on modifications***
 
@@ -76,6 +76,7 @@ for each FILE for which you have fixed conflicts. You might need to repeat this 
 ```bash
 Successfully rebased and updated refs/heads/main.
 ```
+
 3. ***Push your local repo to the remote repo***
 
 Once you have rebased, then you need to push to origin, which corresponds to your remote version `test` (public or private) where you can freely work on your modifications.
@@ -85,3 +86,5 @@ git push
 ```
 
 If you are working alone in the repo, the recommended is to just modify the main branch, while if you are working with other people in your own repo you should use development branches and create a pull request.
+
+## Creating a repository to work publicly or privately on your modifications {#developments}

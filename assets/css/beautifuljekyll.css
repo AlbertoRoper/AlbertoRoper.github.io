@@ -1226,6 +1226,25 @@ pre {
 #nav-search-exit:hover {
   color: #000;
 }
+
+/* Ensure ordered lists in content show decimal numbering (override any accidental resets) */
+main.container-md ol,
+.main-content ol,
+.post-body ol,
+.page-body ol,
+article ol {
+  list-style: decimal outside !important;
+  margin-left: 1.5rem !important;
+}
+
+/* If a theme or other CSS removed the native marker, restore marker display */
+main.container-md ol li::marker,
+.main-content ol li::marker,
+.post-body ol li::marker,
+.page-body ol li::marker,
+article ol li::marker {
+  display: list-item !important;
+}
 #nav-search-input {
   text-align: center;
   background: #e7edee;
