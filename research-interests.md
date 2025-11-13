@@ -3,7 +3,7 @@ layout: page
 title: Research interests
 ---
 
-My main research interests focus on the study of [gravitational waves from the early Universe](#gws) and the study of [primordial magnetic fields](*pmfs).
+My main research interests focus on the study of [gravitational waves from the early Universe](#gws) and the study of [primordial magnetic fields](#pmfs).
 
 # Gravitational waves from the early Universe {#gws}
 
