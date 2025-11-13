@@ -10,8 +10,10 @@ author: Alberto Roper Pol
 
 In order to contribute to collaborative projects like [CosmoGW](https://github.com/CosmoGW/CosmoGW), I recommend the following procedure to my collaborators.
 
-{:. box-note}
+{: .box-note}
 **Note:** If you are interested in becoming a developer of CosmoGW, contact me at my email [alberto.roperpol@unige.ch](emailto:alberto.roperpol@unige.ch).
+
+1. ***Create a repository (public or private) where you (and your collaborators) can work on modifications***
 
 In first place, create a new empty repository (public or private) under the organization, where you will make updates. For this example, we will name the repository `test`
 
@@ -21,6 +23,8 @@ git clone https://USERNAME@github.com/CosmoGW/test.git
 
 {: .box-note}
 **Note:** Change USERNAME by your registered username in the CosmoGW organization
+
+1. ***Fetch and rebase the public repo CosmoGW to your repo***
 
 Once you have cloned the new repository, add the original public repo CosmoGW as remote to fetch future changes. This will allow you to periodically pull new changes made in the public CosmoGW repo.
 
@@ -53,10 +57,10 @@ If there are no conflicts, this will automatically update your local copy with t
 {: .box-warning}
 **Warning**: To avoid any conflicts, do not create a README.md file in your empty repo, just keep it empty!
 
-If there are conflicts in some of the files, you will see a CONFLICT error. To fix the conflicts, go to each file and fix the conflicts by modifying the file
+If there are conflicts in some of the files, you will see a CONFLICT error. To fix the conflicts, go to each file and fix them by modifying the corresponding files.
 
 {: .box-note}
-**Note:** Make sure you get rid of all >>> and """ in the files while resolving the conflicts.
+**Note:** Make sure you get rid of all `>>>` and `"""` in the files while resolving the conflicts.
 
 Once you have modified your files to solve the conflict, you should
 ```bash
@@ -67,6 +71,8 @@ for each FILE for which you have fixed conflicts. You might need to repeat this 
 ```bash
 Successfully rebased and updated refs/heads/main.
 ```
+
+1. ***Push your local repo to the remote repo***
 
 Once you have rebased, then you need to push to origin, which corresponds to your remote version `test` (public or private) where you can freely work on your modifications.
 
