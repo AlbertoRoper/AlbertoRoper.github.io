@@ -96,9 +96,24 @@ Once you have succesfully created your new repo or you have access to an existin
 
 You are then ready to make your own developments locally and, when you want to push your local changes you should follow these steps:
 
++ ***Update your local repo with the remote repo***
+
+You first need to make sure that the remote branch is synced with the new updates of your origin (remote) repo.
+For this, you just need to `pull` with the `rebase` option to ensure you keep a linear history of the commits.
+
+```bash
+git pull --rebase
+```
+
+If there are any conflicts, you will need to first fix these conflicts and the creating a commit where you have fixed them. Then, you are ready to push your local changes to the origin repo,
+
+```bash
+git push
+```
+
 + ***Update the main branch with the public CosmoGW***
 
-You first need to make sure that the remote branch is synced with the new updates of your upstream repo. For this purpose, make sure you are in the `main` branch by checking
+The final step is to make sure that the origin repo is synced with the upstream. For this purpose, make sure you are in the `main` branch by checking
 
 ```bash
 git branch
