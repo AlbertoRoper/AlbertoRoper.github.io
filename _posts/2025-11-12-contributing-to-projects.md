@@ -11,3 +11,9 @@ author: Alberto Roper Pol
 In order to contribute to collaborative projects like [CosmoGW](https://github.com/CosmoGW/CosmoGW), I recommend the following procedure to my collaborators.
 
 In first place, create a new empty private repository under the organization, where you will make updates. For this example, we will name the repository `test'
+
+```bash
+git clone https://USERNAME@github.com/CosmoGW/test.git
+```
+{: .box-note}
+**Note:** Change USERNAME by your registered username in the CosmoGW organization
