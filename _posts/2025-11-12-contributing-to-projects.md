@@ -62,7 +62,7 @@ If there are no conflicts, this will automatically update your local copy with t
 {: .box-warning}
 **Warning**: To avoid any conflicts, do not create a README.md file in your empty repo, just keep it empty!
 
-If there are conflicts in some of the files, you will see a CONFLICT error. To fix the conflicts, go to each file and fix them by modifying the corresponding files.
+If there are conflicts in some of the files, you will see a CONFLICT error. To fix the conflicts, go to each file and fix them by modifying the corresponding files. {#rebasing_upstream}
 
 {: .box-note}
 **Note:** Make sure you get rid of all `>>>` and `"""` in the files while resolving the conflicts.
@@ -89,7 +89,7 @@ If you are working alone in the repo, the recommended is to just modify the main
 
 ## Making developments on your new repo {#developments}
 
-Once you have succesfully created your new repo or you have access to an existing one, the simplest way is to contribute to the main branch.
+Once you have succesfully created your new repo or you have access to an existing one, the simplest way is to contribute to the main branch of your new repo.
 
 {: .box-note}
 **Note:** The main branch of your new repo is similar to having created a branch in the original repo. However, it gives you the flexibility of this branch to exist as a separate repository. Therefore, unless you are collaborating with multiple people and you want to keep separate projects or developments, you do not need to create additional branches in your new repo.
@@ -110,3 +110,20 @@ You should see the list of branches and highlighted the `main` branch. If you ar
 git checkout main
 ```
 
+Then follow similar steps as to create the link with the upstream repo:
+
+```bash
+git fetch upstream
+git rebase upstream/main
+```
+
+{: .box-warning}
+**Warning:** It is important that you use `rebase` instead of `merge` here if you want to keep a linear history of the commits. With this option, you will first get all the remote commits and your local commits will be moved to the tip of the history.
+
+If there are any conflicts, you should get a warning. Then, you should fix all conflicts following the same steps as indicated [here](#rebasing_upstream).
+
+Once you have succesfully dealt with all conflicts, you are ready to push your changes to the origin (remote) of the `development` repo.
+
+```bash
+git push
+```
