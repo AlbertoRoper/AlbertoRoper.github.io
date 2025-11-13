@@ -25,7 +25,7 @@ git clone https://USERNAME@github.com/CosmoGW/test.git
 Once you have cloned the new repository, add the original public repo CosmoGW as remote to fetch future changes. This will allow you to periodically pull new changes made in the public CosmoGW repo.
 
 ```bash
-git remote add upstream https://AlbertoRoperA@github.com/CosmoGW/CosmoGW.git
+git remote add upstream https://USERNAME@github.com/CosmoGW/CosmoGW.git
 ```
 
 You can list your remotes with `git remote -v`
@@ -36,10 +36,10 @@ git remote -v
 
 You should see the following:
 ```bash
-origin  https://AlbertoRoper@github.com/CosmoGW/test.git (fetch)
-origin  https://AlbertoRoper@github.com/CosmoGW/test.git (push)
-upstream        https://AlbertoRoper@github.com/CosmoGW/CosmoGW.git (fetch)
-upstream        https://AlbertoRoper@github.com/CosmoGW/CosmoGW.git (push)
+origin  https://USERNAME@github.com/CosmoGW/test.git (fetch)
+origin  https://USERNAME@github.com/CosmoGW/test.git (push)
+upstream        https://USERNAME@github.com/CosmoGW/CosmoGW.git (fetch)
+upstream        https://USERNAME@github.com/CosmoGW/CosmoGW.git (push)
 ```
 
 Whenever you want to pull changes from the upstream (public CosmoGW repo), you need to fetch and rebase in the following way
@@ -48,7 +48,12 @@ git fetch upstream
 git rebase upstream/main
 ```
 
-If there are no conflicts, this will automatically update your local copy with the public repo. If there are conflicts in some of the files, you will see a CONFLICT error. To fix the conflicts, go to each file and fix the conflicts by modifying the file
+If there are no conflicts, this will automatically update your local copy with the public repo.
+
+{: .box-warning}
+**Warning**: To avoid any conflicts, do not create a README.md file in your empty repo, just keep it empty!
+
+If there are conflicts in some of the files, you will see a CONFLICT error. To fix the conflicts, go to each file and fix the conflicts by modifying the file
 
 {: .box-note}
 **Note:** Make sure you get rid of all >>> and """ in the files while resolving the conflicts.
