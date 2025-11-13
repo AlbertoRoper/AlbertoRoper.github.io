@@ -13,6 +13,11 @@ In order to contribute to collaborative projects like [CosmoGW](https://github.c
 {: .box-note}
 **Note:** If you are interested in becoming a developer of CosmoGW, contact me at my email [alberto.roperpol@unige.ch](emailto:alberto.roperpol@unige.ch).
 
+### Creating a repository to work publicly or privately on your modifications
+
+{: .box-note}
+**Note:** If you are already a member of the `CosmoGW_developments` team, you do not need to follow these steps to make private modifications to `CosmoGW`.
+
 1. ***Create a repository (public or private) where you (and your collaborators) can work on modifications***
 
 In first place, create a new empty repository (public or private) under the organization, where you will make updates. For this example, we will name the repository `test`
