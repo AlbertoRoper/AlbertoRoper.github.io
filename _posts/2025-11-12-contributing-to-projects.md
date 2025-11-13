@@ -24,7 +24,9 @@ git clone https://USERNAME@github.com/CosmoGW/test.git
 {: .box-note}
 **Note:** Change USERNAME by your registered username in the CosmoGW organization
 
-1. ***Fetch and rebase the public repo CosmoGW to your repo***
+<ol>
+
+<li> ***Fetch and rebase the public repo CosmoGW to your repo***
 
 Once you have cloned the new repository, add the original public repo CosmoGW as remote to fetch future changes. This will allow you to periodically pull new changes made in the public CosmoGW repo.
 
@@ -71,8 +73,9 @@ for each FILE for which you have fixed conflicts. You might need to repeat this 
 ```bash
 Successfully rebased and updated refs/heads/main.
 ```
+</li>
 
-1. ***Push your local repo to the remote repo***
+<li> ***Push your local repo to the remote repo***
 
 Once you have rebased, then you need to push to origin, which corresponds to your remote version `test` (public or private) where you can freely work on your modifications.
 
@@ -81,3 +84,6 @@ git push
 ```
 
 If you are working alone in the repo, the recommended is to just modify the main branch, while if you are working with other people in your own repo you should use development branches and create a pull request.
+
+</li>
+</ol>
