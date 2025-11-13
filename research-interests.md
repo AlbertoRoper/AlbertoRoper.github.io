@@ -3,7 +3,9 @@ layout: page
 title: Research interests
 ---
 
-# Gravitational waves from the early Universe
+My main research interests focus on the study of [gravitational waves from the early Universe](#gws) and the study of [primordial magnetic fields](*pmfs).
+
+# Gravitational waves from the early Universe {#gws}
 
 #### Collaboration publications:
 {% include publications-by-tag.html tag="collaboration" %}
@@ -56,7 +58,7 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 #### Publications:
 {% include publications-by-tag.html tag="modified_gravity" %}
 
-## Primordial magnetic fields
+## Primordial magnetic fields {#pmfs}
 
 ### Multi-messenger searches of primordial magnetic fields and GWs with LISA and PTA
 
