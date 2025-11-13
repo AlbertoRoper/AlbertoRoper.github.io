@@ -15,5 +15,6 @@ In first place, create a new empty private repository under the organization, wh
 ```bash
 git clone https://USERNAME@github.com/CosmoGW/test.git
 ```
+
 {: .box-note}
 **Note:** Change USERNAME by your registered username in the CosmoGW organization
