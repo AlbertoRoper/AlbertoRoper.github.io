@@ -9,7 +9,9 @@ thumbnail-img: /assets/img/pc_logo.png
 	<h3>Playlist of all lectures</h3>
 	<div style="display:flex;gap:1rem;align-items:flex-start;">
 		<div style="flex:1;min-width:320px;">
-			<iframe id="pc-main-player" src="" style="width:100%;height:360px;border:0;" allowfullscreen></iframe>
+			<div id="pc-main-player-wrap" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
+				<iframe id="pc-main-player" src="" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" title="Pencil Code lecture player" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+			</div>
 		</div>
 		<div style="width:320px;max-height:360px;overflow:auto;border-left:1px solid #eee;padding-left:0.75rem;">
 			<ul id="pc-playlist-list" style="list-style:none;margin:0;padding:0;"></ul>
@@ -44,9 +46,10 @@ document.addEventListener('DOMContentLoaded', function(){
 		return { id, title, iframe: f };
 	});
 
-	// 2) replace each original iframe with a lightweight placeholder so the browser doesn't load all videos
+	// 2) replace each original iframe's responsive wrapper with a lightweight placeholder so the browser doesn't load all videos
 	videos.forEach((v, idx) => {
 		const f = v.iframe;
+		const container = f.parentNode; // the responsive wrapper div created by the include
 		// create placeholder element
 		const placeholder = document.createElement('div');
 		placeholder.className = 'pc-video-placeholder';
@@ -63,22 +66,41 @@ document.addEventListener('DOMContentLoaded', function(){
 		const btn = document.createElement('button');
 		btn.textContent = 'Load video here';
 		btn.className = 'btn btn-sm btn-outline-primary';
-		btn.addEventListener('click', function(){
-			// create iframe lazily and replace placeholder
-			const newIframe = document.createElement('iframe');
-			newIframe.src = 'https://cds.cern.ch/video/' + v.id + '?autoplay=0';
-			newIframe.allow = 'autoplay;fullscreen';
-			newIframe.style.width = '100%';
-			newIframe.style.height = '360px';
-			newIframe.frameBorder = '0';
-			placeholder.parentNode.replaceChild(newIframe, placeholder);
-		});
+				btn.addEventListener('click', function(){
+					// create responsive iframe lazily and replace placeholder
+					const wrap = document.createElement('div');
+					wrap.style.position = 'relative';
+					wrap.style.paddingBottom = '56.25%';
+					wrap.style.height = '0';
+					wrap.style.overflow = 'hidden';
+					wrap.style.maxWidth = '100%';
+					const newIframe = document.createElement('iframe');
+					newIframe.src = 'https://cds.cern.ch/video/' + v.id + '?autoplay=0';
+					newIframe.setAttribute('allow', 'autoplay; fullscreen; encrypted-media; picture-in-picture');
+					newIframe.setAttribute('title', v.title || 'Pencil Code lecture');
+					newIframe.setAttribute('allowfullscreen', '');
+					newIframe.setAttribute('webkitallowfullscreen', '');
+					newIframe.setAttribute('mozallowfullscreen', '');
+					newIframe.style.position = 'absolute';
+					newIframe.style.top = '0';
+					newIframe.style.left = '0';
+					newIframe.style.width = '100%';
+					newIframe.style.height = '100%';
+					newIframe.frameBorder = '0';
+					wrap.appendChild(newIframe);
+					placeholder.parentNode.replaceChild(wrap, placeholder);
+				});
 		placeholder.appendChild(titleEl);
 		placeholder.appendChild(btn);
 
-		// replace the iframe in the DOM with the placeholder
+		// replace the entire responsive wrapper container with the placeholder
 		try {
-			f.parentNode.replaceChild(placeholder, f);
+			if (container && container.parentNode) {
+				container.parentNode.replaceChild(placeholder, container);
+			} else {
+				// fallback: replace the iframe itself
+				f.parentNode.replaceChild(placeholder, f);
+			}
 		} catch (e) {
 			// ignore if already removed
 		}
