@@ -197,7 +197,6 @@ document.addEventListener('DOMContentLoaded', function(){
 4. [Gravitational waves](#gws) (C. Caprini)
 5. [Inflation](#inflation) (R. Sharma)
 6. [First-order phase transitions](#fopts) (A. S. Midiri and I. Stomberg)
-7. [CosmoGW](#cosmoGW) (A. Roper Pol)
 
 **Practice sessions:**
 1. [Getting familiar with the code](#practice0)
@@ -205,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function(){
 3. [Forced helical turbulence](#practice2)
 4. [Free hands-on session](#practicefree)
 5. [Decaying MHD turbulence](#decayingMHD)
-6. [Gravitational waves](#practice_GWs)
+6. [Gravitational waves and CosmoGW](#practice_GWs)
 
 ### Welcome to the Pencil Code school (20/10/2025 9:30am) by A. Roper Pol and A. Brandenburg {#welcome}
 
@@ -227,13 +226,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946837" title="Sound and Alfven waves" %}
 
-### Code lecture 2. Numerical schemes for differential equations (21/10/2025 9:30am) by P. Bourdin and A. Midiri {#numerics}
+### Code lecture 2. Numerical schemes for differential equations (21/10/2025 9:30am) by A. Midiri and P. Bourdin {#numerics}
 
-#### Part A
-{% include cds_video.html id="2946610" title="Numerical schemes Part A" %}
+#### Part A (A. S. Midiri)
+{% include cds_video.html id="2946610" title="Numerical schemes. Part A" %}
 
-#### Part B
-{% include cds_video.html id="2946850" title="Numerical schemes Part B" %}
+#### Part B (P. Bourdin)
+{% include cds_video.html id="2946850" title="Numerical schemes. Part B" %}
 
 ### Code lecture 3. Discrete Fourier transform and power spectra (21/10/2025 12:30pm) by I. Stomberg and S. Candelaresi {#spectra}
 
@@ -294,16 +293,15 @@ document.addEventListener('DOMContentLoaded', function(){
 
 ### Physics lecture 6. First-order phase transitions (23/10/2025 11:30am) by A. S. Midiri and I. Stomberg {#fopts}
 
-{% include cds_video.html id="2947118" title="First-order phase transitions" %}
+Part A (A. S. Midiri)
+{% include cds_video.html id="2947118" title="First-order phase transitions. Part A" %}
 
+Part B (I. Stomberg)
+{% include cds_video.html id="2947209" title="First-order phase transitions. Part B" %}
 
-### Practice session 6. Gravitational waves (24/10/2025 2pm) by A. Roper Pol {#practice_GWs}
+### Practice session 6. Gravitational waves and CosmoGW Python package (24/10/2025 3pm) by A. Roper Pol {#practice_GWs}
 
-{% include cds_video.html id="2947209" title="Practice Gravitational Waves" %}
-
-### Physics lecture 7. CosmoGW Python package (24/10/2025 3pm) by A. Roper Pol {#cosmoGW}
-
-{% include cds_video.html id="2947210" title="CosmoGW" %}
+{% include cds_video.html id="947210" title="CosmoGW" %}
 
 ### School closure (24/10/2025 5:30pm) by A. Roper Pol
 
