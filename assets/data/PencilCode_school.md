@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946583" title="Basics of Pencil Code" %}
 
-{% include download-box.html file="/assets/files/PC_school/Basics of PC.pdf" title="Code lecture 1. Basics of Pencil Code by P. Bourdin" icon="pdf"%}
+{% include download-box.html file="/assets/files/PC_school/Presentation-Bourdin Basics of PC.pdf" title="Code lecture 1. Basics of Pencil Code by P. Bourdin" icon="pdf"%}
 
 ### Practice session 1. Getting familiar with the code (20/10/2025 3pm) by A. Roper Pol {#practice0}
 
