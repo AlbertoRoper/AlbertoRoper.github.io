@@ -205,14 +205,16 @@ img {
   margin: 0.75rem 0 1rem;
 }
 .teaching-images img {
-  width: 80px; /* smaller default size */
+  width: 64px; /* smaller default size */
   max-width: 40%;
   height: auto;
   display: block;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 @media (min-width: 768px) {
-  .teaching-images img { width: 96px; }
+  .teaching-images img { width: 80px; }
 }
 
 /* Teaching item: image left, text right on wider screens */
@@ -224,8 +226,10 @@ img {
   margin: 1rem 0;
 }
 .teaching-item .teaching-thumb img {
-  width: 80px;
-  height: auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
   display: block;
 }
 .teaching-item .teaching-body { max-width: 720px; }
