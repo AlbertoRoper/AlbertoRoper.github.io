@@ -301,6 +301,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946841" title="Accelerating Pencil Code on GPUs" %}
 
+{% include download-box.html file="/assets/files/PC_school/PCA_GPU_session.pdf" title="Code lecture 8. GPU acceleration. Slides by M. Rheinhardt>" icon="pdf" %}
+
 ### Practice session 3. Free hands-on session (22/10/2025 4pm) by A. Roper Pol {#practicefree}
 
 {% include cds_video.html id="2946873" title="Free hands-on session" %}
