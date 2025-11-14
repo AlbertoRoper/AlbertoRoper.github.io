@@ -198,19 +198,17 @@ img {
 }
 
 /* Teaching page small centered images */
-.teaching-images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0.75rem 0 1rem;
-}
 .teaching-images img {
-  width: 64px; /* smaller default size */
+  width: 48px; /* smaller default size */
   max-width: 40%;
   height: auto;
   display: block;
   border-radius: 50%;
   object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .teaching-images img { width: 64px; }
 }
 
 @media (min-width: 768px) {
@@ -226,8 +224,8 @@ img {
   margin: 1rem 0;
 }
 .teaching-item .teaching-thumb img {
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   object-fit: cover;
   display: block;

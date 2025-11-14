@@ -4,7 +4,7 @@ You can find teaching material from courses I have organized or lectured on this
 
 <div class="teaching-item">
 	<div class="teaching-thumb">
-		<img src="/assets/img/pc_logo.png" alt="Pencil Code school logo" />
+		<img src="/assets/img/pc_school_pic.png" alt="Pencil Code school logo" />
 	</div>
 	<div class="teaching-body">
 		<p>On October 2025, I organized the <strong>1st Pencil Code school on early Universe physics and gravitational waves</strong> at CERN, Switzerland.
