@@ -13,7 +13,13 @@
       {%- elsif include.icon_svg -%}
         {{ include.icon_svg }}
       {%- elsif include.icon_img -%}
-        <img class="db-icon db-icon-img" src="{{ include.icon_img | relative_url }}" alt="{{ include.icon_alt | default: include.title | default: 'icon' }}" />
+        {%- assign icon_classes = "db-icon db-icon-img" -%}
+        {%- if include.icon_class -%}
+          {%- assign icon_classes = icon_classes | append: ' ' | append: include.icon_class -%}
+        {%- else -%}
+          {%- assign icon_classes = icon_classes | append: ' db-icon-circle' -%}
+        {%- endif -%}
+        <img class="{{ icon_classes }}" src="{{ include.icon_img | relative_url }}" alt="{{ include.icon_alt | default: include.title | default: 'icon' }}" />
       {%- else -%}
         <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v6h4V9h3.67L12 2z"/></svg>
       {%- endif -%}
