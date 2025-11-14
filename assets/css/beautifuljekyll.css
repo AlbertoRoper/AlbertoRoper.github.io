@@ -103,6 +103,24 @@ h1, h2, h3, h4 {
 /* hide visible title when cover image already includes text; keep accessible sr-only heading */
 .page-cover.no-title .page-cover-inner { padding-top: 0; }
 .sr-only { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0,0,0,0) !important; white-space: nowrap !important; border: 0 !important; }
+
+/* Download box styles (ensure size doesn't wrap to its own line) */
+.download-box-wrapper { margin: 1rem 0; }
+.download-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid #eee;
+  padding: 0.65rem 0.9rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+.download-box .db-left { display: flex; gap: 0.75rem; align-items: center; }
+.download-box .db-meta { line-height: 1; }
+.download-box .label { font-weight: 700; display: block; }
+.download-box .sub { color: #666; font-size: 0.95rem; }
+.download-box .db-size { margin-left: auto; white-space: nowrap; color: #666; font-size: 0.95rem; }
 a {
   color: var(--link-col);
 }
