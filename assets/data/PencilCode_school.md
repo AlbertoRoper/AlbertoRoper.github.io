@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Pencil Code school
+title: Pencil Code school (CERN, October 2025)
 thumbnail-img: /assets/img/pc_logo.png
 ---
 
 **Introduction**
 1. [Welcome to the Pencil Code school](#welcome) (A. Roper Pol and A. Brandenburg)
 2. [Introductions of the lecturers and students](#introductions)
-3. [Concluding the school](#concluding)
+3. [Concluding the school](#concluding) (A. Roper Pol)
 
 **Lectures on Pencil Code:**
 1. [Basics of Pencil Code](#basics) (P. Bourdin)
@@ -39,6 +39,63 @@ thumbnail-img: /assets/img/pc_logo.png
 ### Welcome to the Pencil Code school (20/10/2025 9:30am) by A. Roper Pol and A. Brandenburg {#welcome}
 
 {% include cds_video.html id="2946581" title="Welcome to Pencil Code school" %}
+
+<!-- Playlist block (top-of-page) -->
+<div id="pc-playlist" style="margin:1.5rem 0;padding:0.5rem;border:1px solid #ddd;border-radius:6px;background:#fafafa;">
+	<h3>Lecture playlist</h3>
+	<div style="display:flex;gap:1rem;align-items:flex-start;">
+		<div style="flex:1;min-width:320px;">
+			<iframe id="pc-main-player" src="" style="width:100%;height:360px;border:0;" allowfullscreen></iframe>
+		</div>
+		<div style="width:320px;max-height:360px;overflow:auto;border-left:1px solid #eee;padding-left:0.75rem;">
+			<ul id="pc-playlist-list" style="list-style:none;margin:0;padding:0;"></ul>
+		</div>
+	</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+	// find all CDS iframe embeds on this page
+	const iframes = Array.from(document.querySelectorAll('iframe[src*="cds.cern.ch/video/"]'));
+	const videos = iframes.map((f, idx) => {
+		const m = f.src.match(/video\/(\d+)/);
+		const id = m ? m[1] : idx;
+		// try to find a nearby heading as title
+		let title = f.getAttribute('title') || '';
+		if(!title){
+			// look for a previous heading element
+			let el = f.parentElement;
+			while(el && !el.previousElementSibling) el = el.parentElement;
+			if(el){
+				let sib = el.previousElementSibling;
+				while(sib){
+					const h = sib.matches && sib.matches('h1,h2,h3,h4,h5,h6') ? sib : sib.querySelector && sib.querySelector('h1,h2,h3,h4,h5,h6');
+					if(h){ title = h.textContent.trim(); break; }
+					sib = sib.previousElementSibling;
+				}
+			}
+		}
+		if(!title) title = 'Lecture ' + id;
+		return {id, title};
+	});
+
+	const list = document.getElementById('pc-playlist-list');
+	const player = document.getElementById('pc-main-player');
+	videos.forEach((v,i) => {
+		const li = document.createElement('li');
+		li.style.padding = '0.5rem 0';
+		li.style.cursor = 'pointer';
+		li.textContent = (i+1) + '. ' + v.title;
+		li.addEventListener('click', () => {
+			player.src = 'https://cds.cern.ch/video/' + v.id + '?autoplay=1';
+		});
+		list.appendChild(li);
+	});
+
+	// auto-load first video if available
+	if(videos.length) player.src = 'https://cds.cern.ch/video/' + videos[0].id + '?autoplay=0';
+});
+</script>
 
 ### Introductions of the school lecturers and students (20/10/2025 10:30am) {#introductions}
 
