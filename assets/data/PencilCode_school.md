@@ -278,6 +278,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946750" title="Forced helical turbulence" %}
 
+{% include download-box.html file="/assets/files/PC_school/session2_sheet.pdf" title="Practice session 2 sheet. Forced helical turbulence" icon="pdf"%}
+{% include download-box.html file="/assets/files/PC_school/session2a_run.zip" title="Practice session 2 files. Forced helical turbulence" icon="zip"%}
+
 ### Code lecture 5. Running on multiple CPUs. Parallelization (22/10/2025 9:30am) by M. Rheinhardt {#cpus}
 
 {% include cds_video.html id="2946839" title="Parallelization" %}
