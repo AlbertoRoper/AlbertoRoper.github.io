@@ -115,25 +115,25 @@ thumbnail-img: /assets/img/pc_logo.png
 
 ### Physics lecture 5. Inflation (23/10/2025 4pm) by R. Sharma {#inflation}
 
-{% include cds_video.html id="29467120" title="Inflation" %}
+{% include cds_video.html id="2947120" title="Inflation" %}
 
 ### Practice session 5. Decaying MHD turbulence (24/10/2025 9:30am) by A. Roper Pol {#decayingMHD}
 
-{% include cds_video.html id="29467117" title="Decaying MHD turbulence" %}
+{% include cds_video.html id="2947117" title="Decaying MHD turbulence" %}
 
 ### Physics lecture 6. First-order phase transitions (23/10/2025 11:30am) by A. S. Midiri and I. Stomberg {#fopts}
 
-{% include cds_video.html id="29467118" title="First-order phase transitions" %}
+{% include cds_video.html id="2947118" title="First-order phase transitions" %}
 
 
 ### Practice session 6. Gravitational waves (24/10/2025 2pm) by A. Roper Pol {#practice_GWs}
 
-{% include cds_video.html id="29467209" title="Practice Gravitational Waves" %}
+{% include cds_video.html id="2947209" title="Practice Gravitational Waves" %}
 
 ### Physics lecture 7. CosmoGW Python package (24/10/2025 3pm) by A. Roper Pol {#cosmoGW}
 
-{% include cds_video.html id="29467210" title="CosmoGW" %}
+{% include cds_video.html id="2947210" title="CosmoGW" %}
 
 ### School closure (24/10/2025 5:30pm) by A. Roper Pol
 
-{% include cds_video.html id="29467221" title="Closure" %}
+{% include cds_video.html id="2947221" title="Closure" %}
