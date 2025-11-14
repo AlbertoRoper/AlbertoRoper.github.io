@@ -7,6 +7,7 @@ thumbnail-img: /assets/img/pc_logo.png
 **Introduction**
 1. [Welcome to the Pencil Code school](#welcome) (A. Roper Pol and A. Brandenburg)
 2. [Introductions of the lecturers and students](#introductions)
+3. [Concluding the school](#concluding)
 
 **Lectures on Pencil Code:**
 1. [Basics of Pencil Code](#basics) (P. Bourdin)
@@ -25,6 +26,7 @@ thumbnail-img: /assets/img/pc_logo.png
 4. [Gravitational waves](#gws) (C. Caprini)
 5. [Inflation](#inflation) (R. Sharma)
 6. [First-order phase transitions](#fopts) (A. S. Midiri and I. Stomberg)
+7. [CosmoGW](#cosmoGW) (A. Roper Pol)
 
 **Practice sessions:**
 1. [Getting familiar with the code](#practice0)
@@ -128,3 +130,10 @@ thumbnail-img: /assets/img/pc_logo.png
 
 {% include cds_video.html id="29467209" title="Practice Gravitational Waves" %}
 
+### Physics lecture 7. CosmoGW Python package (24/10/2025 3pm) by A. Roper Pol {#cosmoGW}
+
+{% include cds_video.html id="29467210" title="CosmoGW" %}
+
+### School closure (24/10/2025 5:30pm) by A. Roper Pol
+
+{% include cds_video.html id="29467221" title="Closure" %}
