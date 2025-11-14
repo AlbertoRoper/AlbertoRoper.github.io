@@ -264,11 +264,15 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946699" title="Fourier transform and power spectra" %}
 
-{% include download-box.html file="/assets/files/PC_school/Pencil Code School - Power Spectra and the DFT.pdf" title="Slides by Isak" icon_img="assets/img/stomberg_pic.png" %}
+{% include download-box.html file="/assets/files/PC_school/Pencil Code School - Power Spectra and the DFT.pdf" title="Code lecture 3. Discrete Fourier transform and power spectra. Slides by I. Stomberg" icon_img="assets/img/stomberg_pic.png" %}
 
 ### Code lecture 4. Post-processing and visualization (21/10/2025 12:30pm) by A. Brandenburg, P. Bourdin and S. Candelaresi {#visu}
 
 {% include cds_video.html id="2946838" title="Post-processing and visualization" %}
+
+{% include download-box.html file="/assets/files/PC_school/Brandenburg-Tuesday.pdf" title="Code lecture 4. Post-processing and visualization. Slides by A. Brandenburg" icon_img="assets/img/brandenburg_pic.jpg" %}
+
+{% include download-box.html file="/assets/files/PC_school/python_session_candelaresi.zip" title="Code lecture 4. Post-processing and visualization. Files by S. Candelaresi" icon="zip" %}
 
 ### Practice session 2. Forced helical turbulence (21/10/2025 4:30pm) by A. Roper Pol {#practice2}
 
