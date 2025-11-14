@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Pencil Code school
+thumbnail-img: /assets/img/pc_logo.png
 ---
 
-Lectures on Pencil Code:
+**Lectures on Pencil Code:**
 1. [Welcome to the Pencil Code school](#welcome)
 2. [Introductions of the lecturers and students](#introductions)
 3. [Basics of Pencil Code](#basics)
@@ -13,7 +14,7 @@ Lectures on Pencil Code:
 7. [Running on multiple CPUs. Parallelization](#cpus)
 8. [Data handling. I/O approaches](#io)
 
-Practice sessions:
+**Practice sessions:**
 0. [Practice session: Getting familiar with the code](#practice0)
 1. [Practice session: Sound and Alfvén waves](#practice1)
 2. [Practice session: Forced helical turbulence](#practice2)
@@ -61,6 +62,10 @@ Part B
 ### Running on multiple CPUs. Parallelization (22/10/2025 9:30am) by M. Rheinhardt {#cpus}
 
 {% include cds_video.html id="2946839" title="Parallelization" %}
+
+### Data handling. I/O approaches (22/10/2025 10:30am) by P. Bourdin {#io}
+
+{% include cds_video.html id="2946698" title="Data handling. I/O approaches" %}
 
 ### Data handling. I/O approaches (22/10/2025 10:30am) by P. Bourdin {#io}
 
