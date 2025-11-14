@@ -6,7 +6,11 @@ thumbnail-img: /assets/img/pc_logo.png
 
 <!-- Playlist block (top-of-page) -->
 <div id="pc-playlist" style="margin:1.5rem 0;padding:0.5rem;border:1px solid #ddd;border-radius:6px;background:#fafafa;">
-	<h3>Playlist of all lectures</h3>
+		<h3>Playlist of all lectures</h3>
+		<div style="margin-top:0.25rem;font-size:0.9rem;color:#444;">
+			<a id="pc-open-in-tab" href="#" target="_blank" rel="noopener" style="display:inline-block;margin-right:0.75rem;">Open current video in new tab</a>
+			<span style="color:#666;font-size:0.85rem;">(use this if fullscreen does not work)</span>
+		</div>
 	<div style="display:flex;gap:1rem;align-items:flex-start;">
 		<div style="flex:1;min-width:320px;">
 			<div id="pc-main-player-wrap" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
@@ -136,7 +140,8 @@ document.addEventListener('DOMContentLoaded', function(){
 		newIframe.setAttribute('webkitallowfullscreen', '');
 		newIframe.setAttribute('mozallowfullscreen', '');
 		// include a broad allow policy as well
-		newIframe.setAttribute('allow', 'fullscreen; autoplay; encrypted-media; picture-in-picture');
+	// broader allow policy (includes common features players may request)
+	newIframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen');
 		newIframe.style.position = 'absolute';
 		newIframe.style.top = '0';
 		newIframe.style.left = '0';
@@ -159,7 +164,9 @@ document.addEventListener('DOMContentLoaded', function(){
 			// recreate the main player iframe fresh (this restores original include semantics)
 			const newPlayer = loadMainVideo(v.id, v.title, true);
 			if(newPlayer){
-				// scroll the new player into view
+				// update the 'open in new tab' link and scroll the new player into view
+				const openLink = document.getElementById('pc-open-in-tab');
+				if(openLink) openLink.href = 'https://cds.cern.ch/video/' + v.id;
 				newPlayer.scrollIntoView({ behavior: 'smooth', block: 'center' });
 			}
 		});
@@ -169,7 +176,11 @@ document.addEventListener('DOMContentLoaded', function(){
 	// auto-load first video id in top player (no autoplay) by creating the iframe fresh
 	if(videos.length) {
 		const first = loadMainVideo(videos[0].id, videos[0].title, false);
-		if(first) { try { first.allowFullscreen = true; } catch(e){} }
+		if(first) {
+			try { first.allowFullscreen = true; } catch(e){}
+			const openLink = document.getElementById('pc-open-in-tab');
+			if(openLink) openLink.href = 'https://cds.cern.ch/video/' + videos[0].id;
+		}
 	}
 
 });
