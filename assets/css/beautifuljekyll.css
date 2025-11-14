@@ -72,6 +72,33 @@ h4 {
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
 }
+
+/* --- Page cover / hero --- */
+.page-cover{
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  margin-bottom: 1.25rem;
+}
+.page-cover::after{
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.32);
+}
+.page-cover-inner{
+  position: relative; /* above overlay */
+  padding: 3rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.page-title{ margin: 0; font-size: clamp(1.6rem, 3.5vw, 2.6rem); }
+.page-subtitle{ margin-top: .5rem; color: rgba(255,255,255,0.92); }
+@media (min-width: 768px) {
+  .page-cover-inner{ padding: 5rem 2rem; }
+}
 a {
   color: var(--link-col);
 }

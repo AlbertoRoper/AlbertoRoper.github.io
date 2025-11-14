@@ -15,6 +15,20 @@ layout: base
         </div>
       {% endif %}
 
+      {%- comment -%}
+      Page cover / hero: show `page.cover` or `page.thumbnail-img` or fall back to `site.cover`.
+      Insert before the main content so pages can supply a cover in front-matter.
+      {%- endcomment -%}
+      {%- assign cover_url = page.cover | default: page.thumbnail-img | default: site.cover -%}
+      {%- if cover_url -%}
+        <div class="page-cover" role="img" aria-label="{{ page.title | escape }}" style="background-image: url('{{ cover_url | relative_url }}');">
+          <div class="page-cover-inner">
+            <h1 class="page-title">{{ page.title }}</h1>
+            {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+          </div>
+        </div>
+      {%- endif -%}
+
       {{ content }}
 
       {% if page.after-content %}
