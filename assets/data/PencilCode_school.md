@@ -6,12 +6,12 @@ title: Pencil Code school
 Lectures on Pencil Code:
 1. [Welcome to the Pencil Code school](#welcome)
 2. [Introductions of the lecturers and students](#introductions)
-3. [Basics of Pencil Code][#basics]
+3. [Basics of Pencil Code](#basics)
 4. [Numerical schemes for differential equations](#numerics)
 
 Practice sessions:
-0. [Practice session: Getting familiar with the code][#practice0]
-1. [Practice session: Sound and Alfvén waves][#practice1]
+0. [Practice session: Getting familiar with the code](#practice0)
+1. [Practice session: Sound and Alfvén waves](#practice1)
 
 ### Welcome to the Pencil Code school (20/10/2025 9:30am) by A. Roper Pol and A. Brandenburg {#welcome}
 
