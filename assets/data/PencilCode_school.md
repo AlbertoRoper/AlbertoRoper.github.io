@@ -3,7 +3,7 @@ layout: page
 title: Pencil Code school (CERN, October 2025)
 ---
 
-
+![](/assets/img/pc_school_background.png)
 
 <!-- Playlist block (top-of-page) -->
 <div id="pc-playlist" style="margin:1.5rem 0;padding:0.5rem;border:1px solid #ddd;border-radius:6px;background:#fafafa;">
