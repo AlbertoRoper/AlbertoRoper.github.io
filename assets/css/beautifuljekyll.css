@@ -124,6 +124,17 @@ h1, h2, h3, h4 {
 
 /* custom icon image inside download box */
 .download-box .db-icon-img { width: 36px; height: 36px; object-fit: contain; display: block; }
+
+/* Circular small icon to match other icons */
+.download-box .db-icon-circle,
+.download-box .db-icon-img.db-icon-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+}
+.download-box .db-icon-pdf { width: 28px; height: 28px; border-radius: 50%; }
 a {
   color: var(--link-col);
 }
