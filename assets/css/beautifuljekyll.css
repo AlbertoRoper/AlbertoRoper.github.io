@@ -121,6 +121,9 @@ h1, h2, h3, h4 {
 .download-box .label { font-weight: 700; display: block; }
 .download-box .sub { color: #666; font-size: 0.95rem; }
 .download-box .db-size { margin-left: auto; white-space: nowrap; color: #666; font-size: 0.95rem; }
+
+/* custom icon image inside download box */
+.download-box .db-icon-img { width: 36px; height: 36px; object-fit: contain; display: block; }
 a {
   color: var(--link-col);
 }
