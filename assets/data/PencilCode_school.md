@@ -4,38 +4,6 @@ title: Pencil Code school (CERN, October 2025)
 thumbnail-img: /assets/img/pc_logo.png
 ---
 
-**Introduction**
-1. [Welcome to the Pencil Code school](#welcome) (A. Roper Pol and A. Brandenburg)
-2. [Introductions of the lecturers and students](#introductions)
-3. [Concluding the school](#concluding) (A. Roper Pol)
-
-**Lectures on Pencil Code:**
-1. [Basics of Pencil Code](#basics) (P. Bourdin)
-2. [Numerical schemes for differential equations](#numerics) (P. Bourdin and A. S. Midiri)
-3. [Discrete Fourier transform and power spectra](#spectra) (I. Stomberg and S. Candelaresi)
-4. [Post-processing and visualization](#visu) (A. Brandenburg, P. Bourdin and S. Candelaresi)
-5. [Running on multiple CPUs. Parallelization](#cpus) (M. Rheinhardt)
-6. [Data handling. I/O approaches](#io) (P. Bourdin)
-7. [Contributing to the code: SVN, Github, Autotests](#svn) (A. Roper Pol)
-8. [Accelerating Pencil Code on GPUs](#gpus) (M. Rheinhardt)
-
-**Lectures on early Universe physics:**
-1. [Magnetohydrodynamics in the early Universe](#mhd) (A. Roper Pol)
-2. [Primordial magnetic fields](#pmfs) (A. Brandenburg and A. Roper Pol)
-3. [Chiral MHD](#chiral) (D. Garg)
-4. [Gravitational waves](#gws) (C. Caprini)
-5. [Inflation](#inflation) (R. Sharma)
-6. [First-order phase transitions](#fopts) (A. S. Midiri and I. Stomberg)
-7. [CosmoGW](#cosmoGW) (A. Roper Pol)
-
-**Practice sessions:**
-1. [Getting familiar with the code](#practice0)
-2. [Sound and Alfvén waves](#practice1)
-3. [Forced helical turbulence](#practice2)
-4. [Free hands-on session](#practicefree)
-5. [Decaying MHD turbulence](#decayingMHD)
-6. [Gravitational waves](#practice_GWs)
-
 <!-- Playlist block (top-of-page) -->
 <div id="pc-playlist" style="margin:1.5rem 0;padding:0.5rem;border:1px solid #ddd;border-radius:6px;background:#fafafa;">
 	<h3>Playlist of all lectures</h3>
@@ -140,6 +108,38 @@ document.addEventListener('DOMContentLoaded', function(){
 
 });
 </script>
+
+**Introduction**
+1. [Welcome to the Pencil Code school](#welcome) (A. Roper Pol and A. Brandenburg)
+2. [Introductions of the lecturers and students](#introductions)
+3. [Concluding the school](#concluding) (A. Roper Pol)
+
+**Lectures on Pencil Code:**
+1. [Basics of Pencil Code](#basics) (P. Bourdin)
+2. [Numerical schemes for differential equations](#numerics) (P. Bourdin and A. S. Midiri)
+3. [Discrete Fourier transform and power spectra](#spectra) (I. Stomberg and S. Candelaresi)
+4. [Post-processing and visualization](#visu) (A. Brandenburg, P. Bourdin and S. Candelaresi)
+5. [Running on multiple CPUs. Parallelization](#cpus) (M. Rheinhardt)
+6. [Data handling. I/O approaches](#io) (P. Bourdin)
+7. [Contributing to the code: SVN, Github, Autotests](#svn) (A. Roper Pol)
+8. [Accelerating Pencil Code on GPUs](#gpus) (M. Rheinhardt)
+
+**Lectures on early Universe physics:**
+1. [Magnetohydrodynamics in the early Universe](#mhd) (A. Roper Pol)
+2. [Primordial magnetic fields](#pmfs) (A. Brandenburg and A. Roper Pol)
+3. [Chiral MHD](#chiral) (D. Garg)
+4. [Gravitational waves](#gws) (C. Caprini)
+5. [Inflation](#inflation) (R. Sharma)
+6. [First-order phase transitions](#fopts) (A. S. Midiri and I. Stomberg)
+7. [CosmoGW](#cosmoGW) (A. Roper Pol)
+
+**Practice sessions:**
+1. [Getting familiar with the code](#practice0)
+2. [Sound and Alfvén waves](#practice1)
+3. [Forced helical turbulence](#practice2)
+4. [Free hands-on session](#practicefree)
+5. [Decaying MHD turbulence](#decayingMHD)
+6. [Gravitational waves](#practice_GWs)
 
 ### Welcome to the Pencil Code school (20/10/2025 9:30am) by A. Roper Pol and A. Brandenburg {#welcome}
 
