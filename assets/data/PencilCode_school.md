@@ -248,6 +248,8 @@ document.addEventListener('DOMContentLoaded', function(){
 #### Part A (A. S. Midiri)
 {% include cds_video.html id="2946610" title="Numerical schemes. Part A" %}
 
+{% include download-box.html file="/assets/files/PC_school/EvolutionAlgorithms_PartI_Midiri.pdf" title="Slides by Antonino" icon_img="/assets/img/antonino_pic.jpg"%}
+
 #### Part B (P. Bourdin)
 {% include cds_video.html id="2946850" title="Numerical schemes. Part B" %}
 
