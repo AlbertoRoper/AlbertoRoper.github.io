@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Pencil Code school (CERN, October 2025)
-cover: /assets/img/cover_page_pc.jpg
+cover: /assets/img/cover_page_pc_school.jpg
 ---
 
 
