@@ -10,6 +10,13 @@
           <path d="M6 8h5v1H6zM6 10h12v1H6zM6 12h12v1H6z" fill="#fff" opacity="0.95"></path>
           <text x="12" y="20" font-size="6" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif">PDF</text>
         </svg>
+      {%- elsif include.icon == 'zip' -%}
+        <!-- ZIP icon SVG -->
+        <svg class="db-icon db-icon-zip" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="img">
+          <rect x="2" y="3" width="20" height="18" rx="2" ry="2" fill="#2d6cdf"></rect>
+          <path d="M7 7h10v1H7zM7 9h10v1H7zM7 11h10v1H7z" fill="#fff" opacity="0.95"></path>
+          <text x="12" y="20" font-size="6" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif">ZIP</text>
+        </svg>
       {%- elsif include.icon_svg -%}
         {{ include.icon_svg }}
       {%- elsif include.icon_img -%}
