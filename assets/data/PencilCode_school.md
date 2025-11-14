@@ -111,22 +111,64 @@ document.addEventListener('DOMContentLoaded', function(){
 	// 3) build the top playlist that controls the main player iframe
 	const list = document.getElementById('pc-playlist-list');
 	const player = document.getElementById('pc-main-player');
+	// ensure the main player explicitly allows fullscreen at the DOM level (covers some browser quirks)
+	try { player.allowFullscreen = true; player.setAttribute('allowfullscreen',''); player.setAttribute('webkitallowfullscreen',''); player.setAttribute('mozallowfullscreen',''); } catch(e){}
+	// helper to (re)create the main player iframe inside the responsive wrapper
+	function loadMainVideo(id, title, autoplay) {
+		const wrap = document.getElementById('pc-main-player-wrap');
+		if(!wrap) return;
+		// create fresh responsive wrapper and iframe (matching _includes/cds_video.html)
+		const newWrap = document.createElement('div');
+		newWrap.style.position = 'relative';
+		newWrap.style.paddingBottom = '56.25%';
+		newWrap.style.height = '0';
+		newWrap.style.overflow = 'hidden';
+		newWrap.style.maxWidth = '100%';
+		const newIframe = document.createElement('iframe');
+		newIframe.setAttribute('width', '640');
+		newIframe.setAttribute('height', '360');
+		newIframe.setAttribute('frameborder', '0');
+		newIframe.setAttribute('title', title || 'Pencil Code lecture');
+		newIframe.setAttribute('src', 'https://cds.cern.ch/video/' + id + (autoplay ? '?autoplay=1' : '?autoplay=0'));
+		newIframe.setAttribute('allowfullscreen', '');
+		newIframe.setAttribute('webkitallowfullscreen', '');
+		newIframe.setAttribute('mozallowfullscreen', '');
+		// include a broad allow policy as well
+		newIframe.setAttribute('allow', 'fullscreen; autoplay; encrypted-media; picture-in-picture');
+		newIframe.style.position = 'absolute';
+		newIframe.style.top = '0';
+		newIframe.style.left = '0';
+		newIframe.style.width = '100%';
+		newIframe.style.height = '100%';
+		try { newIframe.allowFullscreen = true; } catch(e){}
+		newWrap.appendChild(newIframe);
+		// replace current wrap content
+		wrap.parentNode.replaceChild(newWrap, wrap);
+		// update player reference to the newly created iframe
+		return newIframe;
+	}
+
 	videos.forEach((v,i) => {
 		const li = document.createElement('li');
 		li.style.padding = '0.4rem 0';
 		li.style.cursor = 'pointer';
 		li.textContent = (i+1) + '. ' + v.title;
 		li.addEventListener('click', () => {
-			// load into main player (no heavy loading of all embeds)
-			player.src = 'https://cds.cern.ch/video/' + v.id + '?autoplay=1';
-			// optionally scroll to top to see player
-			player.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			// recreate the main player iframe fresh (this restores original include semantics)
+			const newPlayer = loadMainVideo(v.id, v.title, true);
+			if(newPlayer){
+				// scroll the new player into view
+				newPlayer.scrollIntoView({ behavior: 'smooth', block: 'center' });
+			}
 		});
 		list.appendChild(li);
 	});
 
-	// auto-load first video id in top player (no autoplay)
-	if(videos.length) player.src = 'https://cds.cern.ch/video/' + videos[0].id + '?autoplay=0';
+	// auto-load first video id in top player (no autoplay) by creating the iframe fresh
+	if(videos.length) {
+		const first = loadMainVideo(videos[0].id, videos[0].title, false);
+		if(first) { try { first.allowFullscreen = true; } catch(e){} }
+	}
 
 });
 </script>
