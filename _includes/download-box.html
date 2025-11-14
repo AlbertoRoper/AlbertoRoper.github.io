@@ -1,5 +1,6 @@
 {%- assign url = include.file | default: include.url -%}
-<a class="download-box" href="{{ url | relative_url }}" download aria-label="{{ include.label | default: 'Download' }}">
+{%- assign filename = include.filename | default: url | split: '/' | last -%}
+<a class="download-box" href="{{ url | relative_url }}" download aria-label="{{ include.label | default: 'Download' }}" data-file="{{ url | relative_url }}" data-filename="{{ filename }}">
   <div class="db-left">
     <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v6h4V9h3.67L12 2z"/></svg>
     <div class="db-meta">
@@ -9,3 +10,39 @@
   </div>
   {% if include.size %}<span class="db-size">{{ include.size }}</span>{% endif %}
 </a>
+<script>
+// Attach a one-time handler that forces download via fetch+blob when possible.
+(function(){
+  if (window.__downloadBoxInitialized) return; window.__downloadBoxInitialized = true;
+  document.addEventListener('click', async function(evt){
+    const a = evt.target.closest && evt.target.closest('a.download-box');
+    if (!a) return;
+    // allow normal ctrl/cmd/meta clicks to open in new tab/window
+    if (evt.ctrlKey || evt.metaKey || evt.shiftKey || evt.altKey) return;
+    const file = a.getAttribute('data-file');
+    const filename = a.getAttribute('data-filename') || 'download';
+    if (!file) return; // nothing to do
+    evt.preventDefault();
+    try {
+      // fetch same-origin resource as blob and trigger save
+      const res = await fetch(file, { credentials: 'same-origin' });
+      if (!res.ok) throw new Error('Network response was not ok');
+      const blob = await res.blob();
+      const blobUrl = URL.createObjectURL(blob);
+      const tmp = document.createElement('a');
+      tmp.style.display = 'none';
+      tmp.href = blobUrl;
+      tmp.setAttribute('download', filename);
+      document.body.appendChild(tmp);
+      tmp.click();
+      tmp.remove();
+      // revoke after a short delay
+      setTimeout(() => URL.revokeObjectURL(blobUrl), 2000);
+    } catch (err) {
+      // fallback: open in new tab so user can Save As
+      console.warn('Download via fetch failed, falling back to open in new tab', err);
+      window.open(a.href, '_blank', 'noopener');
+    }
+  }, false);
+})();
+</script>
