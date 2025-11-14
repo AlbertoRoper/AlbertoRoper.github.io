@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946581" title="Welcome to Pencil Code school" %}
 
-{% include download-box.html file="/assets/files/PC_school/Brandenburg-Monday.pdf" title="Welcome slides by Axel"%}
+{% include download-box.html file="/assets/files/PC_school/Brandenburg-Monday.pdf" title="Welcome slides by Axel" icon_img="/assets/img/brandenburg_pic.jpg"%}
 {% include download-box.html file="/assets/files/PC_school/PC_school_welcome.pdf" title="Welcome slides by Alberto" icon_img="/assets/img/photo_profile.jpeg"%}
 
 ### Introductions of the school lecturers and students (20/10/2025 10:30am) {#introductions}
