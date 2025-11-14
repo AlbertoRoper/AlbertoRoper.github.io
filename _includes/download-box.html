@@ -9,7 +9,10 @@
         {% if include.desc %}<span class="sub">{{ include.desc }}</span>{% endif %}
       </div>
     </div>
-    {% if include.size %}<span class="db-size">{{ include.size }}</span>{% endif %}
+    {%- if include.size and (include.show_size == true or include.show_size == 'true') -%}
+      {%- assign size_nb = include.size | replace: ' ', '&nbsp;' -%}
+      <span class="db-size">{{ size_nb }}</span>
+    {%- endif -%}
   </a>
 </div>
 <script>
