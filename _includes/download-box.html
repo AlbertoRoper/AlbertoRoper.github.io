@@ -3,7 +3,7 @@
 <div class="download-box-wrapper">
   <a class="download-box" href="{{ url | relative_url }}" download aria-label="{{ include.label | default: 'Download' }}" data-file="{{ url | relative_url }}" data-filename="{{ filename }}" role="link">
     <div class="db-left">
-      {%- if include.icon == 'pdf' -%}
+  {%- if include.icon == 'pdf' -%}
         <!-- PDF icon SVG -->
         <svg class="db-icon db-icon-pdf" width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="img">
           <rect x="2" y="3" width="20" height="18" rx="2" ry="2" fill="#d1433b"></rect>
@@ -12,6 +12,8 @@
         </svg>
       {%- elsif include.icon_svg -%}
         {{ include.icon_svg }}
+      {%- elsif include.icon_img -%}
+        <img class="db-icon db-icon-img" src="{{ include.icon_img | relative_url }}" alt="{{ include.icon_alt | default: include.title | default: 'icon' }}" />
       {%- else -%}
         <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v6h4V9h3.67L12 2z"/></svg>
       {%- endif -%}
