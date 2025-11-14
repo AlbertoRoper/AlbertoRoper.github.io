@@ -285,9 +285,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946839" title="Parallelization" %}
 
+{% include download-box.html file="/assets/files/PC_school/Parallel.pdf" title="Code lecture 5. Parallelization. Slides by M. Rheinhardt" icon="pdf"%}
+
 ### Code lecture 6. Data handling. I/O approaches (22/10/2025 10:30am) by P. Bourdin {#io}
 
 {% include cds_video.html id="2946698" title="Data handling. I/O approaches" %}
+
+{% include download-box.html file="/assets/files/PC_school/Presentation-Bourdin IO.pdf" title="Code lecture 6.Data handling. I/O approaches. Slides by P. Bourdin" icon="pdf"%}
 
 ### Code lecture 7. Contributing to the code: SVN, Github, Autotests (22/10/2025 11:30am) by A. Roper Pol {#svn}
 
