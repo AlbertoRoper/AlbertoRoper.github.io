@@ -119,12 +119,14 @@ document.addEventListener('DOMContentLoaded', function(){
 		if(!wrap) return;
 		// create fresh responsive wrapper and iframe (matching _includes/cds_video.html)
 		const newWrap = document.createElement('div');
+		newWrap.id = 'pc-main-player-wrap';
 		newWrap.style.position = 'relative';
 		newWrap.style.paddingBottom = '56.25%';
 		newWrap.style.height = '0';
 		newWrap.style.overflow = 'hidden';
 		newWrap.style.maxWidth = '100%';
 		const newIframe = document.createElement('iframe');
+		newIframe.id = 'pc-main-player';
 		newIframe.setAttribute('width', '640');
 		newIframe.setAttribute('height', '360');
 		newIframe.setAttribute('frameborder', '0');
@@ -142,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function(){
 		newIframe.style.height = '100%';
 		try { newIframe.allowFullscreen = true; } catch(e){}
 		newWrap.appendChild(newIframe);
-		// replace current wrap content
+		// replace current wrap content (keep the id so future calls find it)
 		wrap.parentNode.replaceChild(newWrap, wrap);
 		// update player reference to the newly created iframe
 		return newIframe;
