@@ -36,13 +36,9 @@ thumbnail-img: /assets/img/pc_logo.png
 5. [Decaying MHD turbulence](#decayingMHD)
 6. [Gravitational waves](#practice_GWs)
 
-### Welcome to the Pencil Code school (20/10/2025 9:30am) by A. Roper Pol and A. Brandenburg {#welcome}
-
-{% include cds_video.html id="2946581" title="Welcome to Pencil Code school" %}
-
 <!-- Playlist block (top-of-page) -->
 <div id="pc-playlist" style="margin:1.5rem 0;padding:0.5rem;border:1px solid #ddd;border-radius:6px;background:#fafafa;">
-	<h3>Lecture playlist</h3>
+	<h3>Playlist of all lectures</h3>
 	<div style="display:flex;gap:1rem;align-items:flex-start;">
 		<div style="flex:1;min-width:320px;">
 			<iframe id="pc-main-player" src="" style="width:100%;height:360px;border:0;" allowfullscreen></iframe>
@@ -55,47 +51,99 @@ thumbnail-img: /assets/img/pc_logo.png
 
 <script>
 document.addEventListener('DOMContentLoaded', function(){
-	// find all CDS iframe embeds on this page
-	const iframes = Array.from(document.querySelectorAll('iframe[src*="cds.cern.ch/video/"]'));
-	const videos = iframes.map((f, idx) => {
+	// 1) collect all CDS iframe embeds currently on the page
+	const originalIframes = Array.from(document.querySelectorAll('iframe[src*="cds.cern.ch/video/"]'));
+
+	// build a videos array with id, title, and original iframe reference
+	const videos = originalIframes.map((f, idx) => {
 		const m = f.src.match(/video\/(\d+)/);
 		const id = m ? m[1] : idx;
-		// try to find a nearby heading as title
 		let title = f.getAttribute('title') || '';
 		if(!title){
-			// look for a previous heading element
+			// try to find a nearby heading for a friendly title
 			let el = f.parentElement;
 			while(el && !el.previousElementSibling) el = el.parentElement;
 			if(el){
 				let sib = el.previousElementSibling;
 				while(sib){
-					const h = sib.matches && sib.matches('h1,h2,h3,h4,h5,h6') ? sib : sib.querySelector && sib.querySelector('h1,h2,h3,h4,h5,h6');
+					const h = (sib.matches && sib.matches('h1,h2,h3,h4,h5,h6')) ? sib : (sib.querySelector && sib.querySelector('h1,h2,h3,h4,h5,h6'));
 					if(h){ title = h.textContent.trim(); break; }
 					sib = sib.previousElementSibling;
 				}
 			}
 		}
-		if(!title) title = 'Lecture ' + id;
-		return {id, title};
+		if(!title) title = 'Lecture ' + (idx+1);
+		return { id, title, iframe: f };
 	});
 
+	// 2) replace each original iframe with a lightweight placeholder so the browser doesn't load all videos
+	videos.forEach((v, idx) => {
+		const f = v.iframe;
+		// create placeholder element
+		const placeholder = document.createElement('div');
+		placeholder.className = 'pc-video-placeholder';
+		placeholder.style.padding = '0.5rem 0';
+		placeholder.style.border = '1px dashed #ddd';
+		placeholder.style.borderRadius = '6px';
+		placeholder.style.margin = '0.5rem 0';
+		// title
+		const titleEl = document.createElement('div');
+		titleEl.textContent = v.title;
+		titleEl.style.fontWeight = '700';
+		titleEl.style.marginBottom = '0.5rem';
+		// load button
+		const btn = document.createElement('button');
+		btn.textContent = 'Load video here';
+		btn.className = 'btn btn-sm btn-outline-primary';
+		btn.addEventListener('click', function(){
+			// create iframe lazily and replace placeholder
+			const newIframe = document.createElement('iframe');
+			newIframe.src = 'https://cds.cern.ch/video/' + v.id + '?autoplay=0';
+			newIframe.allow = 'autoplay;fullscreen';
+			newIframe.style.width = '100%';
+			newIframe.style.height = '360px';
+			newIframe.frameBorder = '0';
+			placeholder.parentNode.replaceChild(newIframe, placeholder);
+		});
+		placeholder.appendChild(titleEl);
+		placeholder.appendChild(btn);
+
+		// replace the iframe in the DOM with the placeholder
+		try {
+			f.parentNode.replaceChild(placeholder, f);
+		} catch (e) {
+			// ignore if already removed
+		}
+		// store placeholder ref for potential future use
+		v.placeholder = placeholder;
+	});
+
+	// 3) build the top playlist that controls the main player iframe
 	const list = document.getElementById('pc-playlist-list');
 	const player = document.getElementById('pc-main-player');
 	videos.forEach((v,i) => {
 		const li = document.createElement('li');
-		li.style.padding = '0.5rem 0';
+		li.style.padding = '0.4rem 0';
 		li.style.cursor = 'pointer';
 		li.textContent = (i+1) + '. ' + v.title;
 		li.addEventListener('click', () => {
+			// load into main player (no heavy loading of all embeds)
 			player.src = 'https://cds.cern.ch/video/' + v.id + '?autoplay=1';
+			// optionally scroll to top to see player
+			player.scrollIntoView({ behavior: 'smooth', block: 'center' });
 		});
 		list.appendChild(li);
 	});
 
-	// auto-load first video if available
+	// auto-load first video id in top player (no autoplay)
 	if(videos.length) player.src = 'https://cds.cern.ch/video/' + videos[0].id + '?autoplay=0';
+
 });
 </script>
+
+### Welcome to the Pencil Code school (20/10/2025 9:30am) by A. Roper Pol and A. Brandenburg {#welcome}
+
+{% include cds_video.html id="2946581" title="Welcome to Pencil Code school" %}
 
 ### Introductions of the school lecturers and students (20/10/2025 10:30am) {#introductions}
 
