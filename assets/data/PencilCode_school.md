@@ -10,16 +10,19 @@ thumbnail-img: /assets/img/pc_logo.png
 
 **Lectures on Pencil Code:**
 1. [Basics of Pencil Code](#basics)
-4. [Numerical schemes for differential equations](#numerics)
-5. [Discrete Fourier transform and power spectra](#spectra)
-6. [Post-processing and visualization](#visu)
-7. [Running on multiple CPUs. Parallelization](#cpus)
-8. [Data handling. I/O approaches](#io)
+2. [Numerical schemes for differential equations](#numerics)
+3. [Discrete Fourier transform and power spectra](#spectra)
+4. [Post-processing and visualization](#visu)
+5. [Running on multiple CPUs. Parallelization](#cpus)
+6. [Data handling. I/O approaches](#io)
+7. [Contributing to the code: SVN, Github, Autotests](#svn)
+8. [Accelerating Pencil Code on GPUs](#gpus)
 
 **Practice sessions:**
-0. [Practice session: Getting familiar with the code](#practice0)
-1. [Practice session: Sound and Alfvén waves](#practice1)
-2. [Practice session: Forced helical turbulence](#practice2)
+1. [Practice session: Getting familiar with the code](#practice0)
+2. [Practice session: Sound and Alfvén waves](#practice1)
+3. [Practice session: Forced helical turbulence](#practice2)
+4. [Practice session: Free hands-on session](#practicefree)
 
 ### Welcome to the Pencil Code school (20/10/2025 9:30am) by A. Roper Pol and A. Brandenburg {#welcome}
 
@@ -43,10 +46,10 @@ thumbnail-img: /assets/img/pc_logo.png
 
 ### Code lecture 2. Numerical schemes for differential equations (21/10/2025 9:30am) by P. Bourdin and A. Midiri {#numerics}
 
-Part A
+#### Part A
 {% include cds_video.html id="2946610" title="Numerical schemes Part A" %}
 
-Part B
+#### Part B
 {% include cds_video.html id="2946850" title="Numerical schemes Part B" %}
 
 ### Code lecture 3. Discrete Fourier transform and power spectra (21/10/2025 12:30pm) by I. Stomberg and S. Candelaresi {#spectra}
@@ -69,6 +72,14 @@ Part B
 
 {% include cds_video.html id="2946698" title="Data handling. I/O approaches" %}
 
-### Data handling. I/O approaches (22/10/2025 10:30am) by P. Bourdin {#io}
+### Code lecture 7. Contributing to the code: SVN, Github, Autotests (22/10/2025 11:30am) by A. Roper Pol {#svn}
 
-{% include cds_video.html id="2946698" title="Data handling. I/O approaches" %}
+{% include cds_video.html id="2946840" title="Contributing to the code: SVN, Github, Autotests " %}
+
+### Code lecture 8. Accelerating Pencil Code on GPUs (22/10/2025 12pm) by M. Rheinhardt {#gpus}
+
+{% include cds_video.html id="2946841" title="Accelerating Pencil Code on GPUs" %}
+
+### Practice session 4. Free hands-on session (22/10/2025 4pm) by A. Roper Pol {#practicefree}
+
+{% include cds_video.html id="2946841" title="Free hands-on session" %}
