@@ -23,8 +23,13 @@ layout: base
       {%- if cover_url -%}
         <div class="page-cover" role="img" aria-label="{{ page.title | escape }}" style="background-image: url('{{ cover_url | relative_url }}');">
           <div class="page-cover-inner">
-            <h1 class="page-title">{{ page.title }}</h1>
-            {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+            {%- unless page.cover_no_title -%}
+              <h1 class="page-title">{{ page.title }}</h1>
+              {% if page.subtitle %}<p class="page-subtitle">{{ page.subtitle }}</p>{% endif %}
+            {%- else -%}
+              {%- comment -%} image already contains title text; render hidden heading for accessibility {%- endcomment -%}
+              <h1 class="sr-only">{{ page.title }}</h1>
+            {%- endunless -%}
           </div>
         </div>
       {%- endif -%}

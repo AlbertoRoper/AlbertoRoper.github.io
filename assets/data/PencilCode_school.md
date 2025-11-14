@@ -223,6 +223,18 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946581" title="Welcome to Pencil Code school" %}
 
+<a class="download-box" href="{{ '/assets/files/PC_school/Brandenburg-Monday.pdf' | relative_url }}" download aria-label="Download slides by Axel">
+  <div class="db-left">
+    <!-- small inline SVG icon (download) -->
+    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v6h4V9h3.67L12 2z"/></svg>
+    <div class="db-meta">
+      <span class="label">Lecture notes — PDF</span>
+      <span class="sub">Slides + code examples</span>
+    </div>
+  </div>
+  <span class="db-size">PDF · 2.3 MB</span>
+</a>
+
 ### Introductions of the school lecturers and students (20/10/2025 10:30am) {#introductions}
 
 {% include cds_video.html id="2946582" title="Introductions" %}
