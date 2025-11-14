@@ -222,8 +222,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946581" title="Welcome to Pencil Code school" %}
 
-{% include download-box.html file="/assets/files/PC_school/Brandenburg-Monday.pdf" title="Welcome slides by Axel" icon_img="/assets/img/brandenburg_pic.jpg"%}
-{% include download-box.html file="/assets/files/PC_school/PC_school_welcome.pdf" title="Welcome slides by Alberto" icon_img="/assets/img/photo_profile.jpeg"%}
+{% include download-box.html file="/assets/files/PC_school/PC_school_welcome.pdf" title="Welcome slides by A. Roper Pol" icon_img="/assets/img/photo_profile.jpeg"%}
+{% include download-box.html file="/assets/files/PC_school/Brandenburg-Monday.pdf" title="Welcome slides by A. Brandenburg" icon_img="/assets/img/brandenburg_pic.jpg"%}
 
 ### Introductions of the school lecturers and students (20/10/2025 10:30am) {#introductions}
 
@@ -233,7 +233,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946583" title="Basics of Pencil Code" %}
 
-{% include download-box.html file="/assets/files/PC_school/Basics of PC.pdf" title="Basics of Pencil Code" icon="pdf"%}
+{% include download-box.html file="/assets/files/PC_school/Basics of PC.pdf" title="Code lecture 1. Basics of Pencil Code by P. Bourdin" icon="pdf"%}
 
 ### Practice session 1. Getting familiar with the code (20/10/2025 3pm) by A. Roper Pol {#practice0}
 
