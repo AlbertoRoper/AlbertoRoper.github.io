@@ -253,11 +253,13 @@ document.addEventListener('DOMContentLoaded', function(){
 #### Part B (P. Bourdin)
 {% include cds_video.html id="2946850" title="Numerical schemes. Part B" %}
 
-{% include download-box.html file="/assets/files/PC_school/Presentation-Bourdin Derivatives.pdf" title="Slides by Philippe" icon="pdf"}
+{% include download-box.html file="/assets/files/PC_school/Presentation-Bourdin Derivatives.pdf" title="Slides by Philippe" icon="pdf" %}
 
 ### Code lecture 3. Discrete Fourier transform and power spectra (21/10/2025 12:30pm) by I. Stomberg and S. Candelaresi {#spectra}
 
 {% include cds_video.html id="2946699" title="Fourier transform and power spectra" %}
+
+{% include download-box.html file="/assets/files/PC_school/Pencil Code School - Power Spectra and the DFT.pdf" title="Slides by Isak" icon_img="stomberg_pic.png"}
 
 ### Code lecture 4. Post-processing and visualization (21/10/2025 12:30pm) by A. Brandenburg, P. Bourdin and S. Candelaresi {#visu}
 
