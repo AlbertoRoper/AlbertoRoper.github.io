@@ -235,18 +235,18 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include download-box.html file="/assets/files/PC_school/Presentation-Bourdin Basics of PC.pdf" title="Code lecture 1. Basics of Pencil Code by P. Bourdin" icon="pdf"%}
 
-### Practice session 1. Getting familiar with the code (20/10/2025 3pm) by A. Roper Pol {#practice0}
+### Practice session 0. Getting familiar with the code (20/10/2025 3pm) by A. Roper Pol {#practice0}
 
 {% include cds_video.html id="2946749" title="Getting familiar with Pencil Code" %}
 
-### Practice session 2. Sound waves and Alfvén waves (20/10/2025 4:30pm) by A. Roper Pol {#practice1}
+### Practice session 1. Sound waves and Alfvén waves (20/10/2025 4:30pm) by A. Roper Pol {#practice1}
 
 {% include cds_video.html id="2946837" title="Sound and Alfven waves" %}
 
-{% include download-box.html file="/assets/files/PC_school/session1a.pdf" title="Session 1a. Practice on sound waves" icon="pdf"%}
-{% include download-box.html file="/assets/files/PC_school/session1a.zip" title="Session 1a. Exercise on sound waves" icon="zip"%}
+{% include download-box.html file="/assets/files/PC_school/session1a.pdf" title="Practice session 1a sheet. Sound waves" icon="pdf"%}
+{% include download-box.html file="/assets/files/PC_school/session1a.zip" title="Practice session 1a files. Sound waves" icon="zip"%}
 
-{% include download-box.html file="/assets/files/PC_school/session1b.pdf" title="Session 1b. Practice on Alfvén waves" icon="pdf"%}
+{% include download-box.html file="/assets/files/PC_school/session1b.pdf" title="Practice session 1b sheet. Alfvén waves" icon="pdf"%}
 
 ### Code lecture 2. Numerical schemes for differential equations (21/10/2025 9:30am) by A. Midiri and P. Bourdin {#numerics}
 
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946838" title="Post-processing and visualization" %}
 
-### Practice session 3. Forced helical turbulence (21/10/2025 4:30pm) by A. Roper Pol {#practice2}
+### Practice session 2. Forced helical turbulence (21/10/2025 4:30pm) by A. Roper Pol {#practice2}
 
 {% include cds_video.html id="2946750" title="Forced helical turbulence" %}
 
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946841" title="Accelerating Pencil Code on GPUs" %}
 
-### Practice session 4. Free hands-on session (22/10/2025 4pm) by A. Roper Pol {#practicefree}
+### Practice session 3. Free hands-on session (22/10/2025 4pm) by A. Roper Pol {#practicefree}
 
 {% include cds_video.html id="2946873" title="Free hands-on session" %}
 
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2947120" title="Inflation" %}
 
-### Practice session 5. Decaying MHD turbulence (24/10/2025 9:30am) by A. Roper Pol {#decayingMHD}
+### Practice session 4. Decaying MHD turbulence (24/10/2025 9:30am) by A. Roper Pol {#decayingMHD}
 
 {% include cds_video.html id="2947117" title="Decaying MHD turbulence" %}
 
@@ -327,7 +327,7 @@ Part A (A. S. Midiri)
 Part B (I. Stomberg)
 {% include cds_video.html id="2947209" title="First-order phase transitions. Part B" %}
 
-### Practice session 6. Gravitational waves and CosmoGW Python package (24/10/2025 3pm) by A. Roper Pol {#practice_GWs}
+### Practice session 5. Gravitational waves and CosmoGW Python package (24/10/2025 3pm) by A. Roper Pol {#practice_GWs}
 
 {% include cds_video.html id="2947210" title="CosmoGW" %}
 
