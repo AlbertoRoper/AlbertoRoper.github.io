@@ -199,7 +199,7 @@ img {
 
 /* Teaching page small centered images */
 .teaching-images img {
-  width: 48px; /* smaller default size */
+  width: 80px; /* larger thumbnail on mobile */
   max-width: 40%;
   height: auto;
   display: block;
@@ -208,7 +208,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .teaching-images img { width: 64px; }
+  .teaching-images img { width: 112px; }
 }
 
 @media (min-width: 768px) {
@@ -224,8 +224,8 @@ img {
   margin: 1rem 0;
 }
 .teaching-item .teaching-thumb img {
-  width: 48px;
-  height: 48px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -238,7 +238,7 @@ img {
     align-items: center;
   }
   .teaching-item .teaching-thumb {
-    flex: 0 0 96px; /* fixed column for image */
+    flex: 0 0 128px; /* fixed column for image */
     display: flex;
     justify-content: center;
   }
