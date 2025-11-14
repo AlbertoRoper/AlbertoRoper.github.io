@@ -1,15 +1,17 @@
 {%- assign url = include.file | default: include.url -%}
 {%- assign filename = include.filename | default: url | split: '/' | last -%}
-<a class="download-box" href="{{ url | relative_url }}" download aria-label="{{ include.label | default: 'Download' }}" data-file="{{ url | relative_url }}" data-filename="{{ filename }}">
-  <div class="db-left">
-    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v6h4V9h3.67L12 2z"/></svg>
-    <div class="db-meta">
-      <span class="label">{{ include.title | default: include.label | default: 'Download' }}</span>
-      {% if include.desc %}<span class="sub">{{ include.desc }}</span>{% endif %}
+<div class="download-box-wrapper">
+  <a class="download-box" href="{{ url | relative_url }}" download aria-label="{{ include.label | default: 'Download' }}" data-file="{{ url | relative_url }}" data-filename="{{ filename }}" role="link">
+    <div class="db-left">
+      <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v6h4V9h3.67L12 2z"/></svg>
+      <div class="db-meta">
+        <span class="label">{{ include.title | default: include.label | default: 'Download' }}</span>
+        {% if include.desc %}<span class="sub">{{ include.desc }}</span>{% endif %}
+      </div>
     </div>
-  </div>
-  {% if include.size %}<span class="db-size">{{ include.size }}</span>{% endif %}
-</a>
+    {% if include.size %}<span class="db-size">{{ include.size }}</span>{% endif %}
+  </a>
+</div>
 <script>
 // Attach a one-time handler that forces download via fetch+blob when possible.
 (function(){
