@@ -135,6 +135,8 @@ h1, h2, h3, h4 {
   display: inline-block;
 }
 .download-box .db-icon-pdf { width: 28px; height: 28px; border-radius: 50%; }
+/* ZIP icon sizing to match PDF */
+.download-box .db-icon-zip { width: 28px; height: 28px; border-radius: 50%; }
 a {
   color: var(--link-col);
 }

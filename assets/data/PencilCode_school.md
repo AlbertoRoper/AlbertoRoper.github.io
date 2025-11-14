@@ -243,17 +243,22 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946837" title="Sound and Alfven waves" %}
 
+{% include download-box.html file="/assets/files/PC_school/session1a.pdf" title="Session 1a. Practice on sound waves" icon="pdf"%}
+{% include download-box.html file="/assets/files/PC_school/session1a.zip" title="Session 1a. Exercise on sound waves" icon="zip"%}
+
+{% include download-box.html file="/assets/files/PC_school/session1b.pdf" title="Session 1b. Practice on Alfvén waves" icon="pdf"%}
+
 ### Code lecture 2. Numerical schemes for differential equations (21/10/2025 9:30am) by A. Midiri and P. Bourdin {#numerics}
 
 #### Part A (A. S. Midiri)
 {% include cds_video.html id="2946610" title="Numerical schemes. Part A" %}
 
-{% include download-box.html file="/assets/files/PC_school/EvolutionAlgorithms_PartI_Midiri.pdf" title="Slides by Antonino" icon_img="/assets/img/antonino_pic.jpg"%}
+{% include download-box.html file="/assets/files/PC_school/EvolutionAlgorithms_PartI_Midiri.pdf" title="Code lecture 2. Numerical schemes. Lecture by A. S. Midiri" icon_img="/assets/img/antonino_pic.jpg"%}
 
 #### Part B (P. Bourdin)
 {% include cds_video.html id="2946850" title="Numerical schemes. Part B" %}
 
-{% include download-box.html file="/assets/files/PC_school/Presentation-Bourdin Derivatives.pdf" title="Slides by Philippe" icon="pdf" %}
+{% include download-box.html file="/assets/files/PC_school/Presentation-Bourdin Derivatives.pdf" title="Code lecture 2. Numerical schemes. Lecture by P. Bourdin" icon="pdf" %}
 
 ### Code lecture 3. Discrete Fourier transform and power spectra (21/10/2025 12:30pm) by I. Stomberg and S. Candelaresi {#spectra}
 
