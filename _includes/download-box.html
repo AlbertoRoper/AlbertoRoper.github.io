@@ -1,0 +1,11 @@
+{%- assign url = include.file | default: include.url -%}
+<a class="download-box" href="{{ url | relative_url }}" download aria-label="{{ include.label | default: 'Download' }}">
+  <div class="db-left">
+    <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v6h4V9h3.67L12 2z"/></svg>
+    <div class="db-meta">
+      <span class="label">{{ include.title | default: include.label | default: 'Download' }}</span>
+      {% if include.desc %}<span class="sub">{{ include.desc }}</span>{% endif %}
+    </div>
+  </div>
+  {% if include.size %}<span class="db-size">{{ include.size }}</span>{% endif %}
+</a>
