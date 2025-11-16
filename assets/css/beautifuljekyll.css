@@ -304,10 +304,10 @@ img {
   padding-bottom: 0.3125rem;
 }
 
-/* Hide the navbar toggler on wide screens by default; show on small screens.
-   JS (navbar-fit.js) may still display the toggler when nav items overflow. */
+/* Hide the navbar toggler on wide screens by default; show only below xl breakpoint (1200px).
+   Matches navbar-expand-xl behavior. */
 .navbar-toggler { display: none; }
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .navbar-toggler { display: block; }
 }
 
@@ -331,11 +331,6 @@ img {
 }
 .navbar-extra-left > * {
   margin-right: 0.5rem;
-}
-
-/* Keep navbar collapsed by default; auto-expansion JS removed */
-nav.navbar .navbar-toggler {
-  display: inline-block;
 }
 
 .navbar-custom .navbar-nav .nav-item {
