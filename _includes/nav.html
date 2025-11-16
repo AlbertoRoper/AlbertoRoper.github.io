@@ -18,6 +18,16 @@
     </div>
   {% endif %}
 
+  {% if site.avatar and page.show-avatar != false %}
+    <div class="avatar-container navbar-left-avatar">
+      <div class="avatar-img-border">
+        <a href="{{ '/' | absolute_url }}">
+          <img alt="Navigation bar avatar" class="avatar-img" src="{{ site.avatar | relative_url }}" />
+        </a>
+      </div>
+    </div>
+  {% endif %}
+
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
       {%- for link in site.navbar-links -%}
@@ -50,16 +60,7 @@
   </div>
 
   <!-- navbar-extra is rendered to the left near the brand -->
-
-  {% if site.avatar and page.show-avatar != false %}
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        <a href="{{ '/' | absolute_url }}">
-          <img alt="Navigation bar avatar" class="avatar-img" src="{{ site.avatar | relative_url }}" />
-        </a>
-      </div>
-    </div>
-  {% endif %}
+  <!-- avatar is now rendered to the left next to the brand -->
 
 </nav>
 
