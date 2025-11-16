@@ -286,8 +286,8 @@ img {
   flex-wrap: wrap;
 }
 
-/* On desktop (>=1200px), reorder so avatar appears before brand */
-@media (min-width: 1200px) {
+/* On desktop (>=1500px), reorder so avatar appears before brand */
+@media (min-width: 1500px) {
   .navbar-custom .navbar-toggler { order: 1; }
   .navbar-custom .navbar-left-avatar { order: 2; }
   .navbar-custom .navbar-brand,
@@ -412,7 +412,7 @@ img {
   border-width: 0.4em;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .navbar-custom {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -438,7 +438,7 @@ img {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .navbar-custom .nav-item.dropdown:hover {
     background: rgba(0, 0, 0, 0.1);
   }
@@ -473,7 +473,7 @@ img {
   {% endunless %}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .navbar-custom .nav-item.dropdown .dropdown-menu {
     text-align: center;
   }
@@ -489,7 +489,7 @@ img {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1499px) {
   .navbar-custom .navbar-collapse {
     border-top: 1px solid var(--navbar-border-col);
     margin: 0 -1rem;
@@ -559,7 +559,7 @@ img {
   display: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .navbar-custom.top-nav-regular .avatar-container {
     width: 6.25rem;
     bottom: -1.9375rem;
@@ -598,7 +598,7 @@ img {
   width: 2.5rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1500px) {
   .navbar-custom .navbar-left-avatar .avatar-img-border {
     width: 2.5rem;
   }
