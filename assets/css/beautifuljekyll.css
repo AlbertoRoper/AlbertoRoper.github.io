@@ -372,7 +372,7 @@ img {
 /* Custom navbar-expand-xxl breakpoint at 1500px */
 @media (max-width: 1499px) {
   .navbar-expand-xxl .navbar-toggler {
-    display: block;
+    display: block !important;
   }
   
   .navbar-expand-xxl .navbar-collapse {
@@ -386,7 +386,7 @@ img {
 
 @media (min-width: 1500px) {
   .navbar-expand-xxl .navbar-toggler {
-    display: none;
+    display: none !important;
   }
   
   .navbar-expand-xxl .navbar-collapse {
