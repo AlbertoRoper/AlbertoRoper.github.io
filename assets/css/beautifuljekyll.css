@@ -282,6 +282,18 @@ img {
 .navbar-custom.top-nav-short-permanent {
   padding-top: 0;
   padding-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* On desktop (>=1200px), reorder so avatar appears before brand */
+@media (min-width: 1200px) {
+  .navbar-custom .navbar-toggler { order: 1; }
+  .navbar-custom .navbar-left-avatar { order: 2; }
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-brand-logo { order: 3; }
+  .navbar-custom .navbar-extra-left { order: 4; }
+  .navbar-custom .navbar-collapse { order: 10; }
 }
 
 .navbar-custom .navbar-brand {
@@ -555,10 +567,10 @@ img {
 
 @media (min-width: 1200px) {
   .navbar-custom .navbar-left-avatar .avatar-img-border {
-    width: 3.5rem;
+    width: 2.5rem;
   }
   .navbar-custom .navbar-left-avatar .avatar-img {
-    width: 3.5rem;
+    width: 2.5rem;
   }
 }
 
