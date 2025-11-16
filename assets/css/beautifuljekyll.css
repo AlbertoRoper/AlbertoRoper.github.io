@@ -304,6 +304,13 @@ img {
   padding-bottom: 0.3125rem;
 }
 
+/* Hide the navbar toggler on wide screens by default; show on small screens.
+   JS (navbar-fit.js) may still display the toggler when nav items overflow. */
+.navbar-toggler { display: none; }
+@media (max-width: 991px) {
+  .navbar-toggler { display: block; }
+}
+
 .navbar-custom .navbar-brand-logo img {
   -webkit-transition: height .5s ease-in-out;
   -moz-transition: height .5s ease-in-out;
