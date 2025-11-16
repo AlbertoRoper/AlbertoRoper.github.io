@@ -19,8 +19,8 @@
     const toggler = navEl.querySelector('.navbar-toggler');
 
     const winW = window.innerWidth;
-    // Always use toggle on small screens
-    if(winW <= 991){
+    // Always use toggle on small screens (below xl breakpoint: 1200px)
+    if(winW < 1200){
       navEl.classList.remove('nav-expanded');
       if(collapse) collapse.classList.remove('show');
       if(toggler) toggler.style.display = '';
