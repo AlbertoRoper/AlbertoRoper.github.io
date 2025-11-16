@@ -607,6 +607,28 @@ img {
   }
 }
 
+/* --- Responsive Map Container --- */
+
+.responsive-map {
+  position: relative;
+  width: 100%;
+  max-width: 640px;
+  padding-bottom: 75%; /* 4:3 aspect ratio (480/640 = 0.75) */
+  height: 0;
+  overflow: hidden;
+  margin: 1rem auto; /* Center the map */
+}
+
+.responsive-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: 1px solid var(--navbar-border-col);
+  border-radius: 4px;
+}
+
 /* --- Footer --- */
 
 footer {

@@ -21,4 +21,6 @@ A nice perk of being a researcher is the possibility to visit many interesting p
 
 You can find below a map of the places I have visited to give a talk or to attend a scientific meeting.
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1apMx7nqqrQUsK0ubH6NXLJ8JKhYc9cw&ehbc=2E312F" width="640" height="480"></iframe>
+<div class="responsive-map">
+  <iframe src="https://www.google.com/maps/d/embed?mid=1apMx7nqqrQUsK0ubH6NXLJ8JKhYc9cw&ehbc=2E312F" width="640" height="480"></iframe>
+</div>
