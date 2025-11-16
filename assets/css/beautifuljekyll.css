@@ -316,13 +316,6 @@ img {
   padding-bottom: 0.3125rem;
 }
 
-/* Hide the navbar toggler on wide screens by default; show only below xl breakpoint (1200px).
-   Matches navbar-expand-xl behavior. */
-.navbar-toggler { display: none; }
-@media (max-width: 1199px) {
-  .navbar-toggler { display: block; }
-}
-
 .navbar-custom .navbar-brand-logo img {
   -webkit-transition: height .5s ease-in-out;
   -moz-transition: height .5s ease-in-out;
