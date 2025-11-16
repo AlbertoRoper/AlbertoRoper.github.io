@@ -532,6 +532,34 @@ nav.navbar .navbar-toggler {
   }
 }
 
+/* If the avatar is rendered in the left area (moved next to the brand),
+   override the default centered absolute positioning and render inline. */
+.navbar-custom .navbar-left-avatar {
+  position: static;
+  left: auto;
+  bottom: auto;
+  width: auto;
+  margin-right: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-custom .navbar-left-avatar .avatar-img-border {
+  width: 2.5rem;
+  margin-left: 0;
+}
+.navbar-custom .navbar-left-avatar .avatar-img {
+  width: 2.5rem;
+}
+
+@media (min-width: 1200px) {
+  .navbar-custom .navbar-left-avatar .avatar-img-border {
+    width: 3.5rem;
+  }
+  .navbar-custom .navbar-left-avatar .avatar-img {
+    width: 3.5rem;
+  }
+}
+
 /* --- Footer --- */
 
 footer {
