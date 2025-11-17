@@ -53,8 +53,8 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 ### Visitors
 
 <div class="container">
-    {% for person in site.data.collaborators %}
-      {% if person.tags contains "visitor" %}
+    {% assign visitors = site.data.collaborators | where_exp: "person", "person.tags contains 'visitor'" | sort: "visit" | reverse %}
+    {% for person in visitors %}
         <div class="row align-items-center mb-4">
           <div class="col-12 col-md-3 text-center">
             {% if person.img %}
@@ -65,9 +65,9 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
             <h3>{{ person.firstname }} {{ person.lastname }}</h3>
             {% if person.role %}<div class="text-muted mb-2">{{ person.role }}</div>{% endif %}
             {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-            {% if include.url %}<div class="person-action"><a class="btn btn-sm btn-outline-primary" href="{{ include.url }}" target="_blank" rel="noopener">Website</a></div>{% endif %}
+            {% if person.visit %}<div class="text-muted mb-2">Visit: {{ person.visit }}</div>{% endif %}
+            {% if person.url %}<div class="person-action"><a class="btn btn-sm btn-outline-primary" href="{{ person.url }}" target="_blank" rel="noopener">Website</a></div>{% endif %}
           </div>
         </div>
-    {% endif %}
   {% endfor %}
 </div>
