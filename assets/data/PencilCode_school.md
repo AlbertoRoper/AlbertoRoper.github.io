@@ -311,6 +311,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946915" title="MHD in the early Universe" %}
 
+{% include download-box.html file="/assets/files/PC_school/plasma_physics_mhd_lecture.pdf" title="Physics lecture 1. Magnetohydrodynamics in the early Universe. Slides by A. Roper Pol>" icon_img="assets/img/photo_profile.jpeg" %}
+
 ### Physics lecture 2. Primordial magnetic fields (23/10/2025 11:30am) by A. Brandenburg and A. Roper Pol {#pmfs}
 
 {% include cds_video.html id="2947112" title="Primordial magnetic fields" %}
