@@ -65,7 +65,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
             <h3>{{ person.firstname }} {{ person.lastname }}</h3>
             {% if person.role %}<div class="text-muted mb-2">{{ person.role }}</div>{% endif %}
             {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-            {% if person.visit %}<div class="text-muted mb-2">Visit: {{ person.visitfrom }} - {{ person.visitto }}</div>{% endif %}
+            {% if person.visitfrom %}<div class="text-muted mb-2">Visit: {{ person.visitfrom }} - {{ person.visitto }}</div>{% endif %}
             {% if person.url %}<div class="person-action"><a class="btn btn-sm btn-outline-primary" href="{{ person.url }}" target="_blank" rel="noopener">Website</a></div>{% endif %}
           </div>
         </div>
