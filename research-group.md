@@ -53,7 +53,7 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 ### Visitors
 
 <div class="container">
-    {% assign visitors = site.data.collaborators | where_exp: "person", "person.tags contains 'visitor'" | sort: "visitfrom" | reverse %}
+    {% assign visitors = site.data.collaborators | where_exp: "person", "person.tags contains 'visitor'" | sort: "person.visitfrom" | reverse %}
     {% for person in visitors %}
         <div class="row align-items-center mb-4">
           <div class="col-12 col-md-3 text-center">

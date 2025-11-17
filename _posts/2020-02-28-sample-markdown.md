@@ -8,6 +8,7 @@ tags: [test]
 comments: true
 mathjax: true
 author: Bill Smith
+date: 01/01/2030
 ---
 
 {: .box-success}
