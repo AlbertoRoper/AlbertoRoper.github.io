@@ -3,7 +3,7 @@ layout: post
 title: Alireza Talebian visits CERN and UniGe
 tags: [visitor]
 author: Alberto Roper Pol
-date: 2025-11-17
+date: 2025-11-15
 ---
 
 For the occasion of the Pencil Code school and user meeting 2025, the researcher Alireza Talebian has visited our research group at the University of Geneva for the 2 weeks after the meeting (Nov. 3-14). Dr. Talebian is an expert on stochastic inflation and several aspects of magnetic field formation during inflation and has started working on several projects using the Pencil Code.
