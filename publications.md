@@ -8,9 +8,9 @@ title: Publications and research talks
 ### Publications
 
 You can find an up-to-date list of my publications on
-[inspire-hep profile](https://inspirehep.net/authors/1765001?ui-citation-summary=true)
-[Google Scholar](https://scholar.google.com/citations?user=UZAqaVMAAAAJ&hl=en)
-[ADS/NASA database](https://ui.adsabs.harvard.edu/user/libraries/86yARrb0TUqH9CmyyHEAvg).
+* [inspire-hep profile](https://inspirehep.net/authors/1765001?ui-citation-summary=true)
+* [Google Scholar](https://scholar.google.com/citations?user=UZAqaVMAAAAJ&hl=en)
+* [ADS/NASA database](https://ui.adsabs.harvard.edu/user/libraries/86yARrb0TUqH9CmyyHEAvg).
 
 [List of publications](assets/data/publications_journals.md)
 
