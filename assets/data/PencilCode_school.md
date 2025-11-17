@@ -338,9 +338,12 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include download-box.html file="/assets/files/PC_school/Inflation_pencil_code_school.pdf" title="Physics lecture 5. Inflation. Slides by R. Sharma" icon="pdf" %}
 
-### Practice session 4. Decaying MHD turbulence (24/10/2025 9:30am) by A. Roper Pol {#decayingMHD}
+### Practice session 3. Decaying MHD turbulence (24/10/2025 9:30am) by A. Roper Pol {#decayingMHD}
 
 {% include cds_video.html id="2947117" title="Decaying MHD turbulence" %}
+
+{% include download-box.html file="/assets/files/PC_school/session3_sheet.pdf" title="Practice session 3. Decaying MHD turbulence" icon="pdf"%}
+{% include download-box.html file="/assets/files/PC_school/session3_data.zip" title="Practice session 3. Decaying MHD turbulence" icon="zip"%}
 
 ### Physics lecture 6. First-order phase transitions (23/10/2025 11:30am) by A. S. Midiri and I. Stomberg {#fopts}
 
