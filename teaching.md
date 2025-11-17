@@ -1,5 +1,19 @@
 You can find teaching material from courses I have organized or lectured on this website.
 
+### [Nordita winter school 2026: *Cosmological Magnetic Fields: Generation, Observation, and Modeling*](https://indico.fysik.su.se/event/8554/) at Nordita in Stockholm, Sweden (January 2026)
+
+<div class="teaching-item">
+			<div class="teaching-thumb">
+                <a href="{{ pc_page.url | default: 'https://indico.fysik.su.se/event/8554/' | relative_url }}">
+				{% assign pc_page = site.pages | where: "path", "https://indico.fysik.su.se/event/8554/" | first %}
+				<img src="/assets/img/nordita_school.png" alt="Nordita school logo" /></a>
+			</div>
+	<div class="teaching-body">
+		<p>
+		You can find the information, the schedule, and the teaching materials <a href="{{ pc_page.url | default: 'https://indico.fysik.su.se/event/8554/' | relative_url }}">here</a>.</p>
+	</div>
+</div>
+
 ### [*1st Pencil Code school* on early Universe physics and gravitational waves](/assets/data/PencilCode_school) at CERN in Switzerland (October 2025)
 
 <div class="teaching-item">
