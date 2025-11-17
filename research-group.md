@@ -52,6 +52,8 @@ Research group of the [SNSF Ambizione grant](https://data.snf.ch/grants/grant/20
 
 ### Visitors
 
+<br>
+
 <div class="container">
     {% assign visitors = site.data.collaborators | where_exp: "person", "person.tags contains 'visitor'" | sort: "person.visitfrom" | reverse %}
     {% for person in visitors %}
