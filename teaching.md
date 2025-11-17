@@ -4,8 +4,9 @@ You can find teaching material from courses I have organized or lectured on this
 
 <div class="teaching-item">
 			<div class="teaching-thumb">
+                <a href="{{ pc_page.url | default: '/assets/data/PencilCode_school.html' | relative_url }}">
 				{% assign pc_page = site.pages | where: "path", "assets/data/PencilCode_school.md" | first %}
-				<a href="{{ pc_page.url | default: '/assets/data/PencilCode_school.html' | relative_url }}"><img src="/assets/img/pc_logo.png" alt="Pencil Code school logo" /></a>
+				<img src="/assets/img/pc_logo.png" alt="Pencil Code school logo" /></a>
 			</div>
 	<div class="teaching-body">
 		<p>On October 2025, I organized the <strong>1st Pencil Code school on early Universe physics and gravitational waves</strong> at CERN, Switzerland.
