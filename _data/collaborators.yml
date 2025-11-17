@@ -45,7 +45,8 @@
   img: "/assets/img/stomberg_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1889903"
-  visit: "23/08/23-01/09/23"
+  visitfrom: "23/08/23"
+  visitto: "01/09/23"
   tags: ["higgsless", "visitor"]
 
 - firstname: "Thomas"
@@ -140,7 +141,8 @@
   role: "Researcher at IPM"
   img: "/assets/img/alireza_pic.jpeg"
   url: "https://inspirehep.net/authors/1768582?ui-citation-summary=true"
-  visit: "15/10/25-15/11/25"
+  visitfrom: "15/10/25"
+  visitto: "15/11/25"
   # bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
   tags: ["visitor"]
 
@@ -149,6 +151,7 @@
   role: "Professor at IFIC, CSIC, Valencia"
   img: "/assets/img/figueroa_pic.jpg"
   url: "https://inspirehep.net/authors/1046060?ui-citation-summary=true"
-  visit: "14/06/25-20/06/25"
+  visitfrom: "14/06/25"
+  visitto: "20/06/25"
   # bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
   tags: ["visitor"]
