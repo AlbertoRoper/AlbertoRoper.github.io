@@ -358,9 +358,11 @@ Part B (I. Stomberg)
 
 {% include download-box.html file="https://indico.cern.ch/event/1548935/contributions/6686206/attachments/3160815/5616374/Pencil%20Code%20School%20Lecturr%20on%20PTs.pdf" title="Physics lecture 6. First-order phase transitions. Slides by I. Stomberg" icon_img="assets/img/stomberg_pic.png" %}
 
-### Practice session 5. Gravitational waves and CosmoGW Python package (24/10/2025 3pm) by A. Roper Pol {#practice_GWs}
+### Practice session 4. Gravitational waves and CosmoGW Python package (24/10/2025 3pm) by A. Roper Pol {#practice_GWs}
 
 {% include cds_video.html id="2947210" title="CosmoGW" %}
+
+{% include download-box.html file="/assets/files/PC_school/session4_sheet.pdf" title="Practice session 4. Gravitational waves" icon="pdf"%}
 
 ### School closure (24/10/2025 5:30pm) by A. Roper Pol
 
