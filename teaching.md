@@ -10,7 +10,7 @@ You can find teaching material from courses I have organized or lectured on this
 			</div>
 	<div class="teaching-body">
 		<p>On October 2025, I organized the <strong>1st Pencil Code school on early Universe physics and gravitational waves</strong> at CERN, Switzerland.
-		You can find all the information, the schedule, and the teaching materials <a href="{{ pc_page.url | default: '/assets/data/PencilCode_school.html' | relative_url }}">here</a>. More info available at the <a href="https://indico.cern.ch/event/1548935/">meeting's website</a>.</p>
+		You can find all the information, the schedule, and the teaching materials <a href="{{ pc_page.url | default: '/assets/data/PencilCode_school' | relative_url }}">here</a>. More info available at the <a href="https://indico.cern.ch/event/1548935/">meeting's website</a>.</p>
 	</div>
 </div>
 
