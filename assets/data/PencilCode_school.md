@@ -343,12 +343,14 @@ document.addEventListener('DOMContentLoaded', function(){
 {% include cds_video.html id="2947117" title="Decaying MHD turbulence" %}
 
 {% include download-box.html file="/assets/files/PC_school/session3_sheet.pdf" title="Practice session 3. Decaying MHD turbulence" icon="pdf"%}
-{% include download-box.html file="/assets/files/PC_school/session3_data.zip" title="Practice session 3. Decaying MHD turbulence" icon="zip"%}
+{% include download-box.html file="https://indico.cern.ch/event/1548935/contributions/6686205/attachments/3160668/5615337/session3_data.zip" title="Practice session 3. Decaying MHD turbulence" icon="zip"%}
 
 ### Physics lecture 6. First-order phase transitions (23/10/2025 11:30am) by A. S. Midiri and I. Stomberg {#fopts}
 
 Part A (A. S. Midiri)
 {% include cds_video.html id="2947118" title="First-order phase transitions. Part A" %}
+
+{% include download-box.html file="/assets/files/PC_school/FOPTs_partI_Midiri.pdf" title="Physics lecture 6. First-order phase transitions. Slides by A. S. Midiri" icon_img="assets/img/chiara_pic.png" %}
 
 Part B (I. Stomberg)
 {% include cds_video.html id="2947209" title="First-order phase transitions. Part B" %}
