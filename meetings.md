@@ -53,7 +53,7 @@ You can find below the scientific meetings that I have co-organized.
     </div>
 </div>
 
-### [*Numerical simulations of magnetohydrodynamics in the early Universe*](https://indico.cern.ch/event/1334236/overview) at EPFL (May 2024).
+### [*Generation, evolution, and observations of cosmological magnetic fields*](https://indico.cern.ch/event/1334236/overview) at EPFL (April to June, 2024).
 
 <div class="teaching-item">
             <div class="teaching-thumb">
@@ -61,7 +61,6 @@ You can find below the scientific meetings that I have co-organized.
                 <a href="{{ cl_page.url | default: 'https://indico.cern.ch/event/1334236/overview' | relative_url }}"><img src="/assets/img/bernoulli_program.jpg" alt="Bernoulli program" /></a>
             </div>
     <div class="teaching-body">
-        <p>On May 2024, J. Schober and I co-lectured a 2 ECTS course at EPFL as part of the 6-week <em>"Generation, evolution, and observations of cosmological magnetic fields*</em> program at the Bernoulli Center. You can find the material (password protected) <a href="{{ cl_page.url | default: 'https://jennifer-schober.com/teaching/numerical-simulations-of-magnetohydrodynamics-in-the-early-universe/' | relative_url }}">here</a>. More info available at the <a href="https://indico.cern.ch/event/1334236/overview">Bernoulli program's website</a>.
-        The lectures on MHD in an expanding Universe led to the publication of the following <a href="{{ cl_page.url | default: 'https://arxiv.org/abs/2501.05732' | relative_url }}">review</a></p>
+        <p>On May 2024, J. Schober and I organized the 6-week <em>"Generation, evolution, and observations of cosmological magnetic fields"</em> program at the Bernoulli Center. You can find the details on the program and the recordings <a href="{{ cl_page.url | default: 'https://indico.cern.ch/event/1334236/overview' | relative_url }}">here</a>.</p>
     </div>
 </div>
