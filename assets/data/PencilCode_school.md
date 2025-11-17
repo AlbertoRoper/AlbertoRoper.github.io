@@ -329,10 +329,14 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946978" title="Gravitational waves" %}
 
+{% include download-box.html file="/assets/files/PC_school/Pencil_code_school_Chiara.pdf" title="Physics lecture 4. Gravitational waves. Slides by C. Caprini" icon_img="assets/img/chiara_pic.png" %}
+
 
 ### Physics lecture 5. Inflation (23/10/2025 4pm) by R. Sharma {#inflation}
 
 {% include cds_video.html id="2947120" title="Inflation" %}
+
+{% include download-box.html file="/assets/files/PC_school/Inflation_pencil_code_school.pdf" title="Physics lecture 5. Inflation. Slides by R. Sharma" icon="pdf" %}
 
 ### Practice session 4. Decaying MHD turbulence (24/10/2025 9:30am) by A. Roper Pol {#decayingMHD}
 
