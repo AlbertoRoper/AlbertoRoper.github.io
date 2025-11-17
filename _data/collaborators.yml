@@ -164,3 +164,12 @@
   visitfrom: "20/10/25"
   visitto: "31/10/25"
   tags: ["visitor"]
+
+- firstname: "Kenneth"
+  lastname: "Marschall"
+  role: "Postdoc at IFIC, Valencia"
+  img: "/assets/img/marschall_pic.png"
+  url: "https://som.ific.uv.es/postdoc/kenneth-marschall/"
+  visitfrom: "14/06/25"
+  visitto: "20/06/25"
+  tags: ["visitor"]
