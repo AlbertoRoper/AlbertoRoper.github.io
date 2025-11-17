@@ -26,3 +26,15 @@ You can find teaching material from courses I have organized or lectured on this
 		You can find all the information, the schedule, and the teaching materials <a href="{{ cl_page.url | default: '/assets/data/CosmoLattice_school' | relative_url }}">here</a>. More info available at the <a href="https://indico.ific.uv.es/event/8110/overview">school's website</a>.</p>
 	</div>
 </div>
+
+### [*Numerical simulations of magnetohydrodynamics in the early Universe*](https://indico.cern.ch/event/1334236/overview) at EPFL (May 2024).
+
+<div class="teaching-item">
+			<div class="teaching-thumb">
+				{% assign cl_page = site.pages | where: "path", "https://indico.cern.ch/event/1334236/overview" | first %}
+				<a href="{{ cl_page.url | default: 'https://indico.cern.ch/event/1334236/overview' | relative_url }}"><img src="/assets/img/bernoulli_program.jpg" alt="Bernoulli program" /></a>
+			</div>
+	<div class="teaching-body">
+		<p>On May 2024, J. Schober and I co-lectured a 2 ECTS course at EPFL as part of the 6-week *Generation, evolution, and observations of cosmological magnetic fields* program at the Bernoulli Center. You can find the material (password protected) in the following link: <a href="{{ cl_page.url | default: 'https://jennifer-schober.com/teaching/numerical-simulations-of-magnetohydrodynamics-in-the-early-universe/' | relative_url }}">here</a>. More info available at the <a href="https://indico.cern.ch/event/1334236/overview">Bernoulli program's website</a>.</p>
+	</div>
+</div>
