@@ -28,7 +28,7 @@
   role: "Postdoc at the University of Geneva (2023-2025)"
   img: "/assets/img/procacci_pic.jpg"
   # bio: "Simulations and early-Universe phenomenology."
-  # url: "https://annuaire.in2p3.fr/10579-14893/madeline-salome"
+  url: "https://inspirehep.net/authors/2007697?ui-citation-summary=true"
   tags: ["sound_waves"]
 
 - firstname: "Madeline"
@@ -45,7 +45,7 @@
   img: "/assets/img/stomberg_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1889903"
-  tags: ["higgsless"]
+  tags: ["higgsless", "visitor"]
 
 - firstname: "Thomas"
   lastname: "Konstandin"
@@ -84,7 +84,7 @@
   role: "Professor at APC"
   # img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
-  # url: "https://people.epfl.ch/andrii.neronov?lang=en"
+  url: "https://inspirehep.net/authors/989349?ui-citation-summary=true"
   tags: ["multi-messenger"]
 
 - firstname: "Axel"
@@ -99,6 +99,7 @@
   lastname: "He"
   role: "PhD student at Stockholm University (2021-2024)"
   img: "/assets/img/yutong_pic.png"
+  url: "https://inspirehep.net/authors/1858321?ui-citation-summary=true"
   tags: ["modified_gravity"]
 
 - firstname: "Tina"
@@ -122,7 +123,7 @@
   role: "Lecturer at Carnegie Mellon University"
   # img: "/assets/img/mandal_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
-  # url: "https://www.physicsandastronomy.pitt.edu/people/arthur-kosowsky"
+  url: "https://inspirehep.net/authors/1629839?ui-citation-summary=true"
   tags: ["turbulence_GWs"]
 
 - firstname: "Tanmay"
@@ -132,3 +133,19 @@
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://search.asu.edu/profile/1607556"
   tags: ["primordial_MFs"]
+
+- firstname: "Alireza"
+  lastname: "Talebian Ashkezari"
+  role: "Researcher at IPM"
+  img: "/assets/img/alireza_pic.jpeg"
+  url: "https://inspirehep.net/authors/1768582?ui-citation-summary=true"
+  # bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
+  tags: ["visitor"]
+
+- firstname: "Daniel G."
+  lastname: "Figueroa"
+  role: "Professor at IFIC, CSIC, Valencia"
+  img: "/assets/img/figueroa_pic.jpg"
+  url: "https://inspirehep.net/authors/1046060?ui-citation-summary=true"
+  # bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
+  tags: ["visitor"]
