@@ -323,6 +323,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2947113" title="Chiral MHD" %}
 
+{% include download-box.html file="/assets/files/PC_school/Pencil Code MHD.pptx" title="Physics lecture 3. Chiral magnetohydrodynamics. Slides by D. Garg" icon_img="assets/img/deepen_pic.jpg" %}
+
 ### Physics lecture 4. Gravitational waves (23/10/2025 2pm) by C. Caprini {#gws}
 
 {% include cds_video.html id="2946978" title="Gravitational waves" %}
