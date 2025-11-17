@@ -14,6 +14,19 @@ You can find below the scientific meetings that I have co-organized.
 	</div>
 </div>
 
+### [*CosmoLattice school*](/assets/data/CosmoLattice_school) at IBS in Korea (September 2025)
+
+<div class="teaching-item">
+            <div class="teaching-thumb">
+                {% assign cl_page = site.pages | where: "path", "assets/data/CosmoLattice_school.md" | first %}
+                <a href="{{ cl_page.url | default: '/assets/data/CosmoLattice_school' | relative_url }}"><img src="/assets/img/cl_icon.png" alt="CosmoLattice school logo" /></a>
+            </div>
+    <div class="teaching-body">
+        <p>On September 2025, I was invited to lecture at the <strong>CosmoLattice school</strong> at IBS in Daejeon, South Korea.
+        You can find all the information, the schedule, and the teaching materials <a href="{{ cl_page.url | default: '/assets/data/CosmoLattice_school' | relative_url }}">here</a>. More info available at the <a href="https://indico.ific.uv.es/event/8110/overview">school's website</a>.</p>
+    </div>
+</div>
+
 ### [*Advancing gravitational wave predictions from cosmological first-order phase transitions*](https://indico.cern.ch/event/1511688/) at CERN in Switzerland (August 2025)
 
 <div class="teaching-item">
@@ -25,19 +38,6 @@ You can find below the scientific meetings that I have co-organized.
     <div class="teaching-body">
         <p>On August 2025, together with Chiara Caprini (CERN & University of Geneva), Hyun Min Lee (Chung-Ang University), Seong Chan Park (Yonsei University), Simona Procacci (University of Geneva), Philipp Schicho (University of Geneva) and Jorinde van de Vis (CERN), we organized the CERN-Korea collaboration workshop <strong>dvancing gravitational wave predictions from cosmological first-order phase transitions</strong> at CERN, Switzerland.
         You can find all the information and the schedule <a href="{{ pc_page.url | default: 'https://indico.cern.ch/event/1511688/' | relative_url }}">here</a>.</p>
-    </div>
-</div>
-
-### [*CosmoLattice school*](/assets/data/CosmoLattice_school) at IBS in Korea (September 2025)
-
-<div class="teaching-item">
-            <div class="teaching-thumb">
-                {% assign cl_page = site.pages | where: "path", "assets/data/CosmoLattice_school.md" | first %}
-                <a href="{{ cl_page.url | default: '/assets/data/CosmoLattice_school' | relative_url }}"><img src="/assets/img/cl_icon.png" alt="CosmoLattice school logo" /></a>
-            </div>
-    <div class="teaching-body">
-        <p>On September 2025, I was invited to lecture at the <strong>CosmoLattice school</strong> at IBS in Daejeon, South Korea.
-        You can find all the information, the schedule, and the teaching materials <a href="{{ cl_page.url | default: '/assets/data/CosmoLattice_school' | relative_url }}">here</a>. More info available at the <a href="https://indico.ific.uv.es/event/8110/overview">school's website</a>.</p>
     </div>
 </div>
 
