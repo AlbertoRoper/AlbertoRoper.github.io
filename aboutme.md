@@ -17,10 +17,15 @@ Before moving to Geneva in 2022, I was a postdoctoral researcher at the theory g
 I received my PhD from the University of Colorado at Boulder in 2020, where I moved in 2015 with a [Balsells fellowship](https://www.colorado.edu/engineering-international/europe-colorado-program/student-profiles#accordion-346157704-1) to conduct my graduate studies. In Colorado, I was a researcher at the [Laboratory for Atmospheric and Space Physics](https://lasp.colorado.edu/) and at the [Ann and H.J. Smead Aerospace Engineering Sciences department](https://www.colorado.edu/aerospace/).
 
 For more details, see my [CV](/cv).
+
 For a list of my publications and talks/seminars, see [publications](publications).
+
 For recent updates, check my posts on [news and updates](news).
+
 For information on my research group, check [my research group](research-group).
+
 If you are interested on the topics of my research, check my [research interests](research-interests).
+
 You can also find a list of [meetings](meetings) I have co-organized and [teaching](teaching) material related to my research.
 
 
