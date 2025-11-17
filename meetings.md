@@ -1,6 +1,4 @@
 
-You can find below the scientific meetings that I have co-organized.
-
 ### [*1st Pencil Code school on early Universe physics and gravitational waves* and *Pencil Code user meeting*](https://indico.cern.ch/event/1548935/) 2025 at CERN in Switzerland (October 2025)
 
 <div class="teaching-item">

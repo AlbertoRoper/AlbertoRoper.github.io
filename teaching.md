@@ -1,4 +1,3 @@
-You can find teaching material from courses I have organized or lectured on this website.
 
 ### [Nordita winter school 2026. *Cosmological Magnetic Fields: Generation, Observation, and Modeling*](https://indico.fysik.su.se/event/8554/) at Nordita in Stockholm, Sweden (January 2026)
 
