@@ -18,7 +18,7 @@ I received my PhD from the University of Colorado at Boulder in 2020, where I mo
 
 For more details, see my [CV](/cv).<br>
 For a list of my publications and talks/seminars, see [publications](publications).<br>
-For recent updates, check my posts on [news and updates](news).<br>
+For recent updates, check my posts on [news and updates](news.html).<br>
 For information on my research group, check [my research group](research-group).<br>
 If you are interested on the topics of my research, check my [research interests](research-interests).<br>
 You can also find a list of [meetings](meetings) I have co-organized and [teaching](teaching) material related to my research.
