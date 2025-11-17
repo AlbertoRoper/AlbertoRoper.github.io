@@ -1,6 +1,6 @@
 You can find teaching material from courses I have organized or lectured on this website.
 
-### *1st Pencil Code school* on early Universe physics and gravitational waves at CERN in Switzerland (October 2025)
+### [*1st Pencil Code school* on early Universe physics and gravitational waves](/assets/data/PencilCode_school) at CERN in Switzerland (October 2025)
 
 <div class="teaching-item">
 			<div class="teaching-thumb">
