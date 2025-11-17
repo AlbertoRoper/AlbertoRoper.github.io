@@ -1,6 +1,6 @@
 You can find teaching material from courses I have organized or lectured on this website.
 
-### [Nordita winter school 2026: *Cosmological Magnetic Fields: Generation, Observation, and Modeling*](https://indico.fysik.su.se/event/8554/) at Nordita in Stockholm, Sweden (January 2026)
+### [Nordita winter school 2026. *Cosmological Magnetic Fields: Generation, Observation, and Modeling*](https://indico.fysik.su.se/event/8554/) at Nordita in Stockholm, Sweden (January 2026)
 
 <div class="teaching-item">
 			<div class="teaching-thumb">
@@ -50,6 +50,6 @@ You can find teaching material from courses I have organized or lectured on this
 			</div>
 	<div class="teaching-body">
 		<p>On May 2024, J. Schober and I co-lectured a 2 ECTS course at EPFL as part of the 6-week <em>"Generation, evolution, and observations of cosmological magnetic fields"</em> program at the Bernoulli Center. You can find the material (password protected) <a href="{{ cl_page.url | default: 'https://jennifer-schober.com/teaching/numerical-simulations-of-magnetohydrodynamics-in-the-early-universe/' | relative_url }}">here</a>. More info available at the <a href="https://indico.cern.ch/event/1334236/overview">Bernoulli program's website</a>.
-        The lectures on MHD in an expanding Universe led to the publication of the following <a href="{{ cl_page.url | default: 'https://arxiv.org/abs/2501.05732' | relative_url }}">review</a></p>
+        The lectures on MHD in an expanding Universe led to the publication of the following <a href="{{ cl_page.url | default: 'https://arxiv.org/abs/2501.05732' | relative_url }}">review</a>.</p>
 	</div>
 </div>
