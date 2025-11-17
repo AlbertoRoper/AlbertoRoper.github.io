@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946841" title="Accelerating Pencil Code on GPUs" %}
 
-{% include download-box.html file="/assets/files/PC_school/PCA_GPU_session.pdf" title="Code lecture 8. GPU acceleration. Slides by M. Rheinhardt>" icon="pdf" %}
+{% include download-box.html file="/assets/files/PC_school/PCA_GPU_session.pdf" title="Code lecture 8. GPU acceleration. Slides by M. Rheinhardt" icon="pdf" %}
 
 ### Practice session 3. Free hands-on session (22/10/2025 4pm) by A. Roper Pol {#practicefree}
 
@@ -316,6 +316,8 @@ document.addEventListener('DOMContentLoaded', function(){
 ### Physics lecture 2. Primordial magnetic fields (23/10/2025 11:30am) by A. Brandenburg and A. Roper Pol {#pmfs}
 
 {% include cds_video.html id="2947112" title="Primordial magnetic fields" %}
+
+{% include download-box.html file="/assets/files/PC_school/primordial_magnetic_fields_GWs.pdf" title="Physics lecture 2. Primordial magnetic fields. Slides by A. Roper Pol" icon_img="assets/img/photo_profile.jpeg" %}
 
 ### Physics lecture 3. Chiral magnetohydrodynamics (23/10/2025 12:30pm) by D. Garg {#chiral}
 

@@ -155,3 +155,12 @@
   visitto: "20/06/25"
   # bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
   tags: ["visitor"]
+
+- firstname: "Deepen"
+  lastname: "Garg"
+  role: "Postdoc at University of Bonn"
+  img: "/assets/img/deepen_pic.jpg"
+  url: "https://www.dgarg.com/"
+  visitfrom: "20/10/25"
+  visitto: "31/10/25"
+  tags: ["visitor"]
