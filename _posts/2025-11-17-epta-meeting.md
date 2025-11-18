@@ -1,7 +1,7 @@
 ---
 layout: post
 title: European Pulsar Timing Array (EPTA) meeting
-tags: [meeting]
+tags: [meetings]
 author: Alberto Roper Pol
 thumbnail-img: /assets/img/epta_logo.png
 share-img: /assets/img/epta_logo.png
