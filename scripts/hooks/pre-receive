@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# pre-receive hook to enforce linear history
+# Reject any push that would introduce merge commits (commits with more than one parent).
+# Install: copy this file to the bare repository's hooks directory and make it executable.
+
+set -euo pipefail
+
+# Read stdin lines of: <old-value> <new-value> <ref-name>
+# For each updated ref, check commits in the range for merge commits.
+
+reason_message="Push rejected: repository enforces linear history (no merge commits allowed).\nPlease rebase or squash your changes before pushing."
+
+has_error=0
+
+while read -r oldrev newrev refname; do
+  # ignore branch deletions
+  if [ "$newrev" = "0000000000000000000000000000000000000000" ]; then
+    continue
+  fi
+
+  # compute the commit range:
+  # if creating a branch (oldrev is all-zero) check all commits reachable from newrev
+  if [ "$oldrev" = "0000000000000000000000000000000000000000" ]; then
+    range="$newrev"
+  else
+    range="$oldrev..$newrev"
+  fi
+
+  # look for any commit in the range that has 2+ parents (merge commits)
+  # --min-parents=2 returns merge commits only
+  if git rev-list --min-parents=2 --count "$range" >/dev/null 2>&1; then
+    merges_count=$(git rev-list --min-parents=2 --count "$range")
+  else
+    merges_count=0
+  fi
+
+  if [ "$merges_count" -gt 0 ]; then
+    echo "================================================================" 1>&2
+    echo "$reason_message" 1>&2
+    echo "Ref: $refname" 1>&2
+    echo "Merge commits detected: $merges_count" 1>&2
+    echo "To fix: fetch the remote branch, rebase your commits onto it, and push (use --force-with-lease if rebasing)." 1>&2
+    echo "Examples:" 1>&2
+    echo "  git fetch origin $refname" 1>&2
+    echo "  git rebase origin/${refname#refs/heads/}" 1>&2
+    echo "  git push --force-with-lease origin ${refname#refs/heads/}" 1>&2
+    echo "================================================================" 1>&2
+    has_error=1
+  fi
+
+done
+
+if [ "$has_error" -ne 0 ]; then
+  exit 1
+fi
+
+exit 0
