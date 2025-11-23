@@ -75,3 +75,11 @@ Under the Higgsless approach, the fluid motion induced by the phase transitions 
 
 #### Publications:
 {% include publications-by-tag.html tag="primordial_MFs" reversed=true %}
+
+## Primordial magnetic fields from chiral effect
+
+#### Main collaborators
+{% include collaborators-by-tag.html tag="chiral_mhd" %}
+
+#### Publications:
+{% include publications-by-tag.html tag="chiral_mhd" reversed=true %}

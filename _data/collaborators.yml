@@ -95,7 +95,7 @@
   img: "/assets/img/brandenburg_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://axelbrandenburg.github.io/"
-  tags: ["turbulence_GWs", "primordial_MFs", "modified_gravity"]
+  tags: ["turbulence_GWs", "primordial_MFs", "modified_gravity", "chiral_mhd"]
 
 - firstname: "Yutong"
   lastname: "He"
@@ -110,7 +110,7 @@
   img: "/assets/img/tina_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://www.cmu.edu/physics/people/faculty/kahniashvili.html"
-  tags: ["turbulence_GWs", "primordial_MFs"]
+  tags: ["turbulence_GWs", "primordial_MFs", "chiral_mhd"]
 
 - firstname: "Arthur"
   lastname: "Kosowsky"
@@ -173,3 +173,17 @@
   visitfrom: "14/06/25"
   visitto: "20/06/25"
   tags: ["visitor"]
+
+- firstname: "Andrew J."
+  lastname: "Long"
+  role: "Professor at Rice University"
+  img: "/assets/img/andrew_pic.jpg"
+  url: "https://al72.blogs.rice.edu/"
+  tags: ["chiral_mhd"]
+
+- firstname: "Murman"
+  lastname: "Gurgenidze"
+  role: "PhD student at Carnegie Mellon University"
+  img: "/assets/img/murman_pic.jpeg"
+  url: "https://www.cmu.edu/astro-cosmology/people/index.html"
+  tags: ["chiral_mhd"]
