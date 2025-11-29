@@ -10,7 +10,7 @@ You can find below the scientific meetings that I have co-organized.
 			</div>
 	<div class="teaching-body">
 		<p>On October 2025, I organized the <strong>1st Pencil Code school on early Universe physics and gravitational waves</strong> and the <strong>Pencil Code user meeting</strong> at CERN, Switzerland.
-		You can find all the information, the schedule, and the teaching materials <a href="{{ pc_page.url | default: '/assets/data/PencilCode_school.html' | relative_url }}">here</a>. More info available at the <a href="https://indico.cern.ch/event/1548935/">meeting's website</a>. You can read a post about the school and the meeting <a href="/2025-10-31-pencil_code_2025">here</a>.</p>
+		You can find all the information, the schedule, and the teaching materials <a href="{{ pc_page.url | default: '/assets/data/PencilCode_school' | relative_url }}">here</a>. More info available at the <a href="https://indico.cern.ch/event/1548935/">meeting's website</a>. You can read a post about the school and the meeting <a href="/2025-10-31-pencil_code_2025">here</a>.</p>
 	</div>
 </div>
 
