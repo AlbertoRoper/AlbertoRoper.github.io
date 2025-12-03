@@ -187,3 +187,10 @@
   img: "/assets/img/murman_pic.jpeg"
   url: "https://www.cmu.edu/astro-cosmology/people/index.html"
   tags: ["chiral_mhd"]
+
+- firstname: "Fumio"
+  lastname: "Uchida"
+  role: "Postdoc at IBS, Daejeon"
+  # img: "/assets/img/murman_pic.jpeg"
+  url: "https://cf486016.cloudfree.jp/FUprofile.html"
+  tags: ["visitor"]
