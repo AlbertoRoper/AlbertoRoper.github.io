@@ -201,7 +201,7 @@
   journal: "Phys. Rev. Fluids"
   volume: "4"
   page: "024608"
-  dataset: "https://doi.org/10.5281/zenodo.3345134"
+  dataset: "10.5281/zenodo.3345134"
   arxiv: 1710.01628
   tags: ["primordial_MFs", "published", "dataset"]
 
