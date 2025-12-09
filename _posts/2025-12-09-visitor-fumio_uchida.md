@@ -3,7 +3,7 @@ layout: post
 title: Fumio Uchida visits UniGe
 # thumbnail-img: /assets/img/alireza_hike.jpeg
 # share-img: /assets/img/alireza_hike.jpeg
-tags: [visitor]
+tags: [visitors]
 author: Alberto Roper Pol
 date: 2025-12-09
 ---

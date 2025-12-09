@@ -3,7 +3,7 @@ layout: post
 title: Alireza Talebian visits CERN and UniGe
 thumbnail-img: /assets/img/alireza_hike.jpeg
 share-img: /assets/img/alireza_hike.jpeg
-tags: [visitor]
+tags: [visitors]
 author: Alberto Roper Pol
 date: 2025-11-15
 ---

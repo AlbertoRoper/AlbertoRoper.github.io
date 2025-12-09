@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visit to the Max Planck Institute for Radio Astronomy in Bonn
-tags: [seminars, visits]
+tags: [seminars, research visits]
 author: Alberto Roper Pol
 thumbnail-img: /assets/img/mpifr_photo.webp
 share-img: /assets/img/mpifr_photo.webp
