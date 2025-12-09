@@ -111,7 +111,8 @@
   authors: "Y. He, A. Roper Pol, A. Brandenburg"
   year: 2021
   journal: "Phys. Rev. D"
-  tags: ["other", "submitted"]
+  dataset: "10.5281/zenodo.5603013"
+  tags: ["other", "submitted", "dataset"]
   arxiv: 2110.14456
 
 - title: "Polarization of gravitational waves from helical MHD turbulent sources"
@@ -121,7 +122,8 @@
   volume: "04"
   page: "019"
   arxiv: 2107.05356
-  tags: ["turbulence_GWs", "published"]
+  dataset: "10.5281/zenodo.5525504"
+  tags: ["turbulence_GWs", "published", "dataset"]
 
 - title: "Gravitational radiation from MHD turbulence in the early universe"
   authors: "A. Roper Pol"
@@ -145,8 +147,9 @@
   journal: "Phys. Rev. Res."
   volume: "3"
   page: "013193"
+  dataset: "10.5281/zenodo.42569063"
   arxiv: 2011.05556
-  tags: ["turbulence_GWs", "published"]
+  tags: ["turbulence_GWs", "published", "dataset"]
 
 - title: "NANOGrav signal from MHD turbulence at the QCD phase transition in the early universe"
   authors: "A. Neronov, A. Roper Pol, C. Caprini, D. Semikoz"
@@ -163,8 +166,9 @@
   journal: "Phys. Rev. D"
   volume: "102"
   page: "083512"
+  dataset: "10.5281/zenodo.3692072"
   arxiv: 1903.08585
-  tags: ["turbulence_GWs", "published"]
+  tags: ["turbulence_GWs", "published", "dataset"]
 
 - title: "Magnetism in the Early Universe"
   authors: "T. Kahniashvili, A. Brandenburg, A. Kosowsky, S. Mandal, A. Roper Pol"
@@ -197,8 +201,9 @@
   journal: "Phys. Rev. Fluids"
   volume: "4"
   page: "024608"
+  dataset: "https://doi.org/10.5281/zenodo.3345134"
   arxiv: 1710.01628
-  tags: ["primordial_MFs", "published"]
+  tags: ["primordial_MFs", "published", "dataset"]
 
 - title: "Evolution of hydromagnetic turbulence from the electroweak phase transition"
   authors: "A. Brandenburg, T. Kahniashvili, S. Mandal, A. Roper Pol, A.G. Tevzadze, T. Vachaspati"
