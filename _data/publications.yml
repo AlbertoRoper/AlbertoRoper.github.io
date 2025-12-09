@@ -1,9 +1,10 @@
 - title: Primordial magnetic field from chiral plasma instability with sourcing
-  authors: "A. Brandenburg, M. Gurgenidze, T. Kahniashvili, A. J. Long, A. Roper Pol"
+  authors: "M. Gurgenidze, A. J. Long, A. Roper Pol, A. Brandenburg, T. Kahniashvili"
   year: 2025
   journal: "Phys. Rev. D"
   arxiv: 2512.xxxxx
-  tags: ["chiral_mhd", "submitted", "ambizione"]
+  dataset: "10.5281/zenodo.17852669"
+  tags: ["chiral_mhd", "submitted", "ambizione", "dataset"]
 
 - title: "Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion"
   authors: "I. Stomberg, A. Roper Pol"
@@ -60,7 +61,8 @@
   year: 2023
   journal: "Astron. Astrophys."
   arxiv: 2307.10744
-  tags: ["multi-messenger", "ambizione", "submitted"]
+  dataset: "10.5281/zenodo.5782752"
+  tags: ["multi-messenger", "ambizione", "submitted", "dataset"]
 
 - title: "The second data release from the European Pulsar Timing Array IV: Implications for massive black holes, dark matter and the early Universe"
   authors: "[EPTA and InPTA Collaborations] (incl. A. Roper Pol)"

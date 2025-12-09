@@ -38,6 +38,16 @@ Parameters:
   <ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
     {% for pub in matches %}
     <li>
+    {%- if include.title == "Datasets" -%}
+        {{ pub.authors }}, Dataset for "
+        <em>{{ pub.title }},</em>"
+        {% if pub.dataset %} <a href=" https://doi.org/{{ pub.dataset }}">{{ pub.dataset }}</a> {% endif %}
+        {% if pub.year and pub.arxiv %} ({{ pub.year }}), 
+        arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
+        {% elsif pub.year %}
+          ({{ pub.year }}).
+        {% endif %}
+    {%- else -%}
         {{ pub.authors }}, <em>{{ pub.title }},</em>
         {% if pub.journal and pub.tags contains "published" %}
         <em>{{ pub.journal }},</em>
@@ -56,6 +66,7 @@ Parameters:
         {% if pub.url %}
         <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
         {% endif %}
+    {%- endif -%}
     </li>
     {% endfor %}
   </ol>
