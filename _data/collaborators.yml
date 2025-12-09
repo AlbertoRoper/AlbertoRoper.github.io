@@ -45,8 +45,8 @@
   img: "/assets/img/stomberg_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1889903"
-  visitfrom: "23/08/23"
-  visitto: "01/09/23"
+  visitfrom: "2023-08-23"
+  visitto: "2023-09-01"
   tags: ["higgsless", "visitor"]
 
 - firstname: "Thomas"
@@ -141,8 +141,8 @@
   role: "Researcher at IPM"
   img: "/assets/img/alireza_pic.png"
   url: "https://inspirehep.net/authors/1768582?ui-citation-summary=true"
-  visitfrom: "15/10/25"
-  visitto: "15/11/25"
+  visitfrom: "2025-10-15"
+  visitto: "2025-11-15"
   # bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
   tags: ["visitor"]
 
@@ -151,8 +151,8 @@
   role: "Professor at IFIC, CSIC, Valencia"
   img: "/assets/img/figueroa_pic.jpg"
   url: "https://inspirehep.net/authors/1046060?ui-citation-summary=true"
-  visitfrom: "14/06/25"
-  visitto: "20/06/25"
+  visitfrom: "2025-06-14"
+  visitto: "2025-06-20"
   # bio: "My research focuses on the study of cosmological phase transitions in the early Universe, their associated production of gravitational waves and primordial magnetic fields, and their implications for particle physics beyond the Standard Model."
   tags: ["visitor"]
 
@@ -161,8 +161,8 @@
   role: "Postdoc at University of Bonn"
   img: "/assets/img/deepen_pic.jpg"
   url: "https://www.dgarg.com/"
-  visitfrom: "20/10/25"
-  visitto: "31/10/25"
+  visitfrom: "2025-10-20"
+  visitto: "2025-10-31"
   tags: ["visitor"]
 
 - firstname: "Kenneth"
@@ -170,8 +170,8 @@
   role: "Postdoc at IFIC, Valencia"
   img: "/assets/img/marschall_pic.png"
   url: "https://som.ific.uv.es/postdoc/kenneth-marschall/"
-  visitfrom: "14/06/25"
-  visitto: "20/06/25"
+  visitfrom: "2025-06-14"
+  visitto: "2025-06-20"
   tags: ["visitor"]
 
 - firstname: "Andrew J."
@@ -193,6 +193,6 @@
   role: "Postdoc at IBS, Daejeon"
   # img: "/assets/img/murman_pic.jpeg"
   url: "https://cf486016.cloudfree.jp/FUprofile.html"
-  visitfrom: "09/12/25"
-  visitto: "12/12/25"
+  visitfrom: "2025-12-09"
+  visitto: "2025-12-12"
   tags: ["visitor"]
