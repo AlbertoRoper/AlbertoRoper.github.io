@@ -15,3 +15,6 @@ During the visit, I will be giving the main colloquium at the Max Planck Institu
 <div style="max-width:100%;height:0;padding-bottom:100%;position:relative;">
   <iframe src="/assets/files/presentations/mpifr_dec25.pdf" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe>
 </div>
+
+![](/assets/img/dinner_bonn.jpg)
+Dinner with J. Schober's group at a vegan restaurant in Bonn.
