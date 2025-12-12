@@ -14,3 +14,7 @@ Dr. Uchida has worked on different aspects of primordial magnetogenesis and bary
 
 ![](/assets/img/fumio_giving_talk.jpg)
 Dr. Uchida presenting his work at the journal club at UniGe on Dec. 12, 2025.
+
+<div style="max-width:100%;height:0;padding-bottom:100%;position:relative;">
+  <iframe src="/assets/files/presentations/Uchida_dec25.pdf" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe>
+</div>
