@@ -18,3 +18,7 @@ Picture of Alireza hiking at Oeschinen lake in the Bernese Oberland, Switzerland
 During the user meeting, Dr. Alireza Talebian used the Pencil Code user meeting logo to present the Mt Blanc Model on ultra-slow roll inflation!
 
 ![](/assets/img/alireza_mt_blanc_model.png)
+
+<div style="max-width:100%;height:0;padding-bottom:100%;position:relative;">
+  <iframe src="/assets/files/presentations/Talebian_nov25.pdf" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"></iframe>
+</div>
