@@ -5,6 +5,7 @@ Count publications per tag using explicit loops (compatible with GitHub Pages' L
 
 {%- assign n_submitted = 0 -%}
 {%- assign n_published = 0 -%}
+{%- assign n_preprints = 0 -%}
 {%- assign n_proceedings = 0 -%}
 
 {%- for p in site.data.publications -%}
@@ -14,6 +15,9 @@ Count publications per tag using explicit loops (compatible with GitHub Pages' L
 	{%- if p.tags and p.tags contains 'published' -%}
 		{%- assign n_published = n_published | plus: 1 -%}
 	{%- endif -%}
+	{%- if p.tags and p.tags contains 'preprint' -%}
+		{%- assign n_preprint = n_preprint | plus: 1 -%}
+	{%- endif -%}
 	{%- if p.tags and p.tags contains 'proceedings' -%}
 		{%- assign n_proceedings = n_proceedings | plus: 1 -%}
 	{%- endif -%}
@@ -21,11 +25,14 @@ Count publications per tag using explicit loops (compatible with GitHub Pages' L
 
 {%- assign start_submitted = n_submitted | plus: 0 -%}
 {%- assign start_published = n_submitted | plus: n_published -%}
-{%- assign start_proceedings = n_submitted | plus: n_published | plus: n_proceedings -%}
+{%- assign start_preprint = n_submitted | plus: n_published | plus: n_preprint -%}
+{%- assign start_proceedings = n_submitted | plus: n_published | plus: n_preprint | plus: n_proceedings -%}
 
 {% include publications-by-tag.html tag="submitted" reversed=true start=start_submitted title="Submitted" %}
 
 {% include publications-by-tag.html tag="published" reversed=true start=start_published title="Published" %}
+
+{% include publications-by-tag.html tag="published" reversed=true start=start_published title="Preprints" %}
 
 {% include publications-by-tag.html tag="proceedings" reversed=true start=start_proceedings title="Proceedings" %}
 
