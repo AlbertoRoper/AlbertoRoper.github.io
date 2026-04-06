@@ -2,14 +2,14 @@
   authors: "C. Caprini, A. S. Midir, S. Procacci, A. Roper Pol"
   year: 2026
   journal: "J. Cosmol. Astropart. Phys."
-  arxiv: 2604.02240
+  arxiv: "2604.02240"
   tags: ["sound_waves", "ambizione", "submitted"]
 
 - title: Primordial magnetic field from chiral plasma instability with sourcing
   authors: "M. Gurgenidze, A. J. Long, A. Roper Pol, A. Brandenburg, T. Kahniashvili"
   year: 2025
   journal: "Phys. Rev. D"
-  arxiv: 2512.09177
+  arxiv: "2512.09177"
   dataset: "10.5281/zenodo.17852669"
   tags: ["chiral_mhd", "submitted", "ambizione", "dataset"]
 
@@ -17,7 +17,7 @@
   authors: "I. Stomberg, A. Roper Pol"
   year: 2025
   proceedings: "Proceedings of the 59th Rencontres de Moriond on Gravitation"
-  arxiv: 2508.04263
+  arxiv: "2508.04263"
   tags: ["higgsless", "ambizione", "proceedings"]
 
 - title: "Relativistic magnetohydrodynamics in the early Universe"
@@ -25,7 +25,7 @@
   year: 2025
   journal: "J. Cosmol. Astropart. Phys."
   volume: "(in print)"
-  arxiv: 2501.05732
+  arxiv: "2501.05732"
   tags: ["ambizione", "published", "primordial_MFs"]
 
 - title: "Gravitational waves from first-order phase transitions: from weak to strong"
@@ -34,7 +34,7 @@
   journal: "J. High Energy Phys."
   volume: "07"
   page: "217"
-  arxiv: 2409.03651
+  arxiv: "2409.03651"
   tags: ["higgsless", "ambizione", "published"]
 
 - title: "The Lunar Gravitational-wave Antenna: Mission studies and science case"
@@ -44,7 +44,7 @@
   tags: ["LGWA", "ambizione", "collaboration", "published"]
   volume: "01"
   page: "108"
-  arxiv: 2404.09181
+  arxiv: "2404.09181"
 
 - title: "Gravitational waves from first-order phase transitions in LISA: Reconstruction pipeline and physics interpretation"
   authors: "[LISA Cosmology Working Group], C. Caprini, R. Jinno, M. Lewicki, E. Madge, M. Merchand, G. Nardini, M. Pieroni, A. Roper Pol, V. Vaskonen"
@@ -52,7 +52,7 @@
   journal: "J. Cosmol. Astropart. Phys."
   volume: "10"
   page: "020"
-  arxiv: 2403.03723
+  arxiv: "2403.03723"
   tags: ["LISA", "collaboration", "ambizione", "published"]
 
 - title: "Characterization of the gravitational wave spectrum from sound waves within the sound shell model"
@@ -61,14 +61,14 @@
   journal: "Phys. Rev. D"
   volume: "109"
   page: "063531"
-  arxiv: 2308.12943
+  arxiv: "2308.12943"
   tags: ["sound_waves", "ambizione", "published"]
 
 - title: "LISA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
   authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, D. Semikoz"
   year: 2023
   journal: "Astron. Astrophys."
-  arxiv: 2307.10744
+  arxiv: "2307.10744"
   dataset: "10.5281/zenodo.5782752"
   tags: ["multi-messenger", "ambizione", "published", "dataset"]
 
@@ -78,7 +78,7 @@
   journal: "Astron. Astrophys."
   volume: "685"
   page: "A94"
-  arxiv: 2306.16227
+  arxiv: "2306.16227"
   tags: ["EPTA", "collaboration", "ambizione", "published"]
 
 - title: "Modified propagation of gravitational waves from the early radiation era"
@@ -87,14 +87,14 @@
   journal: "J. Cosmol. Astropart. Phys."
   volume: "06"
   page: "025"
-  arxiv: 2212.06082
+  arxiv: "2212.06082"
   tags: ["modified_gravity", "ambizione", "published"]
 
 - title: "Gravitational waves from MHD turbulence at the QCD phase transition as a source for Pulsar Timing Arrays"
   authors: "A. Roper Pol"
   year: 2022
   proceedings: "Proceedings of the 56th Rencontres de Moriond on Gravitation"
-  arxiv: 2205.09261
+  arxiv: "2205.09261"
   tags: ["multi-messenger", "proceedings"]
 
 - title: "Cosmology with the Laser Interferometer Space Antenna"
@@ -103,7 +103,7 @@
   journal: "Living Rev. Relativ."
   volume: "26"
   page: "5"
-  arxiv: 2204.05434
+  arxiv: "2204.05434"
   tags: ["LISA", "collaboration", "published"]
 
 - title: "Gravitational wave signal from primordial magnetic fields in the Pulsar Timing Array frequency band"
@@ -112,7 +112,7 @@
   journal: "Phys. Rev. D"
   volume: "105"
   page: "123502"
-  arxiv: 2201.05630
+  arxiv: "2201.05630"
   tags: ["multi-messenger", "published"]
 
 - title: "Leading-order nonlinear gravitational waves from reheating magnetogeneses"
@@ -121,7 +121,7 @@
   journal: "Phys. Rev. D"
   dataset: "10.5281/zenodo.5603013"
   tags: ["other", "preprint", "dataset"]
-  arxiv: 2110.14456
+  arxiv: "2110.14456"
 
 - title: "Polarization of gravitational waves from helical MHD turbulent sources"
   authors: "A. Roper Pol, S. Mandal, A. Brandenburg, T. Kahniashvili"
@@ -129,7 +129,7 @@
   journal: "J. Cosmol. Astropart. Phys."
   volume: "04"
   page: "019"
-  arxiv: 2107.05356
+  arxiv: "2107.05356"
   dataset: "10.5281/zenodo.5525504"
   tags: ["turbulence_GWs", "published", "dataset"]
 
@@ -137,7 +137,7 @@
   authors: "A. Roper Pol"
   year: 2021
   proceedings: "Proceedings of the 55th Rencontres de Moriond on Gravitation"
-  arxiv: 2105.08287
+  arxiv: "2105.08287"
   tags: ["turbulence_GWs", "proceedings"]
 
 - title: "The scalar, vector, and tensor modes in gravitational wave turbulence simulations"
@@ -146,7 +146,7 @@
   journal: "Class. Quantum Grav."
   volume: "38"
   page: "145002"
-  arxiv: 2103.01140
+  arxiv: "2103.01140"
   tags: ["turbulence_GWs", "published"]
 
 - title: "Circular polarization of gravitational waves from early-universe helical turbulence"
@@ -156,7 +156,7 @@
   volume: "3"
   page: "013193"
   dataset: "10.5281/zenodo.4256906"
-  arxiv: 2011.05556
+  arxiv: "2011.05556"
   tags: ["turbulence_GWs", "published", "dataset"]
 
 - title: "NANOGrav signal from MHD turbulence at the QCD phase transition in the early universe"
@@ -165,7 +165,7 @@
   journal: "Phys. Rev. D"
   volume: "103"
   page: "L041302"
-  arxiv: 2009.14174
+  arxiv: "2009.14174"
   tags: ["multi-messenger", "published"]
 
 - title: "Numerical simulations of gravitational waves from early-universe turbulence"
@@ -175,14 +175,14 @@
   volume: "102"
   page: "083512"
   dataset: "10.5281/zenodo.3692072"
-  arxiv: 1903.08585
+  arxiv: "1903.08585"
   tags: ["turbulence_GWs", "published", "dataset"]
 
 - title: "Magnetism in the Early Universe"
   authors: "T. Kahniashvili, A. Brandenburg, A. Kosowsky, S. Mandal, A. Roper Pol"
   year: 2019
   proceedings: "Proceedings of the IAU, FM8: New Insights in Extragalactic Magnetic Fields"
-  arxiv: 1810.11876
+  arxiv: "1810.11876"
   tags: ["primordial_MFs", "proceedings"]
 
 - title: "The timestep constraint in solving the gravitational wave equations sourced by hydromagnetic turbulence"
@@ -191,7 +191,7 @@
   journal: "Geophys. Astrophys. Fluid Dyn."
   volume: "114"
   page: "130"
-  arxiv: 1807.05479
+  arxiv: "1807.05479"
   tags: ["turbulence_GWs", "published"]
 
 - title: "E and B polarizations from inhomogeneous and solar surface turbulence"
@@ -200,7 +200,7 @@
   journal: "Astrophys. J."
   volume: "870"
   page: "87"
-  arxiv: 1807.11457
+  arxiv: "1807.11457"
   tags: ["other", "published"]
 
 - title: "The dynamo effect in decaying helical turbulence"
@@ -210,7 +210,7 @@
   volume: "4"
   page: "024608"
   dataset: "10.5281/zenodo.3345134"
-  arxiv: 1710.01628
+  arxiv: "1710.01628"
   tags: ["primordial_MFs", "published", "dataset"]
 
 - title: "Evolution of hydromagnetic turbulence from the electroweak phase transition"
@@ -219,5 +219,5 @@
   journal: "Phys. Rev. D"
   volume: "96"
   page: "123528"
-  arxiv: 1711.03804
+  arxiv: "1711.03804"
   tags: ["primordial_MFs", "published"]
