@@ -32,7 +32,7 @@ Count publications per tag using explicit loops (compatible with GitHub Pages' L
 
 {% include publications-by-tag.html tag="published" reversed=true start=start_published title="Published" %}
 
-{% include publications-by-tag.html tag="published" reversed=true start=start_published title="Preprints" %}
+{% include publications-by-tag.html tag="preprint" reversed=true start=start_published title="Preprints" %}
 
 {% include publications-by-tag.html tag="proceedings" reversed=true start=start_proceedings title="Proceedings" %}
 

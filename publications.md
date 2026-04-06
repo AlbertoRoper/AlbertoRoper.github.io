@@ -3,7 +3,7 @@ layout: page
 title: Publications and research talks
 ---
 
-#### *Updated on November 11, 2025*
+#### *Updated on April 6, 2026*
 
 ### Publications
 
@@ -15,7 +15,7 @@ title: Publications and research talks
 
 ### Research talks
 
-I have given a total of 73 talks at international, workshops, seminars, and conferences, 25 of which were invited talks.
+I have given a total of 82 talks at international, workshops, seminars, and conferences, 35 of which were invited talks.
 
 [List of talks](assets/data/list_talks.md)
 
