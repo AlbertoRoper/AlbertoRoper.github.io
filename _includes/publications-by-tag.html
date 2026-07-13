@@ -2,72 +2,72 @@
 Include to render publications filtered by a specific tag.
 
 Parameters:
- - tag: the tag to filter by (required)
- - reversed: true|false
- - start: integer (optional) - the start attribute to pass to the <ol>
- - title: optional string - render an <h3> above the list
-{%- endcomment -%}
+- tag: the tag to filter by (required)
+- reversed: true|false
+- start: integer (optional) - the start attribute to pass to the <ol>
+  - title: optional string - render an <h3> above the list
+    {%- endcomment -%}
 
-{%- assign tag = include.tag -%}
-{%- assign reversed = include.reversed | default: false -%}
-{%- assign title = include.title | default: "" -%}
+    {%- assign tag = include.tag -%}
+    {%- assign reversed = include.reversed | default: false -%}
+    {%- assign title = include.title | default: "" -%}
 
-{%- comment -%} collect matching publications into an array {%- endcomment -%}
-{%- assign matches = "" | split: "," -%}
-{%- for pub in site.data.publications -%}
-  {%- if pub.tags -%}
+    {%- comment -%} collect matching publications into an array {%- endcomment -%}
+    {%- assign matches = "" | split: "," -%}
+    {%- for pub in site.data.publications -%}
+    {%- if pub.tags -%}
     {%- for t in pub.tags -%}
-      {%- if t == tag -%}
-        {%- assign matches = matches | push: pub -%}
-        {%- break -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
-{%- endfor -%}
-
-{%- if include.title -%}
-  <h3>{{ include.title }}</h3>
-{%- endif -%}
-
-{%- capture ol_attrs -%}
-{%- if reversed == true or reversed == "true" -%} reversed {%- endif -%}
-{%- if start_attr and start_attr != 0 -%} start="{{ start_attr }}"{%- endif -%}
-{%- endcapture -%}
-
-<div class="container">
-  <ol{% if ol_attrs != "" %} {{ ol_attrs }}{% endif %}>
-    {% for pub in matches %}
-    <li>
-    {%- if include.title == "Datasets" -%}
-        {{ pub.authors }}, Dataset for
-        "<em>{{ pub.title }},</em>"
-        {% if pub.dataset %} <a href=" https://doi.org/{{ pub.dataset }}">doi:{{ pub.dataset }}</a> {% endif %}
-        {% if pub.year and pub.arxiv %} ({{ pub.year }}), 
-        arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
-        {% elsif pub.year %}
-          ({{ pub.year }}).
-        {% endif %}
-    {%- else -%}
-        {{ pub.authors }}, <em>{{ pub.title }},</em>
-        {% if pub.journal and pub.tags contains "published" %}
-        <em>{{ pub.journal }},</em>
-        {% if pub.volume %}<strong>{{pub.volume}}</strong>,{% endif %}
-        {% if pub.page %} {{ pub.page }} {% endif %}
-        {% elsif pub.tags contains "submitted" %}
-        <em>submitted to {{ pub.journal }}</em>
-        {% elsif pub.tags contains "proceedings" %}
-        <em>Contribution to "{{ pub.proceedings }}"</em>
-        {% endif %}
-        {% if pub.year and pub.arxiv %} ({{ pub.year }}), 
-        arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
-        {% elsif pub.year %}
-          ({{ pub.year }}).
-        {% endif %}
-        {% if pub.url %}
-        <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
-        {% endif %}
+    {%- if t == tag -%}
+    {%- assign matches = matches | push: pub -%}
+    {%- break -%}
     {%- endif -%}
-    </li>
-    {% endfor %}
-  </ol>
+    {%- endfor -%}
+    {%- endif -%}
+    {%- endfor -%}
+
+    {%- if include.title -%}
+    <h3>{{ include.title }}</h3>
+    {%- endif -%}
+
+    {%- capture ol_attrs -%}
+    {%- if reversed == true or reversed == "true" -%} reversed {%- endif -%}
+    {%- if start_attr and start_attr != 0 -%} start="{{ start_attr }}"{%- endif -%}
+    {%- endcapture -%}
+
+    <div class="container">
+      <ol{% if ol_attrs !="" %} {{ ol_attrs }}{% endif %}>
+        {% for pub in matches %}
+        <li>
+          {%- if include.title == "Datasets" -%}
+          {{ pub.authors }}, Dataset for
+          "<em>{{ pub.title }},</em>"
+          {% if pub.dataset %} <a href=" https://doi.org/{{ pub.dataset }}">doi:{{ pub.dataset }}</a> {% endif %}
+          {% if pub.year and pub.arxiv %} ({{ pub.year }}),
+          arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
+          {% elsif pub.year %}
+          ({{ pub.year }}).
+          {% endif %}
+          {%- else -%}
+          {{ pub.authors }}, <em>{{ pub.title }},</em>
+          {% if pub.journal and pub.tags contains "published" %}
+          <em>{{ pub.journal }}</em>
+          {% if pub.volume %}<strong>{{pub.volume}}</strong>{% endif %}
+          {% elsif pub.tags contains "submitted" %}
+          <em>submitted to {{ pub.journal }}</em>
+          {% elsif pub.tags contains "proceedings" %}
+          <em>Contribution to "{{ pub.proceedings }}"</em>
+          {% endif %}
+          {% if pub.year and pub.arxiv %} ({{ pub.year }})
+          {% if pub.page %} {{ pub.page }} {% endif %},
+          arXiv: <a href="https://arxiv.org/abs/{{ pub.arxiv }}">{{ pub.arxiv }}</a>.
+          {% elsif pub.year %}
+          ({{ pub.year }}).
+          {% endif %}
+          {% if pub.url %}
+          <br>Link: <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.url }}</a>
+          {% endif %}
+          {%- endif -%}
+        </li>
+        {% endfor %}
+</ol>
 </div>

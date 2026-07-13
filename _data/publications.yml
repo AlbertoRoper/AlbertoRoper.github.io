@@ -1,17 +1,19 @@
 - title: "Fluid perturbations from expanding bubbles in first-order phase transitions"
-  authors: "C. Caprini, A. S. Midir, S. Procacci, A. Roper Pol"
+  authors: "C. Caprini, A. S. Midiri, S. Procacci, A. Roper Pol"
   year: 2026
   journal: "J. Cosmol. Astropart. Phys."
   arxiv: "2604.02240"
-  tags: ["sound_waves", "ambizione", "submitted"]
+  volume : "accepted for publication"
+  tags: ["sound_waves", "ambizione", "published"]
 
 - title: Primordial magnetic field from chiral plasma instability with sourcing
   authors: "M. Gurgenidze, A. J. Long, A. Roper Pol, A. Brandenburg, T. Kahniashvili"
   year: 2025
   journal: "Phys. Rev. D"
   arxiv: "2512.09177"
+  volume : "accepted for publication"
   dataset: "10.5281/zenodo.17852669"
-  tags: ["chiral_mhd", "submitted", "ambizione", "dataset"]
+  tags: ["chiral_mhd", "published", "ambizione", "dataset"]
 
 - title: "Gravitational wave spectra for cosmological phase transitions with non-linear decay of the fluid motion"
   authors: "I. Stomberg, A. Roper Pol"
@@ -24,7 +26,8 @@
   authors: "A. Roper Pol, A. S. Midiri"
   year: 2025
   journal: "J. Cosmol. Astropart. Phys."
-  volume: "(in print)"
+  volume: "06"
+  page: "070"
   arxiv: "2501.05732"
   tags: ["ambizione", "published", "primordial_MFs"]
 
@@ -60,7 +63,7 @@
   year: 2024
   journal: "Phys. Rev. D"
   volume: "109"
-  page: "063531"
+  page: "6, 063531"
   arxiv: "2308.12943"
   tags: ["sound_waves", "ambizione", "published"]
 
@@ -68,6 +71,8 @@
   authors: "A. Roper Pol, A. Neronov, C. Caprini, T. Boyer, D. Semikoz"
   year: 2023
   journal: "Astron. Astrophys."
+  volume: "708"
+  page: "A337"
   arxiv: "2307.10744"
   dataset: "10.5281/zenodo.5782752"
   tags: ["multi-messenger", "ambizione", "published", "dataset"]
@@ -102,7 +107,7 @@
   year: 2023
   journal: "Living Rev. Relativ."
   volume: "26"
-  page: "5"
+  page: "1, 5"
   arxiv: "2204.05434"
   tags: ["LISA", "collaboration", "published"]
 
@@ -111,7 +116,7 @@
   year: 2022
   journal: "Phys. Rev. D"
   volume: "105"
-  page: "123502"
+  page: "12, 123502"
   arxiv: "2201.05630"
   tags: ["multi-messenger", "published"]
 
@@ -145,7 +150,7 @@
   year: 2021
   journal: "Class. Quantum Grav."
   volume: "38"
-  page: "145002"
+  page: "14, 145002"
   arxiv: "2103.01140"
   tags: ["turbulence_GWs", "published"]
 
