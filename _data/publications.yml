@@ -74,8 +74,7 @@
   volume: "708"
   page: "A337"
   arxiv: "2307.10744"
-  dataset: "10.5281/zenodo.5782752"
-  tags: ["multi-messenger", "ambizione", "published", "dataset"]
+  tags: ["multi-messenger", "ambizione", "published"]
 
 - title: "The second data release from the European Pulsar Timing Array IV: Implications for massive black holes, dark matter and the early Universe"
   authors: "[EPTA and InPTA Collaborations] (incl. A. Roper Pol)"
@@ -118,7 +117,8 @@
   volume: "105"
   page: "12, 123502"
   arxiv: "2201.05630"
-  tags: ["multi-messenger", "published"]
+  dataset: "10.5281/zenodo.5782752"
+  tags: ["multi-messenger", "published", "dataset"]
 
 - title: "Leading-order nonlinear gravitational waves from reheating magnetogeneses"
   authors: "Y. He, A. Roper Pol, A. Brandenburg"
