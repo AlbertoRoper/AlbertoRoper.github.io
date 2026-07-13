@@ -196,3 +196,13 @@
   visitfrom: "2025-12-09"
   visitto: "2025-12-12"
   tags: ["visitor"]
+
+- firstname: "Touko"
+  lastname: "Puro"
+  role: "PhD student at Aalto University"
+  # img: "/assets/img/stomberg_pic.png"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  # url: "https://inspirehep.net/authors/1889903"
+  visitfrom: "2026-06-29"
+  visitto: "2026-07-17"
+  tags: ["visitor"]
