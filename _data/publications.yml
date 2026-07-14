@@ -125,7 +125,7 @@
   year: 2021
   journal: "Phys. Rev. D"
   dataset: "10.5281/zenodo.5603013"
-  tags: ["other", "preprint", "dataset"]
+  tags: ["other", "preprint", "dataset", "modified_gravity"]
   arxiv: "2110.14456"
 
 - title: "Polarization of gravitational waves from helical MHD turbulent sources"
