@@ -60,6 +60,8 @@ title: Research Talks
     *Talk title:* "Gravitational waves from (MHD) turbulence and magnetic fields in the early Universe"
 20. **Jan 6, 2025** — Invited lecturer at the ["Hearing beyond the standard model with cosmic sources of Gravitational Waves" Program](https://www.icts.res.in/program/gwbsm2024), ICTS, Bangalore, India. <span class="badge badge-primary">Invited</span><br>
     *Talk title:* "Gravitational waves from (MHD) turbulence and magnetic fields in the early Universe"
+{% include youtube.html id="8RaiHZPoDYo" title="Talk at ICTS" %}
+
 
 ---
 
