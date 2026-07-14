@@ -33,31 +33,31 @@ Count talks per year using explicit loops (compatible with GitHub Pages' Liquid)
 {%- assign n_2018 = 0 -%}
 
 {%- for p in site.data.research_talks -%}
-	{%- if p.year and p.year contains '2026' -%}
+	{%- if p.year and p.year == 2026 -%}
 		{%- assign n_2026 = n_2026 | plus: 1 -%}
 	{%- endif -%}
-    {%- if p.year and p.year contains '2025' -%}
+    {%- if p.year and p.year == 2025 -%}
 		{%- assign n_2025 = n_2025 | plus: 1 -%}
 	{%- endif -%}
-    {%- if p.year and p.year contains '2024' -%}
+    {%- if p.year and p.year == 2024 -%}
 		{%- assign n_2024 = n_2024 | plus: 1 -%}
 	{%- endif -%}
-    {%- if p.year and p.year contains '2023' -%}
+    {%- if p.year and p.year == 2023 -%}
 		{%- assign n_2023 = n_2023 | plus: 1 -%}
 	{%- endif -%}
-    {%- if p.year and p.year contains '2022' -%}
+    {%- if p.year and p.year == 2022 -%}
 		{%- assign n_2022 = n_2022 | plus: 1 -%}
 	{%- endif -%}
-    {%- if p.year and p.year contains '2021' -%}
+    {%- if p.year and p.year == 2021 -%}
 		{%- assign n_2021 = n_2021 | plus: 1 -%}
 	{%- endif -%}
-    {%- if p.year and p.year contains '2020' -%}
+    {%- if p.year and p.year == 2020 -%}
 		{%- assign n_2020 = n_2020 | plus: 1 -%}
 	{%- endif -%}
-    {%- if p.year and p.year contains '2019' -%}
+    {%- if p.year and p.year == 2019 -%}
 		{%- assign n_2019 = n_2019 | plus: 1 -%}
 	{%- endif -%}
-    {%- if p.year and p.year contains '2018' -%}
+    {%- if p.year and p.year == 2018 -%}
 		{%- assign n_2018 = n_2018 | plus: 1 -%}
 	{%- endif -%}
 {%- endfor -%}
