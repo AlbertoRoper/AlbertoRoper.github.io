@@ -32,9 +32,7 @@ title: Research Talks
    *Talk title:* "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
 8. **Apr 23, 2026** — Invited seminar at [IFAE](https://indico.ifae.es/event/2434/), Barcelona, Spain. <span class="badge badge-primary">Invited</span>
 9. **Apr 22, 2026** — Invited seminar at [ICCUB](https://icc.ub.edu/event/gravitational-waves-phase-transitions-in-early-universe-sound-waves-and-mhd-turbulence), Barcelona, Spain. <span class="badge badge-primary">Invited</span>
-
 {% include youtube.html id="336lpHiXDYI" title="Talk at ICCUB" %}
-
 10. **Mar 10, 2026** — Invited speaker at the [joint ETH/UZh Particle Theory Seminars](https://itp.phys.ethz.ch/research/particle/seminar.html), Zurich, Switzerland. <span class="badge badge-primary">Invited</span><br>
     *Talk title:* "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
 11. **Feb 20, 2026** — Invited seminar at TU Wien, Austria. <span class="badge badge-primary">Invited</span><br>
