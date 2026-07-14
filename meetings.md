@@ -10,7 +10,7 @@ You can find below scientific meetings that I have co-organized.
 			</div>
 	<div class="teaching-body">
 		<p>Next December, Pallavi Bhat, Kandu Subramanian, Tanmay Vachaspati, and I are organizing the discussion meeting <strong>Magnetic fields in the primordial Universe</strong> at ICTS in Bengaluru, India.
-		You can find all the informatio at <a href="https://www.icts.res.in/discussion-meeting/MFPU2026">the website</a>. Registration closes on <strong><emph>July 15, 2026</strong></emph>.</p>
+		You can find all the informatio at <a href="https://www.icts.res.in/discussion-meeting/MFPU2026">the website</a>. Registration closes on <strong><em>July 15, 2026</strong></em>.</p>
 	</div>
 </div>
 
