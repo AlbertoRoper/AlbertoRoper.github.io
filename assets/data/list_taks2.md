@@ -32,7 +32,7 @@ Count talks per year using explicit loops (compatible with GitHub Pages' Liquid)
 {%- assign n_2019 = 0 -%}
 {%- assign n_2018 = 0 -%}
 
-{%- for p in site.data.publications -%}
+{%- for p in site.data.research_talks -%}
 	{%- if p.year and p.year contains '2026' -%}
 		{%- assign n_2026 = n_2026 | plus: 1 -%}
 	{%- endif -%}
