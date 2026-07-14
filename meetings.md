@@ -5,12 +5,12 @@ You can find below scientific meetings that I have co-organized.
 
 <div class="teaching-item">
 			<div class="teaching-thumb">
-				{% assign icts_page = site.pages | where: "path", "https://indico.cern.ch/event/1548935/" | first %}
+				{% assign icts_page = site.pages | where: "path", "https://www.icts.res.in/discussion-meeting/MFPU2026" | first %}
 				<a href="{{ icts_page.url | default: 'https://www.icts.res.in/discussion-meeting/MFPU2026' | relative_url }}"><img src="/assets/img/poster_icts_PMFU.png" alt="poster ICTS PMFU" /></a>
 			</div>
 	<div class="teaching-body">
 		<p>Next December, Pallavi Bhat, Kandu Subramanian, Tanmay Vachaspati, and I are organizing the discussion meeting <strong>Magnetic fields in the primordial Universe</strong> at ICTS in Bengaluru, India.
-		You can find all the informatio at <a href="https://www.icts.res.in/discussion-meeting/MFPU2026">the website</a>. Registration closes on <strong><em>July 15, 2026</em></strong>.</p>
+		You can find all the information at <a href="https://www.icts.res.in/discussion-meeting/MFPU2026">the website</a>. Registration closes on <strong><em>July 15, 2026</em></strong>.</p>
 	</div>
 </div>
 
@@ -18,7 +18,7 @@ You can find below scientific meetings that I have co-organized.
 
 <div class="teaching-item">
 			<div class="teaching-thumb">
-				{% assign pc_page = site.pages | where: "path", "https://indico.cern.ch/event/1548935/" | first %}
+				{% assign pc_page = site.pages | where: "path", "assets/data/PencilCode_school.md" | first %}
 				<a href="{{ pc_page.url | default: 'https://indico.cern.ch/event/1548935/' | relative_url }}"><img src="/assets/img/pc_logo.png" alt="Pencil Code school logo" /></a>
 			</div>
 	<div class="teaching-body">
@@ -44,12 +44,12 @@ You can find below scientific meetings that I have co-organized.
 
 <div class="teaching-item">
             <div class="teaching-thumb">
-                <a href="{{ pc_page.url | default: 'https://indico.cern.ch/event/1511688/' | relative_url }}">
                 {% assign pc_page = site.pages | where: "path", "https://indico.cern.ch/event/1511688/" | first %}
+                <a href="{{ pc_page.url | default: 'https://indico.cern.ch/event/1511688/' | relative_url }}">
                 <img src="/assets/img/logo_adv_gw.png" alt="Advancing GW logo" /></a>
             </div>
     <div class="teaching-body">
-        <p>On August 2025, together with Chiara Caprini (CERN & University of Geneva), Hyun Min Lee (Chung-Ang University), Seong Chan Park (Yonsei University), Simona Procacci (University of Geneva), Philipp Schicho (University of Geneva) and Jorinde van de Vis (CERN), we organized the CERN-Korea collaboration workshop <strong>dvancing gravitational wave predictions from cosmological first-order phase transitions</strong> at CERN, Switzerland.
+        <p>On August 2025, together with Chiara Caprini (CERN & University of Geneva), Hyun Min Lee (Chung-Ang University), Seong Chan Park (Yonsei University), Simona Procacci (University of Geneva), Philipp Schicho (University of Geneva) and Jorinde van de Vis (CERN), we organized the CERN-Korea collaboration workshop <strong>Advancing gravitational wave predictions from cosmological first-order phase transitions</strong> at CERN, Switzerland.
         You can find all the information and the schedule <a href="{{ pc_page.url | default: 'https://indico.cern.ch/event/1511688/' | relative_url }}">here</a>.</p>
     </div>
 </div>

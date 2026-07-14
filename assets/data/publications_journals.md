@@ -5,7 +5,7 @@ Count publications per tag using explicit loops (compatible with GitHub Pages' L
 
 {%- assign n_submitted = 0 -%}
 {%- assign n_published = 0 -%}
-{%- assign n_preprints = 0 -%}
+{%- assign n_preprint = 0 -%}
 {%- assign n_proceedings = 0 -%}
 
 {%- for p in site.data.publications -%}
@@ -32,7 +32,7 @@ Count publications per tag using explicit loops (compatible with GitHub Pages' L
 
 {% include publications-by-tag.html tag="published" reversed=true start=start_published title="Published" %}
 
-{% include publications-by-tag.html tag="preprint" reversed=true start=start_published title="Preprints" %}
+{% include publications-by-tag.html tag="preprint" reversed=true start=start_preprint title="Preprints" %}
 
 {% include publications-by-tag.html tag="proceedings" reversed=true start=start_proceedings title="Proceedings" %}
 

@@ -311,7 +311,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2946915" title="MHD in the early Universe" %}
 
-{% include download-box.html file="/assets/files/PC_school/plasma_physics_mhd_lecture.pdf" title="Physics lecture 1. Magnetohydrodynamics in the early Universe. Slides by A. Roper Pol>" icon_img="assets/img/photo_profile.jpeg" %}
+{% include download-box.html file="/assets/files/PC_school/plasma_physics_mhd_lecture.pdf" title="Physics lecture 1. Magnetohydrodynamics in the early Universe. Slides by A. Roper Pol" icon_img="assets/img/photo_profile.jpeg" %}
 
 ### Physics lecture 2. Primordial magnetic fields (23/10/2025 11:30am) by A. Brandenburg and A. Roper Pol {#pmfs}
 
@@ -323,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 {% include cds_video.html id="2947113" title="Chiral MHD" %}
 
-{% include download-box.html file="/assets/files/PC_school/Pencil Code MHD.pptx" title="Physics lecture 3. Chiral magnetohydrodynamics. Slides by D. Garg" icon_img="assets/img/deepen_pic.jpg" %}
+{% include download-box.html file="/assets/files/PC_school/Pencil Code Chiral MHD.pptx" title="Physics lecture 3. Chiral magnetohydrodynamics. Slides by D. Garg" icon_img="assets/img/deepen_pic.jpg" %}
 
 ### Physics lecture 4. Gravitational waves (23/10/2025 2pm) by C. Caprini {#gws}
 
@@ -343,8 +343,7 @@ document.addEventListener('DOMContentLoaded', function(){
 {% include cds_video.html id="2947117" title="Decaying MHD turbulence" %}
 
 {% include download-box.html file="/assets/files/PC_school/session3_sheet.pdf" title="Practice session 3. Decaying MHD turbulence" icon="pdf"%}
-{% include download-box.html file="https://indico.cern.ch/event/1548935/c
-ontributions/6686205/attachments/3160668/5615337/session3_data.zip" title="Practice session 3. Decaying MHD turbulence" icon="zip"%}
+{% include download-box.html file="https://indico.cern.ch/event/1548935/contributions/6686205/attachments/3160668/5615337/session3_data.zip" title="Practice session 3. Decaying MHD turbulence" icon="zip"%}
 
 ### Physics lecture 6. First-order phase transitions (23/10/2025 11:30am) by A. S. Midiri and I. Stomberg {#fopts}
 

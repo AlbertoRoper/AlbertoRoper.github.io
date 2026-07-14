@@ -8,11 +8,11 @@ title: About me
 # Alberto Roper Pol
 
 I am currently a research group leader with an SNSF Ambizione grant at the [Geneva Cosmology group](https://cosmology.unige.ch/) at the University of Geneva — see [my profile](https://cosmology.unige.ch/users/alberto-roper-pol).
-At UniGe, I am the PI of an SNSF Ambizione grant [208807](https://data.snf.ch/grants/grant/208807) ***exploring the early Universe with gravitational waves and primordial magnetic fields***. See my [research group](/research_group) for details.
+At UniGe, I am the PI of an SNSF Ambizione grant [208807](https://data.snf.ch/grants/grant/208807) ***exploring the early Universe with gravitational waves and primordial magnetic fields***. See my [research group](/research-group) for details.
 
 I will start an assistant professor position at the [Institute of Theoretical Physics](https://www.tuwien.at/en/phy/itp) at TU Wien in 2027.
 
-My research lies at the intersection of numerical simulations and theoretical modeling of the primordial plasma in the early Universe, focusing on the production of gravitational waves and the generation and dynamics of primordial magnetic fields. For more details, see my [research interests](/research-interests.md).
+My research lies at the intersection of numerical simulations and theoretical modeling of the primordial plasma in the early Universe, focusing on the production of gravitational waves and the generation and dynamics of primordial magnetic fields. For more details, see my [research interests](/research-interests).
 
 I am a core member of the LISA and the [European Pulsar Timing Array](https://www.epta.eu.org/) collaborations, searching for beyond-the-Standard-Model new physics with current and future observations of stochastic gravitational wave backgrounds.
 

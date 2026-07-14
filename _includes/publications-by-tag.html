@@ -11,6 +11,7 @@ Parameters:
     {%- assign tag = include.tag -%}
     {%- assign reversed = include.reversed | default: false -%}
     {%- assign title = include.title | default: "" -%}
+    {%- assign start_attr = include.start -%}
 
     {%- comment -%} collect matching publications into an array {%- endcomment -%}
     {%- assign matches = "" | split: "," -%}

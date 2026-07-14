@@ -4,8 +4,8 @@ You can find teaching material from courses I have organized or lectured on this
 
 <div class="teaching-item">
 			<div class="teaching-thumb">
-                <a href="{{ pc_page.url | default: 'https://indico.fysik.su.se/event/8554/' | relative_url }}">
 				{% assign pc_page = site.pages | where: "path", "https://indico.fysik.su.se/event/8554/" | first %}
+                <a href="{{ pc_page.url | default: 'https://indico.fysik.su.se/event/8554/' | relative_url }}">
 				<img src="/assets/img/nordita_school.png" alt="Nordita school logo" /></a>
 			</div>
 	<div class="teaching-body">
@@ -18,8 +18,8 @@ You can find teaching material from courses I have organized or lectured on this
 
 <div class="teaching-item">
 			<div class="teaching-thumb">
-                <a href="{{ pc_page.url | default: '/assets/data/PencilCode_school' | relative_url }}">
 				{% assign pc_page = site.pages | where: "path", "assets/data/PencilCode_school.md" | first %}
+                <a href="{{ pc_page.url | default: '/assets/data/PencilCode_school' | relative_url }}">
 				<img src="/assets/img/pc_logo.png" alt="Pencil Code school logo" /></a>
 			</div>
 	<div class="teaching-body">
