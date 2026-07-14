@@ -69,7 +69,7 @@ We studied the effect of Horndeski theories in the propagation of a gravitationa
 {% include collaborators-by-tag.html tag="modified_gravity" %}
 
 #### Publications:
-{% include publications-by-tag.html tag="modified_gravity" %}
+{% include publications-by-tag.html tag="modified_gravity" reversed=true %}
 
 ## Primordial magnetic fields {#pmfs}
 
