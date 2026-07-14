@@ -3,9 +3,12 @@ layout: page
 title: Research interests
 ---
 
-My main research interests focus on the study of [gravitational waves from the early Universe](#gws) and the study of [primordial magnetic fields](#pmfs).
+My research interests lie at the intersection of theoretical cosmology, gravitational-wave phenomenology, relativistic MHD/plasma physics, and numerical simulations to probe the early Universe.
+In particular, my two main areas of expertise are the study of [stochastic gravitational wave backgrounds from the early Universe](#gws) and the study of [primordial magnetic fields](#pmfs).
 
 # Gravitational waves from the early Universe {#gws}
+
+As a member of the LISA, Pulsar Timing Array, and the Lunar Gravitational Wave Antenna (LGWA) collaborations, I participate in different projects related to the study of early Universe physics via the observation of stochastic gravitational wave backgrounds. 
 
 #### Collaboration publications:
 {% include publications-by-tag.html tag="collaboration" reversed=true %}
@@ -19,7 +22,7 @@ Both experiments can be used to probe the early Universe at the QCD and the elec
 
 The main sources of gravitational waves from first-order phase transitions:
 - **Sound waves**: compressional fluid motion in the linearized regime (small fluid perturbations)
-- **Turbulence**: compressional (acoustic turbulence) and vortical motion of the fluid perturbations in the linear regime
+- **Turbulence**: compressional (acoustic turbulence) and vortical motion of the fluid perturbations in the non-linear regime
 - **Bubble collisions**: gradients of the scalar field
 
 ### Gravitational waves from sound waves

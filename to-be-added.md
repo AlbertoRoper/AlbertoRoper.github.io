@@ -1,0 +1,11 @@
+
+- Post about IPTA science meeting in South Africa
+- Post about Touko's visit to Geneva
+- Post about Antonino's talks at LISA call, Swiss Cosmology meeting and in Helsinki
+- Post about visit to Bilbao, LISA CosWG meeting in Barcelona, and visit to University of Stavanger
+- Post about visit to IFT in Madrid
+- Post about ICTS workshop on primordial magnetic fields
+- More detailed information on research interests and add figures
+- Update relevant pictures of the recent trips and other photos
+- Add ICTS meeting to 'meetings', as well as phase transition programmes at Nordita and MITP
+- Create Code development website with details on contributions to Pencil Code, CosmoGW, and CosmoLattice
