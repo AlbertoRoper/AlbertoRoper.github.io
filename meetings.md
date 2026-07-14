@@ -1,5 +1,18 @@
 
-You can find below the scientific meetings that I have co-organized.
+You can find below scientific meetings that I have co-organized.
+
+### [*Magnetic fields in the primordial Universe*](https://www.icts.res.in/discussion-meeting/MFPU2026) at the International Centre for Theoretical Sciences (ICTS) in Bengaluru, India next November 30 - December 4, 2026.
+
+<div class="teaching-item">
+			<div class="teaching-thumb">
+				{% assign icts_page = site.pages | where: "path", "https://indico.cern.ch/event/1548935/" | first %}
+				<a href="{{ icts_page.url | default: 'https://www.icts.res.in/discussion-meeting/MFPU2026' | relative_url }}"><img src="/assets/img/poster_icts_PMFU.png" alt="poster ICTS PMFU" /></a>
+			</div>
+	<div class="teaching-body">
+		<p>Next December, Pallavi Bhat, Kandu Subramanian, Tanmay Vachaspati, and I are organizing the discussion meeting <strong>Magnetic fields in the primordial Universe</strong> at ICTS in Bengaluru, India.
+		You can find all the informatio at <a href="https://www.icts.res.in/discussion-meeting/MFPU2026">the website</a>. Registration closes on <strong><emph>July 15, 2026</strong></emph>.</p>
+	</div>
+</div>
 
 ### [*1st Pencil Code school on early Universe physics and gravitational waves* and *Pencil Code user meeting*](https://indico.cern.ch/event/1548935/) 2025 at CERN in Switzerland (October 2025)
 
