@@ -71,7 +71,7 @@ Count talks per year using explicit loops (compatible with GitHub Pages' Liquid)
 {%- assign start_2020 = n_2020 | plus: n_2019 | plus: n_2018 -%}
 {%- assign start_2019 = n_2019 | plus: n_2018 -%}
 
-{%- start_2026 -%}
+{{ start_2026 }}
 
 {%- if n_2026 > 0 -%}
 {% include talks_by_year.html year="2026" reversed=true start=start_2026 title="2026" %}
