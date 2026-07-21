@@ -20,24 +20,26 @@ title: Research Talks
 
 ## 2026
 
-1. **Aug 26, 2026** — Speaker at the Swiss Physical Society, [Annual Meeting](https://sps.ch/en/events/sps_annual_meeting_2026/), at EPFL, Lausanne, Switzerland.
-2. **Aug 17, 2026** — Plenary invited speaker at [Strong and Electroweak Matter (SEWM 2026)](https://indico.global/event/14246/), at the University of Helsinki, Finland. <span class="badge badge-primary">Invited</span><br>
-   *Talk title:* "Cosmological Background Interpretation of PTA data"
-3. **Jun 22, 2026** — Plenary invited speaker at the [IPTA Science Meeting](https://ipta4gw.org/meetings/2026/science_week.html), in Drakensberg, South Africa. <span class="badge badge-primary">Invited</span><br>
-   *Talk title:* "Cosmological Background Interpretation of PTA data"
-4. **Jun 14, 2026** — Invited speaker at the [Norwegian Network for Particle Astroparticle and Cosmology Theory (NPACT)](https://indico2.uis.no/event/64/), at the University of Stavanger, Norway. <span class="badge badge-primary">Invited</span>
-5. **Jun 3, 2026** — Invited speaker at the [LISA CosWG Meeting](https://indico.icc.ub.edu/event/677/), at the UB, Barcelona, Spain. <span class="badge badge-primary">Invited</span>
-6. **May 4, 2026** — Invited seminar at the [Instituto de Física Teórica (IFT)](https://www.ift.uam-csic.es/event/ift-seminar-alberto-roper-pol-geneva/), Madrid, Spain. <span class="badge badge-primary">Invited</span>
-7. **Apr 29, 2026** — Invited seminar at [EHU](https://ehuqc.eus/gravitational-waves-from-phase-transitions-in-the-early-universe-sound-waves-and-mhd-turbulence/), Bilbao, Spain. <span class="badge badge-primary">Invited</span><br>
-   *Talk title:* "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
-8. **Apr 23, 2026** — Invited seminar at [IFAE](https://indico.ifae.es/event/2434/), Barcelona, Spain. <span class="badge badge-primary">Invited</span>
-9. **Apr 22, 2026** — Invited seminar at [ICCUB](https://icc.ub.edu/event/gravitational-waves-phase-transitions-in-early-universe-sound-waves-and-mhd-turbulence), Barcelona, Spain. <span class="badge badge-primary">Invited</span>
+<ol reversed start=84>
+<li> **Aug 26, 2026** — Speaker at the Swiss Physical Society, [Annual Meeting](https://sps.ch/en/events/sps_annual_meeting_2026/), at EPFL, Lausanne, Switzerland.
+</li>
+<li> **Aug 17, 2026** — Plenary invited speaker at [Strong and Electroweak Matter (SEWM 2026)](https://indico.global/event/14246/), at the University of Helsinki, Finland. <span class="badge badge-primary">Invited</span><br>
+   *Talk title:* "Cosmological Background Interpretation of PTA data" </li>
+<li> **Jun 22, 2026** — Plenary invited speaker at the [IPTA Science Meeting](https://ipta4gw.org/meetings/2026/science_week.html), in Drakensberg, South Africa. <span class="badge badge-primary">Invited</span><br>
+   *Talk title:* "Cosmological Background Interpretation of PTA data" </li>
+<li> **Jun 14, 2026** — Invited speaker at the [Norwegian Network for Particle Astroparticle and Cosmology Theory (NPACT)](https://indico2.uis.no/event/64/), at the University of Stavanger, Norway. <span class="badge badge-primary">Invited</span> </li>
+<li> **Jun 3, 2026** — Invited speaker at the [LISA CosWG Meeting](https://indico.icc.ub.edu/event/677/), at the UB, Barcelona, Spain. <span class="badge badge-primary">Invited</span><li> **May 4, 2026** — Invited seminar at the [Instituto de Física Teórica (IFT)](https://www.ift.uam-csic.es/event/ift-seminar-alberto-roper-pol-geneva/), Madrid, Spain. <span class="badge badge-primary">Invited</span> </li>
+<li> **Apr 29, 2026** — Invited seminar at [EHU](https://ehuqc.eus/gravitational-waves-from-phase-transitions-in-the-early-universe-sound-waves-and-mhd-turbulence/), Bilbao, Spain. <span class="badge badge-primary">Invited</span><br>
+   *Talk title:* "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence" </li>
+<li> **Apr 23, 2026** — Invited seminar at [IFAE](https://indico.ifae.es/event/2434/), Barcelona, Spain. <span class="badge badge-primary">Invited</span> </li>
+<li> **Apr 22, 2026** — Invited seminar at [ICCUB](https://icc.ub.edu/event/gravitational-waves-phase-transitions-in-early-universe-sound-waves-and-mhd-turbulence), Barcelona, Spain. <span class="badge badge-primary">Invited</span>
 {% include youtube.html id="336lpHiXDYI" title="Talk at ICCUB" %}
-10. **Mar 10, 2026** — Invited speaker at the [joint ETH/UZh Particle Theory Seminars](https://itp.phys.ethz.ch/research/particle/seminar.html), Zurich, Switzerland. <span class="badge badge-primary">Invited</span><br>
-    *Talk title:* "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
-11. **Feb 20, 2026** — Invited seminar at TU Wien, Austria. <span class="badge badge-primary">Invited</span><br>
-    *Talk title:* "Cosmological gravitational waves as a probe of the early Universe"
-
+</li>
+<li> **Mar 10, 2026** — Invited speaker at the [joint ETH/UZh Particle Theory Seminars](https://itp.phys.ethz.ch/research/particle/seminar.html), Zurich, Switzerland. <span class="badge badge-primary">Invited</span><br>
+    *Talk title:* "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"</li>
+<li> **Feb 20, 2026** — Invited seminar at TU Wien, Austria. <span class="badge badge-primary">Invited</span><br>
+    *Talk title:* "Cosmological gravitational waves as a probe of the early Universe"</li>
+</ol>
 ---
 
 ## 2025
