@@ -20,7 +20,7 @@ title: Research Talks
 
 ## 2026
 
-<ol reversed start="84">
+<ol reversed="reversed" start="84">
 <li> **Aug 26, 2026** — Speaker at the Swiss Physical Society, [Annual Meeting](https://sps.ch/en/events/sps_annual_meeting_2026/), at EPFL, Lausanne, Switzerland.
 </li>
 
