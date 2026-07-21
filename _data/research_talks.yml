@@ -2,15 +2,48 @@
 
 - date: "Aug 26"
   description: "Speaker"
-  year: 2026
+  year: "2026"
   event: "Swiss Physical Society Annual Meeting"
   url: "https://sps.ch/en/events/sps_annual_meeting_2026/"
   location: "EPFL, Lausanne, Switzerland"
 
 - date: "Aug 17"
   description: "Plenary invited speaker"
-  year: 2026
+  year: "2026"
   event: "Strong and Electroweak Matter (SEWM 2026)"
   url: "https://indico.global/event/14246/"
   location: "University of Helsinki, Finland"
+  tags: ["invited"]
+
+- date: "Jun 22"
+  description: "Plenary invited speaker"
+  year: "2026"
+  event: "IPTA science meeting"
+  url: "https://ipta4gw.org/meetings/2026/science_week.html"
+  location: "Drakensberg, South Africa"
+  title: "Cosmological Background Interpretation of PTA data"
+  tags: ["invited"]
+
+- date: "Jun 14"
+  description: "Invited speaker"
+  year: "2026"
+  event: "Norwegian Network for Particle Astroparticle and Cosmology Theory (NPACT) meeting"
+  url: "https://indico2.uis.no/event/64/"
+  location: "University of Stavanger, Norway"
+  tags: ["invited"]
+
+- date: "Jun 3"
+  description: "Invited speaker"
+  year: "2026"
+  event: "LISA CosWG meeting"
+  url: "https://indico.icc.ub.edu/event/677/"
+  location: "University of Barcelona, Spain"
+  tags: ["invited"]
+
+- date: "Jun 3"
+  description: "Invited speaker"
+  year: "2026"
+  event: "LISA CosWG meeting"
+  url: "https://indico.icc.ub.edu/event/677/"
+  location: "University of Barcelona, Spain"
   tags: ["invited"]
