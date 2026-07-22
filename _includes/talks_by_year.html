@@ -54,6 +54,7 @@ Parameters:
             <br>
             <em>Talk title:</em> "{{ pub.title }}"
             {% endif %}
+            {% endif %}
 
             {% if pub.tags contains "youtube_video" %}
             {% include youtube.html id=pub.video_id title=pub.video_title %}
