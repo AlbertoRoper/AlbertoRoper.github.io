@@ -3,24 +3,6 @@ layout: page
 title: Research Talks
 ---
 
-<div class="alert alert-info" style="border-radius: 8px; margin-bottom: 2rem; padding: 1.25rem;">
-  <p style="margin-bottom: 0.5rem; font-size: 1.1rem;">
-    Total of <strong>84 talks</strong> at international workshops, seminars, and conferences, of which <strong><em>36 are invited talks</em></strong> across <strong><em>23 different countries</em></strong>.
-  </p>
-  <p style="margin-bottom: 0.5rem;">
-    For an interactive map with the locations of all talks, see 
-    <a href="https://www.google.com/maps/d/u/0/embed?mid=1apMx7nqqrQUsK0ubH6NXLJ8JKhYc9cw&ehbc=2E312F" target="_blank" rel="noopener">
-      <strong>MyMaps</strong>
-    </a>.
-  </p>
-  <hr style="margin: 0.5rem 0;">
-  <p style="margin-bottom: 0; font-size: 0.85rem;" class="text-muted">
-    <em>Last updated on July 8, 2026</em>
-  </p>
-</div>
-
----
-
 {%- comment -%}
 Initialize counters
 {%- endcomment -%}
@@ -84,6 +66,24 @@ Compute numbering offsets
 {% assign start_2024 = start_2023 | plus : n_2024 %}
 {% assign start_2025 = start_2024 | plus : n_2025 %}
 {% assign start_2026 = start_2025 | plus : n_2026 %}
+
+<div class="alert alert-info" style="border-radius: 8px; margin-bottom: 2rem; padding: 1.25rem;">
+  <p style="margin-bottom: 0.5rem; font-size: 1.1rem;">
+    Total of <strong> {{ n_talks }} talks</strong> at international workshops, seminars, and conferences, of which <strong><em> {{ n_invited }} are invited talks</em></strong> across <strong><em>23 different countries</em></strong>.
+  </p>
+  <p style="margin-bottom: 0.5rem;">
+    For an interactive map with the locations of all talks, see 
+    <a href="https://www.google.com/maps/d/u/0/embed?mid=1apMx7nqqrQUsK0ubH6NXLJ8JKhYc9cw&ehbc=2E312F" target="_blank" rel="noopener">
+      <strong>MyMaps</strong>
+    </a>.
+  </p>
+  <hr style="margin: 0.5rem 0;">
+  <p style="margin-bottom: 0; font-size: 0.85rem;" class="text-muted">
+    <em>Last updated on July 8, 2026</em>
+  </p>
+</div>
+
+---
 
 {%- comment -%}
 Render talks
