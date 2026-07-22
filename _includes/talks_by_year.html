@@ -45,11 +45,13 @@ Parameters:
 
             {% if pub.title %}
 
-            {% if pub.tags contains "pdf" %}
+            {% capture talk_title %}
+            <em>{{ pub.title }}</em>
+            {% endcapture %}
 
             {% include download-box.html
-            file="/assets/files/presentations/{{ pub.pdf_title }}.pdf"
-            title=pub.title
+            file=pub.pdf
+            title=talk_title
             icon="pdf"
             %}
 
@@ -59,9 +61,6 @@ Parameters:
             <em>Talk title:</em> "{{ pub.title }}"
 
             {% endif %}
-
-            {% endif %}
-
 
             {% if pub.tags contains "youtube_video" %}
             {% include youtube.html id=pub.video_id title=pub.video_title %}
