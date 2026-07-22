@@ -223,3 +223,87 @@
   url: "https://indico.skatelescope.org/event/1098/"
   title: 'LISA, PTA and $\gamma$-ray telescopes as multi-messenger probes of a first-order cosmological phase transition and intergalactic magnetic fields'
 
+- date: "Feb 21"
+  description: "Speaker"
+  year: "2024"
+  event: "Gravity and Cosmology workshop"
+  location: "Yukawa Institute for Theoretical Physics. Kyoto, Japan"
+  url: "https://www2.yukawa.kyoto-u.ac.jp/~gc2024/4th.php"
+
+- date: "Jan 18"
+  description: "Invited speaker"
+  year: "2024"
+  event: "astroparticle physics seminars"
+  url: "https://indico.desy.de/event/41902/"
+  location: "DESY. Hamburg, Germany"
+  tags: ["invited"]
+
+- date: "Dec 14"
+  description: "Invited plenary speaker"
+  year: "2023"
+  event: "seminars in theoretical physics"
+  location: "Institute for Space Sciences (ISS). Bern, Switzerland"
+  url: "https://indico.cern.ch/event/1284122"
+  title: "Gravitational waves and cosmological magnetic fields"
+  tags: ["invited"]
+
+- date: "Nov 30"
+  description: "Invited seminar"
+  year: "2023"
+  location: "Instituto de Física Corpuscular (IFIC). Valencia, Spain"
+  url: "https://indico.ific.uv.es/event/7339/}{Valencia, Spain"
+  tags: ["invited"]
+
+- date: "Oct 16"
+  description: "Speaker"
+  year: "2023"
+  event: "GdR Ondes Gravitationelles meeting"
+  location: "Observatoire de Paris, France"
+  url: "https://indico.in2p3.fr/event/30113/"
+
+- date: "Oct 12"
+  description: "Speaker"
+  year: "2023"
+  event: "Théorie, Universe et Gravitation (TUG) meeting"
+  location: "Laboratorie de Physique. École Normale Supérieure. Paris, France"
+  url: "https://indico.in2p3.fr/event/29276/"
+
+- date: "Sep 29"
+  description: "Invited speaker"
+  year: "2023"
+  event: "Hydrodynamics at all scales program"
+  location: "Nordic Institute for Theoretical Physics (NORDITA). Stockholm, Sweden"
+  url: "https://indico.fysik.su.se/event/7918/"
+  title: "Magnetohydrodynamics of the early Universe: primordial magnetic fields, first-order phase transitions, and gravitational waves"
+  tags: ["invited"]
+
+- date: "Sep 18"
+  description: "Invited speaker"
+  year: "2023"
+  event: "Early Universe cosmology with Gravitational Waves and Primordial Black Holes workshop "
+  location: "University of Warsaw, Poland"
+  url: "http://indico.fuw.edu.pl/conferenceDisplay.py?ovw=True&confId=69"
+  tags: ["invited"]
+
+- date: "Sep 18"
+  description: "Speaker"
+  year: "2023"
+  event: "COSMO 2023 conference"
+  location: "Instituto de Física Teórica (IFT). Madrid, Spain"
+  url: "https://workshops.ift.uam-csic.es/COSMO23/"
+
+- date: "Sep 5"
+  description: "Speaker"
+  year: "2023"
+  event: "IPencil Code user meeting"
+  location: "University of Graz, Austria"
+  url: "http://pencil-code.nordita.org/UserMeetings/2023/"
+  title: 'Cosmology and gravitational waves with the {\sc Pencil Code} and {\sc CosmoGW}'
+
+- date: "Jun 5"
+  description: "Speaker"
+  year: "2023"
+  event: "LISA Cosmology Working Group meeting"
+  location: "University of Stavanger, Norway"
+  url: "https://indico.uis.no/event/28/"
+
