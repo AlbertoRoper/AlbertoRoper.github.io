@@ -1,3 +1,10 @@
+- title: "The art of simulating the early Universe. Part III. Scalar-Gauge-Fluid Dynamics"
+  authors: "D. G. Figueroa, K. Marschall, A. S. Midiri, A. Roper Pol"
+  year: 2026
+  journal: "J. Cosmol. Astropart. Phys."
+  volume: "in preparation"
+  tags: ["cosmolattice", "ambizione"]
+
 - title: "Fluid perturbations from expanding bubbles in first-order phase transitions"
   authors: "C. Caprini, A. S. Midiri, S. Procacci, A. Roper Pol"
   year: 2026
@@ -6,7 +13,7 @@
   volume : "accepted for publication"
   tags: ["sound_waves", "ambizione", "published"]
 
-- title: Primordial magnetic field from chiral plasma instability with sourcing
+- title: "Primordial magnetic field from chiral plasma instability with sourcing"
   authors: "M. Gurgenidze, A. J. Long, A. Roper Pol, A. Brandenburg, T. Kahniashvili"
   year: 2025
   journal: "Phys. Rev. D"
