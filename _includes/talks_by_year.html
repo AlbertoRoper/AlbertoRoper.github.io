@@ -1,70 +1,56 @@
 {%- comment -%}
-Include to render talks filtered by year.
+Render talks for a given year.
 
 Parameters:
-- year: the year to filter by (required)
-- reversed: true|false
-- start: integer (optional) - the start attribute to pass to the <ol>
-    - title: optional string - render an <h3> above the list
-        {%- endcomment -%}
+- year: required (e.g. "2026")
+- reversed: true|false (optional)
+- start: integer (optional)
+{%- endcomment -%}
 
-        {%- assign year = include.year -%}
-        {%- assign reversed = include.reversed | default: false -%}
-        {%- assign start_attr = include.start -%}
+{%- assign year = include.year -%}
+{%- assign reversed = include.reversed | default: false -%}
+{%- assign start_attr = include.start -%}
 
-        {%- comment -%} collect matching talks into an array {%- endcomment -%}
-        {%- assign matches = "" | split: "," -%}
+<h3>{{ year }}</h3>
 
-        {%- for pub in site.data.research_talks -%}
-        {%- if pub.year -%}
-        {%- for t in pub.year -%}
-        {%- if t == year -%}
-        {%- assign matches = matches | push: pub -%}
-        {%- break -%}
-        {%- endif -%}
-        {%- endfor -%}
-        {%- endif -%}
-        {%- endfor -%}
+<div class="container">
+    <ol{% if reversed %} reversed{% endif %}{% if start_attr %} start="{{ start_attr }}" {% endif %}>
 
-        {%- if include.year -%}
-        <h3>{{ include.year }}</h3>
-        {%- endif -%}
+        {% for pub in site.data.research_talks %}
+        {% if pub.year == year %}
 
-        {%- capture ol_attrs -%}
-        {%- if reversed == true or reversed == "true" -%} reversed {% endif %}
-        {%- if start_attr and start_attr != 0 -%} start="{{ start_attr }}"{%- endif -%}
-        {%- endcapture -%}
+        <li>
+            <strong>{{ pub.date }}, {{ pub.year }}</strong> — {{ pub.description }}
 
-        <div class="container">
-            <ol{% if ol_attrs !="" %} {{ ol_attrs }}{% endif %}>
-                {% for pub in matches %}
-                <li>
-                    <strong>{{ pub.date }}</strong> - {{ pub.description }}
+            {% if pub.event %}
+            at
+            {% if pub.url %}
+            <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.event }}</a>,
+            {% else %}
+            {{ pub.event }},
+            {% endif %}
+            {% endif %}
 
-                    {% if pub.event %}
-                    at the {% if pub.url %}
-                    <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.event }}.</a>
-                    {% else %}
-                    {{ pub.event }}.
-                    {% endif %}
-                    {% endif %}
+            {% if pub.location %}
+            {{ pub.location }}.
+            {% endif %}
 
-                    {% if pub.location %}
-                    {{ pub.location }}.
-                    {% endif %}
+            {% if pub.tags contains "invited" %}
+            <span class="badge badge-primary">Invited</span>
+            {% endif %}
 
-                    {% if pub.tag and pub.tag contains "invited" %}
-                    <span class="badge badge-primary">Invited</span>
-                    {% endif %}
+            {% if pub.title %}
+            <br>
+            <em>Talk title:</em> "{{ pub.title }}"
+            {% endif %}
 
-                    {% if pub.title %}
-                    <br><em>Talk title:</em> "{{ pub.title }}"
-                    {% endif %}
+            {% if pub.tags contains "youtube_video" %}
+            {% include youtube.html id=pub.video_id title=pub.video_title %}
+            {% endif %}
+        </li>
 
-                    {% if pub.tag and pub.tag contains "youtube_video" %}
-                    {% include youtube.html id=pub.video_id title=pub.video_title %}
-                    {% endif %}
-                </li>
-                {% endfor %}
-</ol>
+        {% endif %}
+        {% endfor %}
+
+        </ol>
 </div>
