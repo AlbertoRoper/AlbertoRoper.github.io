@@ -307,3 +307,44 @@
   location: "University of Stavanger, Norway"
   url: "https://indico.uis.no/event/28/"
 
+- date: "May 2"
+  description: "Speaker"
+  year: "2023"
+  event: "Progress on New and Old Themes in Cosmology (PONT)"
+  location: "Palais des Papes. Avignon, France"
+  url: "https://indico.cern.ch/event/1166693/"
+
+- date: "Apr 20"
+  description: "Speaker"
+  year: "2023"
+  event: "Hot topics in cosmology workshop"
+  location: "Institute Cargèse de Physique. Cargèse, France"
+  url: "https://www.cpt.univ-mrs.fr/~cosmo/SW_2023"
+
+- date: "Mar 8"
+  description: "Invited speaker"
+  year: "2023"
+  event: "Theory CosmoCoffee seminar"
+  location: "CERN. Geneva, Switzerland"
+  url: "https://indico.cern.ch/event/1243069/"
+
+- date: "Nov 22"
+  description: "Invited speaker"
+  year: "2022"
+  location: "Observatory of Geneva. Switzerland"
+  url: "https://www.unige.ch/sciences/astro/en/about-us/astronomy-department/"
+  tags: ["invited"]
+
+- date: "Oct 13"
+  description: "Invited seminar"
+  year: "2022"
+  location: "University of Geneva, Switzerland"
+  url: "https://cosmology.unige.ch/"
+  tags: ["invited"]
+
+- date: "Jul 27"
+  description: "Speaker"
+  year: "2022"
+  event: "International LISA symposium"
+  location: "online"
+  url: "https://www.gla.ac.uk/events/conferences/lisasymposium2022/"
