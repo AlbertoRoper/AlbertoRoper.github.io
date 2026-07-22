@@ -14,7 +14,8 @@ Parameters:
 
         {%- comment -%} collect matching talks into an array {%- endcomment -%}
         {%- assign matches = "" | split: "," -%}
-        {%- for pub in site.data.talks -%}
+
+        {%- for pub in site.data.research_talks -%}
         {%- if pub.year -%}
         {%- for t in pub.year -%}
         {%- if t == year -%}
@@ -39,15 +40,27 @@ Parameters:
                 {% for pub in matches %}
                 <li>
                     <strong>{{ pub.date }}</strong> - {{ pub.description }}
+
                     {% if pub.event %}
-                    at the {% if pub.url %}<a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.event
-                        }}.</a>{% else %}{{ pub.event0 }}.{% endif %}
+                    at the {% if pub.url %}
+                    <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.event }}.</a>
+                    {% else %}
+                    {{ pub.event }}.
                     {% endif %}
-                    {% if pub.location %} {{ pub.location }}.{% endif %}
-                    {% if pub.tag and pub.tag contains "invited" %} <span class="badge badge-primary">Invited</span>{%
-                    endif %}
-                    {% if pub.title %} <em>Talk title: </em> "{{ pub.title }}"{% endif %}
                     {% endif %}
+
+                    {% if pub.location %}
+                    {{ pub.location }}.
+                    {% endif %}
+
+                    {% if pub.tag and pub.tag contains "invited" %}
+                    <span class="badge badge-primary">Invited</span>
+                    {% endif %}
+
+                    {% if pub.title %}
+                    <br><em>Talk title:</em> "{{ pub.title }}"
+                    {% endif %}
+
                     {% if pub.tag and pub.tag contains "youtube_video" %}
                     {% include youtube.html id=pub.video_id title=pub.video_title %}
                     {% endif %}
