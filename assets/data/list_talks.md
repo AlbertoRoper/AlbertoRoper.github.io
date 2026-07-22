@@ -52,6 +52,8 @@ Count talks per year
 
 {% endfor %}
 
+{% assign n_talks = n_talks | plus: 2 %}
+{% assign n_invited = n_invited | plus: 2 %}
 
 {%- comment -%}
 Compute numbering offsets
