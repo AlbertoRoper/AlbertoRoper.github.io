@@ -271,7 +271,7 @@
   event: "Cosmology in the Alps meeting"
   location: "Les Diablerets, Switzerland"
   url: "https://indico.skatelescope.org/event/1098/"
-  title: 'LISA, PTA and gamma-ray telescopes as multi-messenger probes of a first-order cosmological phase transition and intergalactic magnetic fields'
+  title: 'LISA, PTA and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition and intergalactic magnetic fields'
   video_id: "TNf1RuTn9Ok"
   pdf: "/assets/files/presentations/cosmoalps_mar24.pdf"
   tags : ["youtube_video", "pdf"]
@@ -285,7 +285,7 @@
   url: "https://www2.yukawa.kyoto-u.ac.jp/~gc2024/4th.php"
   title: "LISA (and PTA) and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
   pdf: "/assets/files/presentations/yitp_feb24.pdf"
-  video_id: "DQnDg1oDH4"
+  video_id: "-DQnDg1oDH4"
   tags: ["pdf", "youtube_video"]
   country: "Japan"
 
