@@ -102,8 +102,9 @@
   year: "2026"
   location: "Technical University of Vienna (TU Wien), Austria"
   title: "Cosmological gravitational waves as a probe of the early Universe"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
   country: "Austria"
+  pdf: "/assets/files/presentations/tuwien_feb26.pdf"
 
 - date: "Dec 18"
   description: "Invited public lecture"
