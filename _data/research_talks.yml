@@ -70,7 +70,8 @@
   url: "https://icc.ub.edu/event/gravitational-waves-phase-transitions-in-early-universe-sound-waves-and-mhd-turbulence"
   video_id: "336lpHiXDYI"
   video_title: "Talk at ICCUB"
-  tags: ["invited", "youtube_video", ]
+  tags: ["invited", "youtube_video", "pdf"]
+  title: "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
   pdf: "/assets/files/presentations/iccub_apr26.pdf"
 
 - date: "Mar 10"
@@ -101,6 +102,7 @@
   location: "Max Planck Institute for Radio Astronomy. Bonn, Germany"
   url: "https://colloquia.mpifr-bonn.mpg.de/index.php?time=all"
   tags: ["invited", "pdf"]
+  title: "Multi-messenger searches of primordial magnetic fields and gravitational waves"
   pdf: "/assets/files/presentations/mpifr_dec25.pdf"
 
 - date: "Sep 5"
