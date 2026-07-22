@@ -301,18 +301,19 @@
 - date: "Dec 14"
   description: "Invited plenary speaker"
   year: "2023"
-  event: "seminars in theoretical physics"
+  event: "Swiss CTA Observatory Day"
   location: "Institute for Space Sciences (ISS). Bern, Switzerland"
   url: "https://indico.cern.ch/event/1284122"
   title: "Gravitational waves and cosmological magnetic fields"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
+  pdf: "/assets/files/presentations/cta_dec23.pdf"
   country: "Switzerland"
 
 - date: "Nov 30"
   description: "Invited seminar"
   year: "2023"
   location: "Instituto de Física Corpuscular (IFIC). Valencia, Spain"
-  url: "https://indico.ific.uv.es/event/7339/}{Valencia, Spain"
+  url: "https://indico.ific.uv.es/event/7339/"
   tags: ["invited"]
   country: "Spain"
 
