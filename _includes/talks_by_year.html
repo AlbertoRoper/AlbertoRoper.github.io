@@ -49,8 +49,13 @@ Parameters:
             <em>{{ pub.title }}</em>
             {% endcapture %}
 
+            {% if pub.tags contains "pdf" %}
+            {% capture pdf_file %}
+            "{{ pub.pdf_title }}.pdf"
+            {% endcapture %}
+
             {% include download-box.html
-            file=pub.pdf
+            file=pdf_file
             title=talk_title
             icon="pdf"
             %}
@@ -59,6 +64,8 @@ Parameters:
 
             <br>
             <em>Talk title:</em> "{{ pub.title }}"
+
+            {% endif %}
 
             {% endif %}
 
