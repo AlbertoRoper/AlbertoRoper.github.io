@@ -43,7 +43,8 @@
   event: "LISA CosWG meeting"
   url: "https://indico.icc.ub.edu/event/677/"
   location: "University of Barcelona, Spain"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
+  pdf: "/assets/files/presentations/lisa_jun26.pdf"
   country: "Spain"
 
 - date: "May 4"
@@ -137,7 +138,8 @@
   location: "Nordic Institute for Theoretical Physics (NORDITA). Stockholm, Sweden"
   url: "https://indico.fysik.su.se/event/9274/"
   title: "Numerical Simulations of Early Universe Sources of Gravitational Waves"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
+  pdf: "/assets/files/presentations/nordita_jul25.pdf"
   country: "Sweden"
 
 - date: "Jun 24"
