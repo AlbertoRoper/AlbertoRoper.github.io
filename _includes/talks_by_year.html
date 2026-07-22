@@ -23,16 +23,23 @@ Parameters:
             <strong>{{ pub.date }}, {{ pub.year }}</strong> — {{ pub.description }}
 
             {% if pub.event %}
-            at
+            at the
             {% if pub.url %}
             <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.event }}</a>,
             {% else %}
             {{ pub.event }},
             {% endif %}
-            {% endif %}
-
             {% if pub.location %}
             {{ pub.location }}.
+            {% endif %}
+            {% else %}
+            {% if pub.location %}
+            at the
+            {% if pub.url %}
+            <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.location }}</a>.
+            {% else %}
+            {{ pub.location }}.
+            {% endif %}
             {% endif %}
 
             {% if pub.tags contains "invited" %}
@@ -40,6 +47,10 @@ Parameters:
             {% endif %}
 
             {% if pub.title %}
+            {% if pub.tags contains "pdf" %}
+            {% include download-box.html file="/assets/files/presentations/{{ pub.pdf_title }}.pdf" title="<em>{{
+                pub.title }}</em>" icon="pdf"%}
+            {% else %}
             <br>
             <em>Talk title:</em> "{{ pub.title }}"
             {% endif %}
