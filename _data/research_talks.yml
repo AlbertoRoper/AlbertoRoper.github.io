@@ -172,8 +172,10 @@
   event: "LISA Cosmology Working Group meeting"
   location: "Estonian Academy of Sciences. Tallinn, Estonia"
   url: "https://indico.cern.ch/event/1488828/overview"
-  title: "Gravitational waves from strong phase transitions and CosmoGW"
+  title: "Gravitational waves from (non-linear compressional motion in) strong phase transitions"
+  pdf: "/assets/files/presentations/lisa_coswg_jun25.pdf"
   country: "Estonia"
+  tags: ["pdf"]
 
 - date: "Jan 16"
   description: "Invited speaker"
