@@ -83,7 +83,9 @@ Compute numbering offsets
 
 {% assign start_2020 = n_2020 | plus: n_2019 | plus: n_2018 %}
 
-{% assign start_2019 = n_2019 | plus: n_2018 %}
+{% assign start_2019 = n_2019 | plus: n_2018 | plus: 2 %}
+
+{% assign start_2018 = n_2018 %}
 
 
 {%- comment -%}
