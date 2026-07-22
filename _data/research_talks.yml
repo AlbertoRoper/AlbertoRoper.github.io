@@ -135,4 +135,31 @@
   location: "University of Geneva, Switzerland"
   url: "https://indico-dpt.unige.ch/event/1/overview/"
   title: "Gravitational waves from phase transitions"
+  pdf: "/assets/files/presentations/cosmofondue_jun25.pdf"
+  tags: ["invited", "pdf"]
+
+- date: "Jun 4"
+  description: "Speaker"
+  year: "2025"
+  event: "LISA Cosmology Working Group meeting"
+  location: "Estonian Academy of Sciences. Tallinn, Estonia"
+  url: "https://indico.cern.ch/event/1488828/overview"
+  title: "Gravitational waves from strong phase transitions and CosmoGW"
   tags: ["invited"]
+
+- date: "Jan 16"
+  description: "Invited speaker"
+  year: "2025"
+  location: "Inter-University Centre for Astronomy and Astrophysics (IUCAA). Pune, India"
+  url: "http://web.iucaa.in:8080/iucaa/jsp/Colloquia-Seminars-PublicTalk.jsp"
+  tags: ["invited"]
+
+- date: "Jan 6"
+  description: "Invited lecturer"
+  year: "2025"
+  event: "Hearing beyond the standard model with cosmic sources of Gravitational Waves workshop"
+  location: "International Center for Theoretical Sciences (ICTS). Bangalore, India"
+  url: "https://www.icts.res.in/program/gwbsm2024"
+  video_id: "8RaiHZPoDYo"
+  video_title: "Talk at ICTS"
+  tags: ["invited", "video_youtube"]
