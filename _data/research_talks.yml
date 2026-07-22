@@ -136,7 +136,7 @@
   url: "https://indico-dpt.unige.ch/event/1/overview/"
   title: "Gravitational waves from phase transitions"
   pdf: "/assets/files/presentations/cosmofondue_jun25.pdf"
-  tags: ["invited", "pdf"]
+  tags: ["pdf"]
 
 - date: "Jun 4"
   description: "Speaker"
@@ -145,7 +145,6 @@
   location: "Estonian Academy of Sciences. Tallinn, Estonia"
   url: "https://indico.cern.ch/event/1488828/overview"
   title: "Gravitational waves from strong phase transitions and CosmoGW"
-  tags: ["invited"]
 
 - date: "Jan 16"
   description: "Invited speaker"
@@ -162,4 +161,11 @@
   url: "https://www.icts.res.in/program/gwbsm2024"
   video_id: "8RaiHZPoDYo"
   video_title: "Talk at ICTS"
-  tags: ["invited", "video_youtube"]
+  tags: ["invited", "youtube_video"]
+
+- date: "Nov 27"
+  description: "Invited speaker"
+  year: "2024"
+  location: "Center for "
+  url: "https://indico.cern.ch/event/1488828/overview"
+  title: "Gravitational waves from strong phase transitions and CosmoGW"
