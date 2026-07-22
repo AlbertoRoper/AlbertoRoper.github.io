@@ -6,6 +6,7 @@
   event: "Swiss Physical Society Annual Meeting"
   url: "https://sps.ch/en/events/sps_annual_meeting_2026/"
   location: "EPFL. Lausanne, Switzerland"
+  country: "Switzerland"
 
 - date: "Aug 17"
   description: "Plenary invited speaker"
@@ -14,6 +15,7 @@
   url: "https://indico.global/event/14246/"
   location: "University of Helsinki, Finland"
   tags: ["invited"]
+  country: "Finland"
 
 - date: "Jun 22"
   description: "Plenary invited speaker"
@@ -24,6 +26,7 @@
   title: "Cosmological Background Interpretation of PTA data"
   tags: ["invited", "pdf"]
   pdf: "/assets/files/presentations/ipta_science_jun26.pdf"
+  country: "South Africa"
 
 - date: "Jun 14"
   description: "Invited speaker"
@@ -32,6 +35,7 @@
   url: "https://indico2.uis.no/event/64/"
   location: "University of Stavanger, Norway"
   tags: ["invited"]
+  country: "Norway"
 
 - date: "Jun 3"
   description: "Invited speaker"
@@ -40,6 +44,7 @@
   url: "https://indico.icc.ub.edu/event/677/"
   location: "University of Barcelona, Spain"
   tags: ["invited"]
+  country: "Spain"
 
 - date: "May 4"
   description: "Invited seminar"
@@ -48,6 +53,7 @@
   location: "Instituto de Física Teórica. Madrid, Spain"
   title: "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
   tags: ["invited"]
+  country: "Spain"
 
 - date: "Apr 29"
   description: "Invited seminar"
@@ -55,6 +61,7 @@
   location: "EHU/UPV. Bilbao, Spain"
   url: "https://ehuqc.eus/gravitational-waves-from-phase-transitions-in-the-early-universe-sound-waves-and-mhd-turbulence/"
   tags: ["invited"]
+  country: "Spain"
 
 - date: "Apr 23"
   description: "Invited seminar"
@@ -62,6 +69,7 @@
   location: "Institut de Fisica d'Altes Energies (IFAE). Barcelona, Spain"
   url: "https://indico.ifae.es/event/2434/"
   tags: ["invited"]
+  country: "Spain"
 
 - date: "Apr 22"
   description: "Invited seminar"
@@ -73,6 +81,7 @@
   tags: ["invited", "youtube_video", "pdf"]
   title: "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
   pdf: "/assets/files/presentations/iccub_apr26.pdf"
+  country: "Spain"
 
 - date: "Mar 10"
   description: "Invited speaker"
@@ -81,6 +90,7 @@
   location: "Zurich, Switzerland"
   url: "https://itp.phys.ethz.ch/research/particle/seminar.html"
   tags: ["invited"]
+  country: "Switzerland"
 
 - date: "Feb 20"
   description: "Invited seminar"
@@ -88,6 +98,7 @@
   location: "Technical University of Vienna (TU Wien), Austria"
   title: "Cosmological gravitational waves as a probe of the early Universe"
   tags: ["invited"]
+  country: "Austria"
 
 - date: "Dec 18"
   description: "Invited public lecture"
@@ -95,6 +106,7 @@
   location: "Ilia State University. Tbilisi, Georgia"
   title: "Multi-messenger studies of primordial magnetic fields and gravitational waves"
   tags: ["invited"]
+  country: "Georgia"
 
 - date: "Dec 5"
   description: "Main colloquium speaker"
@@ -104,6 +116,7 @@
   tags: ["invited", "pdf"]
   title: "Multi-messenger searches of primordial magnetic fields and gravitational waves"
   pdf: "/assets/files/presentations/mpifr_dec25.pdf"
+  country: "Germany"
 
 - date: "Sep 5"
   description: "Plenary invited speaker"
@@ -114,6 +127,7 @@
   title: "Cosmological magnetic fields"
   tags: ["invited", "pdf"]
   pdf: "/assets/files/presentations/invisibles_sep25.pdf"
+  country: "Switzerland"
 
 - date: "Jul 28"
   description: "Invited speaker"
@@ -123,6 +137,7 @@
   url: "https://indico.fysik.su.se/event/9274/"
   title: "Numerical Simulations of Early Universe Sources of Gravitational Waves"
   tags: ["invited"]
+  country: "Sweden"
 
 - date: "Jun 24"
   description: "Invited speaker"
@@ -132,6 +147,7 @@
   url: "https://indico2.fuw.edu.pl/event/15/"
   title: "Gravitational wave spectra produced from first-order phase transitions: sound waves and MHD turbulence"
   tags: ["invited"]
+  country: "Poland"
 
 - date: "Jun 11"
   description: "Speaker"
@@ -142,6 +158,7 @@
   title: "Gravitational waves from phase transitions"
   pdf: "/assets/files/presentations/cosmofondue_jun25.pdf"
   tags: ["pdf"]
+  country: "Switzerland"
 
 - date: "Jun 4"
   description: "Speaker"
@@ -150,6 +167,7 @@
   location: "Estonian Academy of Sciences. Tallinn, Estonia"
   url: "https://indico.cern.ch/event/1488828/overview"
   title: "Gravitational waves from strong phase transitions and CosmoGW"
+  country: "Estonia"
 
 - date: "Jan 16"
   description: "Invited speaker"
@@ -157,6 +175,7 @@
   location: "Inter-University Centre for Astronomy and Astrophysics (IUCAA). Pune, India"
   url: "http://web.iucaa.in:8080/iucaa/jsp/Colloquia-Seminars-PublicTalk.jsp"
   tags: ["invited"]
+  country: "India"
 
 - date: "Jan 6"
   description: "Invited lecturer"
@@ -167,6 +186,7 @@
   video_id: "8RaiHZPoDYo"
   video_title: "Talk at ICTS"
   tags: ["invited", "youtube_video"]
+  country: "India"
 
 - date: "Nov 27"
   description: "Invited speaker"
@@ -174,6 +194,7 @@
   location: "Central European Institute for Cosmology and Fundamental Physics (CEICO). Prague, Czech Republic"
   url: "https://www.ceico.cz/seminars"
   tags: ["invited"]
+  country: "Czech Republic"
 
 - date: "Nov 19"
   description: "Invited speaker"
@@ -181,6 +202,7 @@
   location: "Institute for Theoretical Physics. University of Bern, Switzerland"
   url: "https://www.itp.unibe.ch/research/detailpages/index_eng.html?id=675"
   tags: ["invited"]
+  country: "Switzerland"
 
 - date: "Sep 24"
   description: "Speaker"
@@ -189,6 +211,7 @@
   location: "Institute of Space Sciences (ICE). Barcelona, Spain"
   url: "https://indico.ice.csic.es/event/40/timetable/#20240924"
   title: "Phase transitions in the early universe"
+  country: "Spain"
 
 - date: "Jul 8"
   description: "Speaker"
@@ -196,6 +219,7 @@
   event: "International LISA symposium"
   location: "University College Dublin, Ireland"
   url: "https://www.lisasymposium2024.ie/"
+  country: "Ireland"
 
 - date: "Jul 1"
   description: "Speaker"
@@ -204,6 +228,7 @@
   location: "Padova, Italy"
   url: "https://eas.unige.ch/EAS2024/session.jsp?id=S2"
   title: "Using PTA to constrain primordial magnetic fields in the early universe"
+  country: "Italy"
 
 - date: "Jun 19"
   description: "Speaker"
@@ -211,6 +236,7 @@
   event: "LISA Cosmology Working Group meeting"
   location: "University of Porto, Portugal"
   url: "https://indico.cern.ch/event/1399649/"
+  country: "Portugal"
 
 - date: "Apr 6"
   description: "Speaker"
@@ -219,6 +245,7 @@
   location: "La Thuile, Italy"
   url: "https://moriond.in2p3.fr/2024/Cosmology/"
   title: "Gravitational waves from first-order phase transitions"
+  country: "Italy"
 
 - date: "Mar 19"
   description: "Speaker"
@@ -227,6 +254,7 @@
   location: "Les Diablerets, Switzerland"
   url: "https://indico.skatelescope.org/event/1098/"
   title: 'LISA, PTA and $\gamma$-ray telescopes as multi-messenger probes of a first-order cosmological phase transition and intergalactic magnetic fields'
+  country: "Switzerland"
 
 - date: "Feb 21"
   description: "Speaker"
@@ -234,6 +262,7 @@
   event: "Gravity and Cosmology workshop"
   location: "Yukawa Institute for Theoretical Physics. Kyoto, Japan"
   url: "https://www2.yukawa.kyoto-u.ac.jp/~gc2024/4th.php"
+  country: "Japan"
 
 - date: "Jan 18"
   description: "Invited speaker"
@@ -242,6 +271,7 @@
   url: "https://indico.desy.de/event/41902/"
   location: "DESY. Hamburg, Germany"
   tags: ["invited"]
+  country: "Germany"
 
 - date: "Dec 14"
   description: "Invited plenary speaker"
@@ -251,6 +281,7 @@
   url: "https://indico.cern.ch/event/1284122"
   title: "Gravitational waves and cosmological magnetic fields"
   tags: ["invited"]
+  country: "Switzerland"
 
 - date: "Nov 30"
   description: "Invited seminar"
@@ -258,6 +289,7 @@
   location: "Instituto de Física Corpuscular (IFIC). Valencia, Spain"
   url: "https://indico.ific.uv.es/event/7339/}{Valencia, Spain"
   tags: ["invited"]
+  country: "Spain"
 
 - date: "Oct 16"
   description: "Speaker"
@@ -265,6 +297,7 @@
   event: "GdR Ondes Gravitationelles meeting"
   location: "Observatoire de Paris, France"
   url: "https://indico.in2p3.fr/event/30113/"
+  country: "France"
 
 - date: "Oct 12"
   description: "Speaker"
@@ -272,6 +305,7 @@
   event: "Théorie, Universe et Gravitation (TUG) meeting"
   location: "Laboratorie de Physique. École Normale Supérieure. Paris, France"
   url: "https://indico.in2p3.fr/event/29276/"
+  country: "France"
 
 - date: "Sep 29"
   description: "Invited speaker"
@@ -281,6 +315,7 @@
   url: "https://indico.fysik.su.se/event/7918/"
   title: "Magnetohydrodynamics of the early Universe: primordial magnetic fields, first-order phase transitions, and gravitational waves"
   tags: ["invited"]
+  country: "Sweden"
 
 - date: "Sep 18"
   description: "Invited speaker"
@@ -289,6 +324,7 @@
   location: "University of Warsaw, Poland"
   url: "http://indico.fuw.edu.pl/conferenceDisplay.py?ovw=True&confId=69"
   tags: ["invited"]
+  country: "Poland"
 
 - date: "Sep 18"
   description: "Speaker"
@@ -296,6 +332,7 @@
   event: "COSMO 2023 conference"
   location: "Instituto de Física Teórica (IFT). Madrid, Spain"
   url: "https://workshops.ift.uam-csic.es/COSMO23/"
+  country: "Spain"
 
 - date: "Sep 5"
   description: "Speaker"
@@ -304,6 +341,7 @@
   location: "University of Graz, Austria"
   url: "http://pencil-code.nordita.org/UserMeetings/2023/"
   title: 'Cosmology and gravitational waves with the {\sc Pencil Code} and {\sc CosmoGW}'
+  country: "Austria"
 
 - date: "Jun 5"
   description: "Speaker"
@@ -311,6 +349,7 @@
   event: "LISA Cosmology Working Group meeting"
   location: "University of Stavanger, Norway"
   url: "https://indico.uis.no/event/28/"
+  country: "Norway"
 
 - date: "May 2"
   description: "Speaker"
@@ -318,6 +357,7 @@
   event: "Progress on New and Old Themes in Cosmology (PONT)"
   location: "Palais des Papes. Avignon, France"
   url: "https://indico.cern.ch/event/1166693/"
+  country: "France"
 
 - date: "Apr 20"
   description: "Speaker"
@@ -325,6 +365,7 @@
   event: "Hot topics in cosmology workshop"
   location: "Institute Cargèse de Physique. Cargèse, France"
   url: "https://www.cpt.univ-mrs.fr/~cosmo/SW_2023"
+  country: "France"
 
 - date: "Mar 8"
   description: "Invited speaker"
@@ -332,6 +373,8 @@
   event: "Theory CosmoCoffee seminar"
   location: "CERN. Geneva, Switzerland"
   url: "https://indico.cern.ch/event/1243069/"
+  country: "Switzerland"
+  tags: ["invited"]
 
 - date: "Nov 22"
   description: "Invited speaker"
@@ -339,6 +382,7 @@
   location: "Observatory of Geneva. Switzerland"
   url: "https://www.unige.ch/sciences/astro/en/about-us/astronomy-department/"
   tags: ["invited"]
+  country: "Switzerland"
 
 - date: "Oct 13"
   description: "Invited seminar"
@@ -346,6 +390,7 @@
   location: "University of Geneva, Switzerland"
   url: "https://cosmology.unige.ch/"
   tags: ["invited"]
+  country: "Switzerland"
 
 - date: "Jul 27"
   description: "Speaker"
@@ -375,6 +420,7 @@
   event: 'workshop "A shot in the dark: New Challenges in Cosmology"'
   location: "Lorentz Center. Leiden, The Netherlands"
   url: "https://www.lorentzcenter.nl/a-shot-in-the-dark-new-challenges-in-cosmology-2022.html"
+  country: "The Netherlands"
 
 - date: "Jun 30"
   description: "Invited seminar"
@@ -389,6 +435,7 @@
   location: "IJCLab. Orsay, France"
   url: "https://indico.in2p3.fr/event/27239/"
   tags: ["invited"]
+  country: "France"
 
 - date: "Jun 8"
   description: "Speaker"
@@ -425,6 +472,7 @@
   event: "Central European Relativity Seminar (CERS 12)"
   location: "Budapest, Hungary"
   url: "https://www.univie.ac.at/cers/cers12/"
+  country: "Hungary"
 
 - date: "Feb 4"
   description: "Speaker"
@@ -432,6 +480,7 @@
   event: "Moriond meeting on Gravitation"
   location: "La Thuile, Italy"
   url: "https://indico.ijclab.in2p3.fr/event/7119/"
+  country: "Italy"
 
 - date: "Dec 8"
   description: "Speaker"
@@ -447,6 +496,7 @@
   event: "Astroparticle Symposium 2021"
   location: "Institut Pascal. Orsay, France"
   url: "https://indico.ijclab.in2p3.fr/event/7119/"
+  country: "France"
 
 - date: "Oct 11"
   description: "Speaker"
@@ -454,6 +504,7 @@
   event: "GdR meeting on gravitational waves"
   location: "Laboratoire d'Annecy De Physique Des Particules (LAPP). Annecy, France"
   url: "https://indico.in2p3.fr/event/24548/timetable/#20211011.detailed"
+  country: "France"
 
 - date: "Sep 15"
   description: "Speaker"
@@ -552,7 +603,7 @@
 - date: "Sep 22"
   description: "Speaker"
   year: "2020"
-  location: "Theory group of Astroparticle Physics and Cosmology (APC). Paris, France"
+  location: "Theory group of Astroparticle Physics and Cosmology (APC). Online"
   url: "https://apc.u-paris.fr/APC_CS/fr/numerical-simulations-gravitational-waves-early-universe-turbulence/"
 
 - date: "Apr 20"
@@ -571,6 +622,7 @@
   location: "Aerospace Engineering Sciences Department of the University of Colorado Boulder, USA"
   url: "https://www.colorado.edu/aerospace/2020/02/06/researchpalooza-2020-friday-feb-7"
   title: "Detection of the early-universe gravitational wave background with LISA"
+  country: "USA"
 
 - date: "Dec 3"
   description: "Invited speaker"
@@ -578,6 +630,7 @@
   location: "Helsinki Institute of Physics. University of Helsinki, Finland"
   url: "https://indico.cern.ch/event/859399/"
   tags: ["invited"]
+  country: "Finland"
 
 - date: "Aug 26 - Sep 20"
   description: "Invited speaker of 3 specialized talks"
@@ -586,6 +639,7 @@
   location: "Nordic Institute for Theoretical Physics (NORDITA). Stockholm, Sweden"
   url: "https://indico.fysik.su.se/event/6554/"
   tags: ["invited"]
+  country: "Sweden"
 
 - date: "Aug 13"
   description: "Speaker"
@@ -594,6 +648,7 @@
   location: "Aalto University. Espoo, Finland"
   url: "https://indico.fysik.su.se/event/6785/"
   title: "The timestep constraint in solving the gravitational wave equations sourced by hydromagnetic turbulence"
+  country: "Finland"
 
 - date: "Aug 22"
   description: "Speaker"
@@ -602,6 +657,7 @@
   location: "Stockholm, Sweden"
   url: "https://agenda.nordita.org/conferenceDisplay.py?confId=6587"
   title: "Gravitational wave spectra from primordial MHD turbulence"
+  country: "Sweden"
 
 - date: "Jul 8"
   description: "Poster presentation"
@@ -610,6 +666,7 @@
   location: "Chicago, IL, USA"
   url: "https://aas.org/meetings/aastcs6/lisa12"
   title: "Gravitational wave signal from phase transitions due to turbulence and magnetic fields"
+  country: "USA"
 
 - date: "Jun 15"
   description: "Speaker"
@@ -618,6 +675,7 @@
   location: "University of Colorado at Boulder, USA"
   url: "https://indico.fysik.su.se/event/6539/"
   title: "Gravitational Waves in the Pencil Code"
+  country: "USA"
 
 - date: "May 8 "
   description: "Speaker"
@@ -626,3 +684,4 @@
   location: "University of Pittsburgh, PA, USA"
   url: "https://indico.cern.ch/event/699148/"
   title: "Characterization of gravitational waves generated by hydromagnetic turbulence from the electroweak phase transition"
+  country: "USA"
