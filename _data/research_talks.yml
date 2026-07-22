@@ -248,7 +248,10 @@
   year: "2024"
   event: "LISA Cosmology Working Group meeting"
   location: "University of Porto, Portugal"
+  title: "Gravitational waves from a first-order phase transition: sound waves"
   url: "https://indico.cern.ch/event/1399649/"
+  pdf: "/assets/files/presentations/lisa_coswg_jun24.pdf"
+  tags: ["pdf"]
   country: "Portugal"
 
 - date: "Apr 6"
