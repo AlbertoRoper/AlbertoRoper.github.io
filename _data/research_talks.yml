@@ -110,7 +110,8 @@
   location: "CERN, Geneva, Switzerland"
   url: "https://indico.cern.ch/event/1454720/"
   title: "Cosmological magnetic fields"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
+  pdf: "/assets/files/presentations/invisibles_sep25.pdf"
 
 - date: "Jul 28"
   description: "Invited speaker"
