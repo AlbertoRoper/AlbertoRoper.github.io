@@ -94,7 +94,9 @@
   event: "joint ETH/UZh Particle Theory Seminars"
   location: "Zurich, Switzerland"
   url: "https://itp.phys.ethz.ch/research/particle/seminar.html"
-  tags: ["invited"]
+  title: "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
+  tags: ["invited", "pdf"]
+  pdf: "/assets/files/presentations/uzurich_mar26.pdf"
   country: "Switzerland"
 
 - date: "Feb 20"
@@ -154,7 +156,8 @@
   location: "University of Warsaw, Poland"
   url: "https://indico2.fuw.edu.pl/event/15/"
   title: "Gravitational wave spectra produced from first-order phase transitions: sound waves and MHD turbulence"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
+  pdf: "/assets/files/presentations/warsaw_jun25.pdf"
   country: "Poland"
 
 - date: "Jun 11"
