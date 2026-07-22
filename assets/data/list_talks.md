@@ -69,9 +69,12 @@ Compute numbering offsets
 {% assign start_2025 = start_2024 | plus : n_2025 %}
 {% assign start_2026 = start_2025 | plus : n_2026 %}
 
+{% assign countries = site.data.research_talks | map: "country" | uniq %}
+{% assign n_countries = countries | size %}
+
 <div class="alert alert-info" style="border-radius: 8px; margin-bottom: 2rem; padding: 1.25rem;">
   <p style="margin-bottom: 0.5rem; font-size: 1.1rem;">
-    Total of <strong> {{ n_talks }} talks</strong> at international workshops, seminars, and conferences, of which <strong><em> {{ n_invited }} are invited talks</em></strong> across <strong><em>23 different countries</em></strong>.
+    Total of <strong> {{ n_talks }} talks</strong> at international workshops, seminars, and conferences, of which <strong><em> {{ n_invited }} are invited talks</em></strong> across <strong><em> {{ n_countries }} different countries</em></strong>.
   </p>
   <p style="margin-bottom: 0.5rem;">
     For an interactive map with the locations of all talks, see 
