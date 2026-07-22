@@ -34,7 +34,9 @@
   event: "Norwegian Network for Particle Astroparticle and Cosmology Theory (NPACT) meeting"
   url: "https://indico2.uis.no/event/64/"
   location: "University of Stavanger, Norway"
-  tags: ["invited"]
+  title: "Multi-messenger searches of primordial magnetic fields and gravitational waves"
+  tags: ["invited", "pdf"]
+  pdf: "/assets/files/presentations/npact_jun26.pdf"
   country: "Norway"
 
 - date: "Jun 3"
