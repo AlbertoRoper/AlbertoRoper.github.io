@@ -101,4 +101,38 @@
   url: "https://colloquia.mpifr-bonn.mpg.de/index.php?time=all"
   tags: ["invited"]
 
-# - date: 
+- date: "Sep 5"
+  description: "Plenary invited speaker"
+  year: "2025"
+  event: "Invisibles meeting 2025"
+  location: "CERN, Geneva, Switzerland"
+  url: "https://indico.cern.ch/event/1454720/"
+  title: "Cosmological magnetic fields"
+  tags: ["invited"]
+
+- date: "Jul 28"
+  description: "Invited speaker"
+  year: "2025"
+  event: "Niels Bohr Colloquium"
+  location: "Nordic Institute for Theoretical Physics (NORDITA). Stockholm, Sweden"
+  url: "https://indico.fysik.su.se/event/9274/"
+  title: "Numerical Simulations of Early Universe Sources of Gravitational Waves"
+  tags: ["invited"]
+
+- date: "Jun 24"
+  description: "Invited speaker"
+  year: "2025"
+  event: "Gravitational Wave Probes of Physics Beyond Standard Model workshop"
+  location: "University of Warsaw, Poland"
+  url: "https://indico2.fuw.edu.pl/event/15/"
+  title: "Gravitational wave spectra produced from first-order phase transitions: sound waves and MHD turbulence"
+  tags: ["invited"]
+
+- date: "Jun 11"
+  description: "Speaker"
+  year: "2025"
+  event: "CosmoFondue conference"
+  location: "University of Geneva, Switzerland"
+  url: "https://indico-dpt.unige.ch/event/1/overview/"
+  title: "Gravitational waves from phase transitions"
+  tags: ["invited"]
