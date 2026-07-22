@@ -2,18 +2,19 @@
 Render talks for a given year.
 
 Parameters:
-- year: required (e.g. "2026")
-- reversed: true|false (optional)
-- start: integer (optional)
+- year: required
+- reversed: true|false
+- start: integer
 {%- endcomment -%}
 
-{%- assign year = include.year -%}
-{%- assign reversed = include.reversed | default: false -%}
-{%- assign start_attr = include.start -%}
+{% assign year = include.year %}
+{% assign reversed = include.reversed | default: false %}
+{% assign start_attr = include.start %}
 
 <h3>{{ year }}</h3>
 
 <div class="container">
+
     <ol{% if reversed==true or reversed=="true" %} reversed{% endif %}{% if start_attr %} start="{{ start_attr }}" {%
         endif %}>
 
@@ -22,6 +23,7 @@ Parameters:
         {% if pub.year == year %}
 
         <li>
+
             <strong>{{ pub.date }}, {{ pub.year }}</strong> — {{ pub.description }}
 
             {% if pub.event %}
@@ -45,20 +47,13 @@ Parameters:
 
             {% if pub.title %}
 
+            {% if pub.tags contains "pdf" %}
+
             {% capture talk_title %}
             <em>{{ pub.title }}</em>
             {% endcapture %}
 
-            {% if pub.tags contains "pdf" %}
-            {% capture pdf_file %}
-            "{{ pub.pdf_title }}.pdf"
-            {% endcapture %}
-
-            {% include download-box.html
-            file=pdf_file
-            title=talk_title
-            icon="pdf"
-            %}
+            {% include download-box.html file=pub.pdf title=talk_title icon="pdf" %}
 
             {% else %}
 
@@ -69,9 +64,11 @@ Parameters:
 
             {% endif %}
 
+
             {% if pub.tags contains "youtube_video" %}
             {% include youtube.html id=pub.video_id title=pub.video_title %}
             {% endif %}
+
 
         </li>
 
@@ -80,4 +77,5 @@ Parameters:
         {% endfor %}
 
         </ol>
+
 </div>

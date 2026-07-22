@@ -23,7 +23,7 @@
   location: "Drakensberg, South Africa"
   title: "Cosmological Background Interpretation of PTA data"
   tags: ["invited", "pdf"]
-  pdf_title: "ipta_science_jun26"
+  pdf: "/assets/files/2026-06-22_IPTA_science_meeting.pdf"
 
 - date: "Jun 14"
   description: "Invited speaker"
@@ -78,4 +78,11 @@
   event: "joint ETH/UZh Particle Theory Seminars"
   location: "Zurich, Switzerland"
   url: "https://itp.phys.ethz.ch/research/particle/seminar.html"
+  tags: ["invited"]
+
+- date: "Feb 20"
+  description: "Invited seminar"
+  year: "2026"
+  location: "Technical University of Vienna (TU Wien), Austria"
+  title: "Cosmological gravitational waves as a probe of the early Universe"
   tags: ["invited"]
