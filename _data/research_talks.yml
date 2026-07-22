@@ -110,8 +110,9 @@
   year: "2025"
   location: "Ilia State University. Tbilisi, Georgia"
   title: "Multi-messenger studies of primordial magnetic fields and gravitational waves"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
   country: "Georgia"
+  pdf: "/assets/files/presentations/tbilisi_dec25.pdf"
 
 - date: "Dec 5"
   description: "Main colloquium speaker"
