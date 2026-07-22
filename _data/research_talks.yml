@@ -382,6 +382,14 @@
   location: "Laboratoire de physique des plasmas (LPP). École Polytechnique. Online"
   tags: ["invited"]
 
+- date: "Jun 20"
+  description: "Invited speaker"
+  year: "2022"
+  event: "Cosmology and Tests of GR and alternatives GdR working groups"
+  location: "IJCLab. Orsay, France"
+  url: "https://indico.in2p3.fr/event/27239/"
+  tags: ["invited"]
+
 - date: "Jun 8"
   description: "Speaker"
   year: "2022"
