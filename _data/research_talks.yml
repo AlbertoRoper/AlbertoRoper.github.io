@@ -86,3 +86,19 @@
   location: "Technical University of Vienna (TU Wien), Austria"
   title: "Cosmological gravitational waves as a probe of the early Universe"
   tags: ["invited"]
+
+- date: "Dec 18"
+  description: "Invited public lecture"
+  year: "2025"
+  location: "Ilia State University. Tbilisi, Georgia"
+  title: "Multi-messenger studies of primordial magnetic fields and gravitational waves"
+  tags: ["invited"]
+
+- date: "Dec 5"
+  description: "Main colloquium speaker"
+  year: "2025"
+  location: "Max Planck Institute for Radio Astronomy. Bonn, Germany"
+  url: "https://colloquia.mpifr-bonn.mpg.de/index.php?time=all"
+  tags: ["invited"]
+
+# - date: 
