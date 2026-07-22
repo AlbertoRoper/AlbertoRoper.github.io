@@ -52,7 +52,8 @@
   url: "https://www.ift.uam-csic.es/event/ift-seminar-alberto-roper-pol-geneva/"
   location: "Instituto de Física Teórica. Madrid, Spain"
   title: "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
+  pdf: "/assets/files/presentations/ift_may26.pdf"
   country: "Spain"
 
 - date: "Apr 29"
