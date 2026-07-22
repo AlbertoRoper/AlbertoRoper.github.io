@@ -14,9 +14,11 @@ Parameters:
 <h3>{{ year }}</h3>
 
 <div class="container">
-    <ol{% if reversed %} reversed{% endif %}{% if start_attr %} start="{{ start_attr }}" {% endif %}>
+    <ol{% if reversed==true or reversed=="true" %} reversed{% endif %}{% if start_attr %} start="{{ start_attr }}" {%
+        endif %}>
 
         {% for pub in site.data.research_talks %}
+
         {% if pub.year == year %}
 
         <li>
@@ -29,39 +31,46 @@ Parameters:
             {% else %}
             {{ pub.event }},
             {% endif %}
+            {% endif %}
+
             {% if pub.location %}
             {{ pub.location }}.
             {% endif %}
-            {% else %}
-            {% if pub.location %}
-            at the
-            {% if pub.url %}
-            <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.location }}</a>.
-            {% else %}
-            {{ pub.location }}.
-            {% endif %}
-            {% endif %}
+
 
             {% if pub.tags contains "invited" %}
             <span class="badge badge-primary">Invited</span>
             {% endif %}
 
+
             {% if pub.title %}
+
             {% if pub.tags contains "pdf" %}
-            {% include download-box.html file="/assets/files/presentations/{{ pub.pdf_title }}.pdf" title="<em>{{
-                pub.title }}</em>" icon="pdf"%}
+
+            {% include download-box.html
+            file="/assets/files/presentations/{{ pub.pdf_title }}.pdf"
+            title=pub.title
+            icon="pdf"
+            %}
+
             {% else %}
+
             <br>
             <em>Talk title:</em> "{{ pub.title }}"
+
             {% endif %}
+
             {% endif %}
+
 
             {% if pub.tags contains "youtube_video" %}
             {% include youtube.html id=pub.video_id title=pub.video_title %}
             {% endif %}
+
         </li>
 
         {% endif %}
+
         {% endfor %}
 
         </ol>
