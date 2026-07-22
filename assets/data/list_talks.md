@@ -34,6 +34,8 @@ Initialize counters
 {% assign n_2020 = 0 %}
 {% assign n_2019 = 0 %}
 {% assign n_2018 = 0 %}
+{% assign n_talks = 0 %}
+{% assign n_invited = 0 %}
 
 
 {%- comment -%}
@@ -61,6 +63,10 @@ Count talks per year
   {% elsif p.year == "2018" %}
     {% assign n_2018 = n_2018 | plus: 1 %}
   {% endif %}
+  {% if p.tags contains "invited" %}
+    {% assign n_invited = n_invited | plus: 1 %}
+  {% endif %}
+  {% assign n_talks = n_talks | plus: 1 %}
 
 {% endfor %}
 
@@ -69,24 +75,15 @@ Count talks per year
 Compute numbering offsets
 {%- endcomment -%}
 
-{% assign start_2026 = n_2026 | plus: n_2025 | plus: n_2024 | plus: n_2023 | plus: n_2022 | plus: n_2021 | plus: n_2020 | plus: n_2019 | plus: n_2018 %}
-
-{% assign start_2025 = n_2025 | plus: n_2024 | plus: n_2023 | plus: n_2022 | plus: n_2021 | plus: n_2020 | plus: n_2019 | plus: n_2018 %}
-
-{% assign start_2024 = n_2024 | plus: n_2023 | plus: n_2022 | plus: n_2021 | plus: n_2020 | plus: n_2019 | plus: n_2018 %}
-
-{% assign start_2023 = n_2023 | plus: n_2022 | plus: n_2021 | plus: n_2020 | plus: n_2019 | plus: n_2018 %}
-
-{% assign start_2022 = n_2022 | plus: n_2021 | plus: n_2020 | plus: n_2019 | plus: n_2018 %}
-
-{% assign start_2021 = n_2021 | plus: n_2020 | plus: n_2019 | plus: n_2018 %}
-
-{% assign start_2020 = n_2020 | plus: n_2019 | plus: n_2018 %}
-
-{% assign start_2019 = n_2019 | plus: n_2018 | plus: 2 %}
-
 {% assign start_2018 = n_2018 %}
-
+{% assign start_2019 = start_2018 | plus : n_2019 | plus : 2 %}
+{% assign start_2020 = start_2019 | plus : n_2020 %}
+{% assign start_2021 = start_2020 | plus : n_2021 %}
+{% assign start_2022 = start_2021 | plus : n_2022 %}
+{% assign start_2023 = start_2022 | plus : n_2023 %}
+{% assign start_2024 = start_2023 | plus : n_2024 %}
+{% assign start_2025 = start_2024 | plus : n_2025 %}
+{% assign start_2026 = start_2025 | plus : n_2026 %}
 
 {%- comment -%}
 Render talks
