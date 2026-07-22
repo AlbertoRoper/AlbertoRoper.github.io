@@ -33,12 +33,19 @@ Parameters:
             {% else %}
             {{ pub.event }},
             {% endif %}
-            {% endif %}
-
             {% if pub.location %}
             {{ pub.location }}.
             {% endif %}
-
+            {% else %}
+            {% if pub.location %}
+            at the
+            {% if pub.url %}
+            <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.location }}</a>.
+            {% else %}
+            {{ pub.location }}.
+            {% endif %}
+            {% endif %}
+            {% endif %}
 
             {% if pub.tags contains "invited" %}
             <span class="badge badge-primary">Invited</span>
