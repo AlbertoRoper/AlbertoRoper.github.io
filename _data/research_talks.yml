@@ -70,7 +70,7 @@
   url: "https://icc.ub.edu/event/gravitational-waves-phase-transitions-in-early-universe-sound-waves-and-mhd-turbulence"
   video_id: "336lpHiXDYI"
   video_title: "Talk at ICCUB"
-  tags: ["invited", "youtube_video"]
+  tags: ["invited", "youtube_video", ]
   pdf: "/assets/files/presentations/iccub_apr26.pdf"
 
 - date: "Mar 10"
@@ -100,7 +100,7 @@
   year: "2025"
   location: "Max Planck Institute for Radio Astronomy. Bonn, Germany"
   url: "https://colloquia.mpifr-bonn.mpg.de/index.php?time=all"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
   pdf: "/assets/files/presentations/mpifr_dec25.pdf"
 
 - date: "Sep 5"
