@@ -283,6 +283,10 @@
   event: "Gravity and Cosmology workshop"
   location: "Yukawa Institute for Theoretical Physics. Kyoto, Japan"
   url: "https://www2.yukawa.kyoto-u.ac.jp/~gc2024/4th.php"
+  title: "LISA (and PTA) and γ-ray telescopes as multi-messenger probes of a first-order cosmological phase transition"
+  pdf: "/assets/files/presentations/yitp_feb24.pdf"
+  video_id: "DQnDg1oDH4"
+  tags: ["pdf", "youtube_video"]
   country: "Japan"
 
 - date: "Jan 18"
