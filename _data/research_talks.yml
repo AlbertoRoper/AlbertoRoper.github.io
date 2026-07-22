@@ -166,6 +166,28 @@
 - date: "Nov 27"
   description: "Invited speaker"
   year: "2024"
-  location: "Center for "
-  url: "https://indico.cern.ch/event/1488828/overview"
-  title: "Gravitational waves from strong phase transitions and CosmoGW"
+  location: "Central European Institute for Cosmology and Fundamental Physics (CEICO). Prague, Czech Republic"
+  url: "https://www.ceico.cz/seminars"
+  tags: ["invited"]
+
+- date: "Nov 19"
+  description: "Invited speaker"
+  year: "2024"
+  location: "Institute for Theoretical Physics. University of Bern, Switzerland"
+  url: "https://www.itp.unibe.ch/research/detailpages/index_eng.html?id=675"
+  tags: ["invited"]
+
+- date: "Sep 24"
+  description: "Speaker"
+  year: "2024"
+  event: "Pencil Code user meeting"
+  location: "Institute of Space Sciences (ICE). Barcelona, Spain"
+  url: "https://indico.ice.csic.es/event/40/timetable/\#20240924"
+  title: "Phase transitions in the early universe"
+
+- date: "Jul 8"
+  description: "Speaker"
+  year: "2024"
+  event: "International LISA symposium"
+  location: "University College Dublin, Ireland"
+  url: "https://www.lisasymposium2024.ie/"
