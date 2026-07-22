@@ -5,7 +5,7 @@
   year: "2026"
   event: "Swiss Physical Society Annual Meeting"
   url: "https://sps.ch/en/events/sps_annual_meeting_2026/"
-  location: "EPFL, Lausanne, Switzerland"
+  location: "EPFL. Lausanne, Switzerland"
 
 - date: "Aug 17"
   description: "Plenary invited speaker"
@@ -40,10 +40,33 @@
   location: "University of Barcelona, Spain"
   tags: ["invited"]
 
-- date: "Jun 3"
-  description: "Invited speaker"
+- date: "May 4"
+  description: "Invited seminar"
   year: "2026"
-  event: "LISA CosWG meeting"
-  url: "https://indico.icc.ub.edu/event/677/"
-  location: "University of Barcelona, Spain"
+  url: "https://www.ift.uam-csic.es/event/ift-seminar-alberto-roper-pol-geneva/"
+  location: "Instituto de Física Teórica. Madrid, Spain"
+  title: "Gravitational waves from phase transitions in the early Universe: sound waves and MHD turbulence"
   tags: ["invited"]
+
+- date: "Apr 29"
+  description: "Invited seminar"
+  year: "2026"
+  location: "EHU/UPV. Bilbao, Spain"
+  url: "https://ehuqc.eus/gravitational-waves-from-phase-transitions-in-the-early-universe-sound-waves-and-mhd-turbulence/"
+  tags: ["invited"]
+
+- date: "Apr 23"
+  description: "Invited seminar"
+  year: "2026"
+  location: "Institut de Fisica d'Altes Energies (IFAE). Barcelona, Spain"
+  url: "https://indico.ifae.es/event/2434/"
+  tags: ["invited"]
+
+- date: "Apr 22"
+  description: "Invited seminar"
+  year: "2026"
+  location: "Institut de Ciències del Cosmos. University of Barcelona, Spain"
+  url: "https://icc.ub.edu/event/gravitational-waves-phase-transitions-in-early-universe-sound-waves-and-mhd-turbulence"
+  video_id: "336lpHiXDYI"
+  video_title: "Talk at ICCUB"
+  tags: ["invited", "youtube_video"]
