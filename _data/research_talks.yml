@@ -261,6 +261,8 @@
   location: "La Thuile, Italy"
   url: "https://moriond.in2p3.fr/2024/Cosmology/"
   title: "Gravitational waves from first-order phase transitions"
+  pdf: "/assets/files/presentations/moriond_apr24.pdf"
+  tags: ["pdf"]
   country: "Italy"
 
 - date: "Mar 19"
