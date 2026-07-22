@@ -22,7 +22,8 @@
   url: "https://ipta4gw.org/meetings/2026/science_week.html"
   location: "Drakensberg, South Africa"
   title: "Cosmological Background Interpretation of PTA data"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
+  pdf_title: "ipta_science_jun26"
 
 - date: "Jun 14"
   description: "Invited speaker"
@@ -70,3 +71,11 @@
   video_id: "336lpHiXDYI"
   video_title: "Talk at ICCUB"
   tags: ["invited", "youtube_video"]
+
+- date: "Mar 10"
+  description: "Invited speaker"
+  year: "2026"
+  event: "joint ETH/UZh Particle Theory Seminars"
+  location: "Zurich, Switzerland"
+  url: "https://itp.phys.ethz.ch/research/particle/seminar.html"
+  tags: ["invited"]
