@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research interests
+title: Research projects
 ---
 
 My research interests lie at the intersection of theoretical cosmology, gravitational-wave phenomenology, relativistic MHD/plasma physics, and numerical simulations to probe the early Universe.
@@ -66,7 +66,7 @@ The gravitational wave (GW) production from MHD turbulence is inherently non-lin
 Together with Daniel Figueroa, Kenneth Marschall, and Antonino Midiri, we are working on 
 numerical discretization and implementation of scalar-fluid-gauge field systems to describe 
 their coupled dynamics in an expanding Universe. We are working on their implementation in 
-open-source codes ${\cal C}$osmo-${\cal L}$attice and {\sc Pencil Code}. Ken, Antonino, and I gave lectures on this implementation and its theoretical description during the 2025 [CosmoLattice school](assets/data/CosmoLattice_school/) that took place at the IBS in Daejeon, South Korea, in September 2025.
+open-source codes $\mathrm{C}$osmo-$\mathrm{L}$attice and $\mathrm{Pencil\ Code}$. Ken, Antonino, and I gave lectures on this implementation and its theoretical description during the 2025 [CosmoLattice school](assets/data/CosmoLattice_school/) that took place at the IBS in Daejeon, South Korea, in September 2025.
 
 #### Main collaborators
 {% include collaborators-by-tag.html tag="cosmolattice" %}
