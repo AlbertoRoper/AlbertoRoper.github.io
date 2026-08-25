@@ -14,7 +14,9 @@
   event: "Strong and Electroweak Matter (SEWM 2026)"
   url: "https://indico.global/event/14246/"
   location: "University of Helsinki, Finland"
-  tags: ["invited"]
+  tags: ["invited", "pdf"]
+  title: "TBA: Throwing Bubbles Around, and finding out how they produce GWs"
+  pdf: "/assets/files/presentations/sewm_aug26.pdf"
   country: "Finland"
 
 - date: "Jun 22"
