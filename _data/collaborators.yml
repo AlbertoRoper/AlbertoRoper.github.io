@@ -13,7 +13,7 @@
   img: "/assets/img/chiara_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://cosmology.unige.ch/users/chiara-caprini"
-  tags: ["sound_waves", "turbulence_GWs", "multi-messenger", "higgsless"]
+  tags: ["sound_waves", "turbulence_GWs", "multi-messenger", "higgsless", "vorticity"]
 
 - firstname: "Antonino S."
   lastname: "Midiri"
@@ -163,7 +163,7 @@
   url: "https://www.dgarg.com/"
   visitfrom: "2025-10-20"
   visitto: "2025-10-31"
-  tags: ["visitor"]
+  tags: ["visitor", "vorticity"]
 
 - firstname: "Kenneth"
   lastname: "Marschall"
