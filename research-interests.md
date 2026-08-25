@@ -37,6 +37,16 @@ Our objective is to provide accurate estimates of the sound-wave contributions t
 #### Publications:
 {% include publications-by-tag.html tag="sound_waves" reversed=true %}
 
+### Vorticity production in first-order phase transitions
+
+The interplay between sound waves and turbulence in the aftermath of a first-order phase transition is unclear and the production of GWs depends on how much energy is transferred from an initial period of purely compressional acoustic fluid motion into vortical motion. For relativistic equation of state of the fluid, vorticity can be produced from an initially purely compressional state even in the absence of viscous forces and external forces, unlike for usual Euler fluid dynamics. Together with Deepen Garg and Chiara Caprini, we have studied the terms that lead to vorticity production providing a theoretical framework to study it, as well as an estimate of the time scale of vorticity production when sound waves are formed in a phase transition.
+
+#### Main collaborators
+{% include collaborators-by-tag.html tag="vorticity" %}
+
+#### Publications:
+{% include publications-by-tag.html tag="vorticity" reversed=true %}
+
 ### Higgsless simulations
 
 Under the Higgsless approach, the fluid motion induced by the phase transitions can be studied by integrating out the dynamics of the scalar field, which occur within the bubble wall thickness, usually many orders of magnitude smaller than the fluid scales. This method allows to reduce the separation of scales between the fluid and the scalar field and capture most of the dynamics of the plasma in a first-order phase transition.
