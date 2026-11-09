@@ -14,6 +14,19 @@ You can find below scientific meetings that I have co-organized.
 	</div>
 </div>
 
+### [*AI Methods for Turbulence and Early-Universe Signals*](https://mcwilliamscenter.github.io/kaai-workshop-turbulence/) at Carnegie Mellon University in Pittsburgh (PA), USA on November 2-6, 2026.
+
+<div class="teaching-item">
+			<div class="teaching-thumb">
+				{% assign kaai_page = site.pages | where: "path", "https://mcwilliamscenter.github.io/kaai-workshop-turbulence/" | first %}
+				<a href="{{ kaai_page.url | default: 'https://mcwilliamscenter.github.io/kaai-workshop-turbulence/' | relative_url }}"><img src="/assets/img/logo-hero.png" alt="KAAI workshop" /></a>
+			</div>
+	<div class="teaching-body">
+		<p>As part of the <a href="https://www.cmu.edu/astro-cosmology/research/simons-kaai-fellows/index.html">Keystone Astronomy & AI visiting fellowship</a> on <strong>AI Methods for Turbulence and Early-Universe Signals</strong> at the McWilliams Center for Cosmology & Astrophysics, I have visited CMU from October 12 to November 6, hosted by Tina Kahniashvili and Barnabás Póczós. In the last week (Nov 2-6), we organized a workshop with invited speakers (Arthur Kosowsky, Isak Stomberg, Deyan Mihaylov, Muni Zhou, Wenrong Sun) and local participants.
+		You can find more information at <a href="https://mcwilliamscenter.github.io/kaai-workshop-turbulence/">the workshop website</a>.</p>
+	</div>
+</div>
+
 ### [*1st Pencil Code school on early Universe physics and gravitational waves* and *Pencil Code user meeting*](https://indico.cern.ch/event/1548935/) 2025 at CERN in Switzerland (October 2025)
 
 <div class="teaching-item">
