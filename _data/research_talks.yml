@@ -1,11 +1,46 @@
 # 2026
 
+- date: "Nov 12"
+  description: "Invited cosmology seminar"
+  year: "2026"
+  url: "https://cosmology.asu.edu/events/cosmology-seminars/friday"
+  location: "Arizona State University, Tempe, USA"
+  title: "Gravitational wave production from sound waves and MHD turbulence in the early Universe"
+  pdf: "/assets/files/presentations/asu_nov26.pdf"
+  tags: ["pdf", "invited"]
+  country: "USA"
+
+- date: "Nov 2"
+  description: "Speaker"
+  year: "2026"
+  event: "KAAI workshop: AI Methods for Turbulence and Early-Universe Signals"
+  url: "https://mcwilliamscenter.github.io/kaai-workshop-turbulence/"
+  location: "Carnegie Mellon University, Pittsburgh, USA"
+  title: "Gravitational waves sourced by magnetohydrodynamic turbulence in the early Universe"
+  pdf: "/assets/files/presentations/kaai_nov26.pdf"
+  tags: ["pdf"]
+  country: "USA"
+
+- date: "Sep 25"
+  description: "Speaker"
+  year: "2026"
+  event: "Pencil Code user meeting"
+  url: "https://pencil-code.nordita.org/UserMeetings/2026/"
+  location: "University of Alicante, Spain"
+  title: "Relativistic MHD in an expanding Universe with Pencil Code"
+  pdf: "/assets/files/presentations/pcum_alicante_sep26.pdf"
+  tags: ["pdf"]
+  country: "Spain"
+
 - date: "Aug 26"
   description: "Speaker"
   year: "2026"
   event: "Swiss Physical Society Annual Meeting"
   url: "https://sps.ch/en/events/sps_annual_meeting_2026/"
   location: "EPFL. Lausanne, Switzerland"
+  title: "Constraining primordial magnetic fields from gravitational wave observations"
+  pdf: "/assets/files/presentations/sps_aug26.pdf"
+  tags: ["pdf"]
   country: "Switzerland"
 
 - date: "Aug 17"
