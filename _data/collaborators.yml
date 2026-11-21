@@ -181,6 +181,38 @@
   url: "https://al72.blogs.rice.edu/"
   tags: ["chiral_mhd"]
 
+- firstname: "Sovan"
+  lastname: "Sau"
+  role: "Postdoc at IIT Guwahati"
+  # img: "/assets/img/touko_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://inspirehep.net/authors/1856690"
+  tags: ["reheating"]
+
+- firstname: "Subhasis"
+  lastname: "Maiti"
+  role: "PhD student at IIT Guwahati"
+  img: "/assets/img/subha_maiti_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://inspirehep.net/authors/2822383"
+  tags: ["reheating"]
+
+- firstname: "Debaprasad"
+  lastname: "Maity"
+  role: "Professor at IIT Guwahati"
+  img: "/assets/img/debu_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://www.iitg.ac.in/phy/fac_hompage.php?email=debu@iitg.ac.in"
+  tags: ["reheating"]
+
+- firstname: "Sahel"
+  lastname: "Dey"
+  role: "Postdoc at University of Newcastle"
+  img: "/assets/img/sahel_dey_pic.jpeg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://scholar.google.com/citations?user=2_8VRpQAAAAJ&hl=en&oi=ao"
+  tags: ["reheating"]
+
 - firstname: "Murman"
   lastname: "Gurgenidze"
   role: "PhD student at Carnegie Mellon University"
