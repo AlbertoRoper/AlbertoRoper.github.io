@@ -76,7 +76,7 @@
 - firstname: "Andrii"
   lastname: "Neronov"
   role: "Professor at APC and EPFL"
-  # img: "/assets/img/chiara_pic.png"
+  img: "/assets/img/AndriiNeronov_pic.jpeg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://people.epfl.ch/andrii.neronov?lang=en"
   tags: ["multi-messenger"]
@@ -84,7 +84,7 @@
 - firstname: "Dmitri"
   lastname: "Semikoz"
   role: "Professor at APC"
-  # img: "/assets/img/chiara_pic.png"
+  img: "/assets/img/semikoz_pic.webp"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/989349?ui-citation-summary=true"
   tags: ["multi-messenger"]
