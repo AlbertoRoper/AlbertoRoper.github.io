@@ -19,7 +19,7 @@
   journal: "Phys. Rev. D"
   arxiv: "2611.06872"
   volume: "submitted"
-  tags: ["reheating", "ambizione", "submitted", "primordial_MFs"]
+  tags: ["reheating", "ambizione", "submitted"]
 
 - title: "The art of simulating the early Universe. Part III. Scalar-Gauge-Fluid Dynamics"
   authors: "D. G. Figueroa, K. Marschall, A. S. Midiri, A. Roper Pol"
@@ -242,7 +242,7 @@
   tags: ["other", "published"]
 
 - title: "The dynamo effect in decaying helical turbulence"
-  authors: "A. Brandenburg, T. Kahniashvili, S. Mandal, A. Roper Pol, A.G. Tevzadze, T. Vachaspati"
+  authors: "A. Brandenburg, T. Kahniashvili, S. Mandal, A. Roper Pol, A. G. Tevzadze, T. Vachaspati"
   year: 2019
   journal: "Phys. Rev. Fluids"
   volume: "4"
@@ -252,7 +252,7 @@
   tags: ["primordial_MFs", "published", "dataset"]
 
 - title: "Evolution of hydromagnetic turbulence from the electroweak phase transition"
-  authors: "A. Brandenburg, T. Kahniashvili, S. Mandal, A. Roper Pol, A.G. Tevzadze, T. Vachaspati"
+  authors: "A. Brandenburg, T. Kahniashvili, S. Mandal, A. Roper Pol, A. G. Tevzadze, T. Vachaspati"
   year: 2017
   journal: "Phys. Rev. D"
   volume: "96"

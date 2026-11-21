@@ -89,6 +89,14 @@
   url: "https://inspirehep.net/authors/989349?ui-citation-summary=true"
   tags: ["multi-messenger"]
 
+- firstname: "Théo"
+  lastname: "Boyer"
+  role: "PhD student at APC"
+  img: "/assets/img/Theo-Boyer_pic.webp"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://apc.u-paris.fr/fr/boyer-theo"
+  tags: ["multi-messenger"]
+
 - firstname: "Axel"
   lastname: "Brandenburg"
   role: "Professor at Nordita, KTH, Stockholm University"
@@ -112,6 +120,14 @@
   url: "https://www.cmu.edu/physics/people/faculty/kahniashvili.html"
   tags: ["turbulence_GWs", "primordial_MFs", "chiral_mhd"]
 
+- firstname: "Grigol"
+  lastname: "Gogoberidze"
+  role: "Professor at Ilia State University"
+  # img: "/assets/img/tina_pic.jpg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://scholar.google.com/citations?user=U5dY46cAAAAJ&hl=en"
+  tags: ["turbulence_GWs"]
+
 - firstname: "Arthur"
   lastname: "Kosowsky"
   role: "Professor at Pittsburgh University"
@@ -134,6 +150,14 @@
   img: "/assets/img/tanmay_pic.png"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://search.asu.edu/profile/1607556"
+  tags: ["primordial_MFs"]
+
+- firstname: "Alexander"
+  lastname: "Tevzadze"
+  role: "Professor at Georgian National Astrophysical Observatory"
+  img: "/assets/img/tevzadze_pic.jpeg"
+  # bio: "Works on primordial magnetic fields and gravitational waves."
+  url: "https://scholar.google.com/citations?user=FKF7rw0AAAAJ&hl=en"
   tags: ["primordial_MFs"]
 
 - firstname: "Alireza"
