@@ -15,12 +15,9 @@ title: Publications and research talks
 
 ### Research talks
 
-I have given a total of 82 talks at international, workshops, seminars, and conferences, 35 of which were invited talks.
-
 [List of talks](assets/data/list_talks.md)
 
 A nice perk of being a researcher is the possibility to visit many interesting places around the world!
-
 You can find below a map of the places I have visited to give a talk or to attend a scientific meeting.
 
 <div class="responsive-map">
