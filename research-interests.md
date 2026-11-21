@@ -129,3 +129,13 @@ In this work led by PhD student at CMU, Murman Gurgenidze, we investigated the c
 
 #### Publications:
 {% include publications-by-tag.html tag="chiral_mhd" reversed=true %}
+
+## Evolution of primordial magnetic fields and turbulence across reheating
+
+In this work, we studied the production of turbulence and the evolution of primordial magnetic fields across the period of reheating by conducting Pencil Code simulations following a multi-fluid approach (inflaton and radiation fluids). We study the evolution of energy density, velocity, and magnetic field perturbations in the radiation plasma which emerges due to the decay of the inflaton into radiation particles. This work was led by postdoc Sovan Sau at IIT Guwahati, in collaboration with Subhasis Maiti and Debaprasad Maity also at IIT Guwahati and Sahel Dey at University of Newcastle. We started working on this project following the participation of Subhasis and Sovan at the Bernoulli program on primordial magnetic fields at EPFL, Lausanne in May 2024.
+
+#### Main collaborators
+{% include collaborators-by-tag.html tag="reheating" %}
+
+#### Publications:
+{% include publications-by-tag.html tag="reheating" reversed=true %}
