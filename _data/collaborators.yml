@@ -123,7 +123,7 @@
 - firstname: "Sayan"
   lastname: "Mandal"
   role: "Lecturer at Carnegie Mellon University"
-  # img: "/assets/img/mandal_pic.jpg"
+  img: "/assets/img/sayanm_pic.jpg"
   # bio: "Works on primordial magnetic fields and gravitational waves."
   url: "https://inspirehep.net/authors/1629839?ui-citation-summary=true"
   tags: ["turbulence_GWs"]
