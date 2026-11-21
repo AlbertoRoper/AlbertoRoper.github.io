@@ -1,18 +1,25 @@
-- title: "Magnetohydrodynamics during reheating"
-  authors: "S. Sau, S. Maiti, S. Dey, A. Roper Pol, D. Maity"
-  year: 2026
-  journal: "Phys. Rev. D"
-  arxiv: "2611.06872"
-  volume: "in preparation"
-  tags: ["reheating", "ambizione", "submitted", "primordial_MFs"]
-
-
 - title: "Vorticity generation in relativistic perfect fluids with application to first-order phase transitions"
   authors: "D. Garg, A. Roper Pol, C. Caprini"
   year: 2026
   journal: "J. Cosmol. Astropart. Phys."
   volume: "in preparation"
   tags: ["vorticity", "ambizione", "submitted"]
+
+- title: "Modeling the gravitational wave spectrum from slowly-evolving sources in the early Universe: constant-in-time and coherent-decay models"
+  authors: "A. S. Midiri, A. Roper Pol, M. Salomé, C. Caprini"
+  year: 2026
+  journal: "Phys. Rev. D"
+  volume: "submitted"
+  arxiv: "2611.26576"
+  tags: ["turbulence_GWs", "ambizione", "submitted"]
+
+- title: "Magnetohydrodynamics during reheating"
+  authors: "S. Sau, S. Maiti, S. Dey, A. Roper Pol, D. Maity"
+  year: 2026
+  journal: "Phys. Rev. D"
+  arxiv: "2611.06872"
+  volume: "submitted"
+  tags: ["reheating", "ambizione", "submitted", "primordial_MFs"]
 
 - title: "The art of simulating the early Universe. Part III. Scalar-Gauge-Fluid Dynamics"
   authors: "D. G. Figueroa, K. Marschall, A. S. Midiri, A. Roper Pol"
