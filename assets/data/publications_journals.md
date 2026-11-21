@@ -23,9 +23,9 @@ Count publications per tag using explicit loops (compatible with GitHub Pages' L
 	{%- endif -%}
 {%- endfor -%}
 
-{%- assign start_submitted = n_submitted | plus: n_published -%}
-{%- assign start_published = n_published -%}
-{%- assign start_preprint = n_preprint -%}
+{%- assign start_submitted = n_submitted | plus: n_published | plus: n_preprint | plus: n_proceedings -%}
+{%- assign start_published = n_published | plus: n_preprint | plus: n_proceedings -%}
+{%- assign start_preprint = n_preprint | plus: n_proceedings -%}
 {%- assign start_proceedings = n_proceedings -%}
 
 {%- if n_submitted > 0 -%}
